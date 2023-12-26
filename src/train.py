@@ -115,19 +115,30 @@ def my_app(cfg:DictConfig) -> None:
     log.info("Initializing Lightning logger and callbacks.")
     logger, callbacks = initialize_utils(cfg)
 
-    # log.info("Initializing Lightning modules.")
-    # plmodel = PLModel(
-    #     model,
-    #     featurizer, inverse_featurizer,
-    #     augs,
-    #     opt, sch,
-    #     cfg
-    # )
-    # trainer = pl.Trainer(
-    #     **cfg.trainer,
-    #     logger=logger,
-    #     callbacks=callbacks,
-    # )
+    log.info("Initializing Lightning modules.")
+    plmodel = PLModel(
+        model,
+        featurizer, inverse_featurizer,
+        augs,
+        opt, sch,
+        cfg
+    )
+    trainer = pl.Trainer(
+        **cfg.trainer,
+        logger=logger,
+        callbacks=callbacks,
+    )
+
+    log.info("Starting training...")
+    try:
+        trainer.fit(
+            plmodel,
+            train_dataloaders=train_loader,
+            val_dataloaders=val_loader,
+            ckpt_path=cfg.ckpt_path
+        )  # train.fit会自动调用plmodel中的training_step, validation_step, test_step函数
+    except Exception as e:
+        log.error(traceback.format_exc())
 
 
 if __name__ == '__main__':
