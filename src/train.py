@@ -15,6 +15,7 @@ from torch.optim import Optimizer, lr_scheduler
 
 from src.data.dataset import SourceSeparationDataset
 from src.data.utils import collate_fn
+from src.model.bandsplitrnn import BandSplitRNN
 
 log = logging.getLogger(__name__)
 
@@ -34,15 +35,63 @@ def initialize_loaders(cfg: DictConfig) -> tp.Tuple[DataLoader, DataLoader]:
     return (train_loader, val_loader)
 
 
+def initialize_featurizer(cfg: DictConfig) -> tp.Tuple[nn.Module, nn.Module]:
+    """
+    Initializes direct and inverse featurizers for audio.
+    """
+    featurizer = instantiate(cfg.featurizer.direct_transform)
+    inv_featurizer = instantiate(cfg.featurizer.inverse_transform)
+    return featurizer, inv_featurizer
+
+
+def initialize_augmentations(cfg: DictConfig) -> nn.Module:
+    """
+    Initializes augmentations.
+    """
+    augs = instantiate(cfg.augmentations)
+    augs = nn.Sequential(*augs.values())
+    return augs
+
+
+def initialize_model(cfg: DictConfig) -> tp.Tuple[nn.Module, Optimizer, lr_scheduler._LRScheduler]:
+    """
+    Initializes model from configuration file.
+    """
+    # initialize model
+    model = BandSplitRNN(**cfg.model)
+    # initialize optimizer
+    if hasattr(cfg, 'opt'):
+        opt = instantiate(cfg.opt, params=model.parameters())
+    else:
+        opt = None
+    # initialize scheduler
+    if hasattr(cfg, 'sch'):
+        if hasattr(cfg.sch, '_target_'):
+            # other than LambdaLR
+            sch = instantiate(cfg.sch, optimizer=opt)
+        else:
+            # if LambdaLR
+            lr_lambda = lambda epoch: (cfg.sch.alpha ** (cfg.sch.warmup_step - epoch)
+                if epoch < cfg.sch.warmup_step
+                else cfg.sch.gamma ** (epoch - cfg.sch.warmup_step))
+            sch = torch.optim.lr_scheduler.LambdaLR(optimizer=opt, lr_lambda=lr_lambda)
+    else:
+        sch = None
+    return model, opt, sch
+
+
 @hydra.main(version_base=None, config_path="conf", config_name="config")
 def my_app(cfg:DictConfig) -> None:
     pl.seed_everything(42, workers=True)
     log.info(OmegaConf.to_yaml(cfg))
 
-    log.info("Initializing loaders, featurizers.")
+    log.info("Initializing loaders, featurizers, augmentations.")
     train_loader, val_loader = initialize_loaders(cfg)
-    # print("train_loader:", train_loader[0])
-    # print("val_loader:", val_loader[1])
+    featurizer, inverse_featurizer = initialize_featurizer(cfg)
+    augs = initialize_augmentations(cfg)
+
+    log.info("Initializing model, optimizer, scheduler.")
+    model, opt, sch = initialize_model(cfg)
 
 
 if __name__ == '__main__':

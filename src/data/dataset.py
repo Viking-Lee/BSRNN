@@ -55,8 +55,6 @@ class SourceSeparationDataset(Dataset):
         filename2label = {}
         filelist = []
         i = 0
-        print("txt_path:", self.txt_path)
-        print("IS_TRAINING:", self.is_training)
         for line in tqdm(open(self.txt_path, 'r').readlines()):
             file_name, start_idx, end_idx = line.split('\t')
             if file_name not in filename2label:
