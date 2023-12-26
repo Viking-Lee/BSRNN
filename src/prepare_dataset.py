@@ -16,7 +16,7 @@ parser.add_argument('-o', '--output-dir', type=str, required=False, default="D:/
 
 parser.add_argument('--subset', type=str, required=False, default='train', help="Train/test subset of dataset to process")
 
-parser.add_argument('--split', type=str, required=False, default='train', help="Train/valid split of train dataset. Used if subset=train")
+parser.add_argument('--split', type=str, required=False, default='valid', help="Train/valid split of train dataset. Used if subset=train")
 
 parser.add_argument('--sad-cfg-path', type=str, required=False, default="./conf/sad/default.yaml", help="Path to Source Activity Detection config file")
 
@@ -33,7 +33,7 @@ def prepare_save_line(track_name: str, start_indices: torch.Tensor, window_size:
 
 def run_program(file_path: Path, target: str, db: musdb.DB, sad:SAD) -> None:
     with open(file_path, "w") as wf:
-        for track in tqdm(db):
+        for track in tqdm(db):    # 每个track表示一首歌，其中包含mixture, vocals, bass, drums, other
             y = torch.tensor(track.targets[target].audio.T, dtype=torch.float32)
             indices = sad.calculate_salient_indices(y)
 
@@ -75,3 +75,5 @@ if __name__ == '__main__':
         args.targets,
         args.sad_cfg_path,
     )
+
+
