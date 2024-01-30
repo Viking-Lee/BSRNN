@@ -34,16 +34,14 @@ class SAD:
         Input shape: [n_channels, n_frames]
         Output shape: []
         """
-        y = y.unfold(-1, self.window_size, self.step_size)   # shape: [n_channels, n_segment, window_size]
+        y = y.unfold(-1, self.window_size, self.step_size)
         y = y.chunk(self.n_chunks_per_segment, dim=-1)
-        y = torch.stack(y, dim=-2)                           # shape: [n_channels, n_segment, n_chunks, chunks_size]
+        y = torch.stack(y, dim=-2)
         return y
 
     @staticmethod
     def calculate_rms(y: torch.Tensor):
         """
-        input shape: [n_channels, n_segment, n_chunks, chunks_size]
-        output shape: [n_channels, n_segment, n_chunks, 1]
         """
         y = torch.mean(torch.square(y), dim=-1, keepdim=True)
         y = torch.sqrt(y)
@@ -51,34 +49,32 @@ class SAD:
 
     def calculate_thresholds(self, rms: torch.Tensor):
         """
-        input shape: [n_channels, n_segment, n_chunks, 1]
-        output shape: []
         """
-        rms[rms == 0.] = self.eps              # [n_channels, n_segment, n_chunks, 1]
+        rms[rms == 0.] = self.eps
         rms_threshold = torch.quantile(
             rms,
             self.threshold_max_quantile,
-            dim=-2,                            # 计算10个chunk的rms分位数
+            dim=-2,
             keepdim=True,
-        )                                      # [n_channels, n_segment, 1, 1]
-        rms_threshold[rms_threshold < self.gamma] = self.gamma     # 小于gamma的都设为gamma
-        rms_percentage = torch.mean(           # 计算每个segment中有多少个chunk小于这个阈值
+        )
+        rms_threshold[rms_threshold < self.gamma] = self.gamma
+        rms_percentage = torch.mean(
             (rms > rms_threshold).float(),
             dim=-2,
             keepdim=True,
-        )                                      # [n_channels, n_segment, 1, 1]
-        rms_mask = torch.all(rms_percentage > self.threshold_segment, dim=0).squeeze()    # dim=0表示沿着该维度进行逻辑与操作，只有当两个通道的值都大于该值，才认为合法[n_segment, 1, 1] >>>> [n_segment]
-        return rms_mask     # 针对segment的rms mask
+        )
+        rms_mask = torch.all(rms_percentage > self.threshold_segment, dim=0).squeeze()
+        return rms_mask
 
     def calculate_salient(self, y: torch.Tensor, mask: torch.Tensor):
         """
         """
-        y = y[:, mask, ...]          # 丢弃mask = False的segment
+        y = y[:, mask, ...]
         C, D1, D2, D3 = y.shape
-        y = y.view(C, D1, D2*D3)     # 将每个segment中的chunk合并到一起
+        y = y.view(C, D1, D2*D3)
         return y
 
-    def __call__(                    # 使实例对象可以像函数一样被调用，并调用该方法
+    def __call__(
             self,
             y: torch.Tensor,
             segment_saliency_mask: tp.Optional[torch.Tensor] = None
@@ -121,7 +117,5 @@ if __name__ == "__main__":
 
     sad = SAD(sr=sr)
     y, sr = torchaudio.load(example_path)
-    y_salience = sad(y)[0]    # 相当于直接调用 sad.__call__(y)
+    y_salience = sad(y)[0]
     print(f"Initial shape: {y.shape}.\nShape after source activity detection: {y_salience.shape}")
-
-

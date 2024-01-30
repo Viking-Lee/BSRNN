@@ -6,7 +6,7 @@ import torch
 import soundfile as sf
 from omegaconf import OmegaConf
 
-from data.dataset import EvalSourceSeparationDataset
+from data import EvalSourceSeparationDataset
 from separator import Separator
 
 
@@ -24,7 +24,7 @@ class InferenceProgram:
         self.tgt_dir = self.SAVED_MODELS_DIR / target
         # path to checkpoint
         if ckpt_path is None:
-            ckpt_path = self.tgt_dir / f"{target}.pt"
+            ckpt_path = self.tgt_dir / f"{target}.ckpt"
             if not ckpt_path.is_file():
                 raise ValueError("{ckpt_path} is missing. Please provide 'ckpt_path' explicitly.")
         self.ckpt_path = ckpt_path

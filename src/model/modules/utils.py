@@ -61,9 +61,6 @@ if __name__ == '__main__':
 
     out = freq2bands(freqs_splits, sr, n_fft)
 
-    print(out)
-    print(len(out))
+    assert sum(out) == n_fft // 2 + 1
 
-    # assert sum(out) == n_fft // 2 + 1
-    #
-    # print(f"Input:\n{freqs_splits}\n{sr}\n{n_fft}\nOutput:{out}")
+    print(f"Input:\n{freqs_splits}\n{sr}\n{n_fft}\nOutput:{out}")

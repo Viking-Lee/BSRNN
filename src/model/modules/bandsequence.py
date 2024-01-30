@@ -15,7 +15,7 @@ class RNNModule(nn.Module):
             bidirectional: bool = True
     ):
         super(RNNModule, self).__init__()
-        self.groupnorm = nn.GroupNorm(input_dim_size, input_dim_size)    # 第一个参数表示将channels分为多少组， 第二个表示channels的个数。 经过GropNorm处理后的数据维度不会发生变化。
+        self.groupnorm = nn.GroupNorm(input_dim_size, input_dim_size)
         self.rnn = getattr(nn, rnn_type)(
             input_dim_size, hidden_dim_size, batch_first=True, bidirectional=bidirectional
         )

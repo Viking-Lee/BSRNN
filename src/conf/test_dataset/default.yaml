@@ -1,4 +1,4 @@
-in_fp: "D://dataset//MUSDB18HQ"
+in_fp: "/workspace/Dataset/MUSDB18HQ"
 target: ${..train_dataset.target}
 is_mono: False
 sr: 44100

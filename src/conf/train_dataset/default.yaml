@@ -1,5 +1,5 @@
-file_dir: "D://dataset//MUSDB18HQ"
-txt_dir: "files/"
+file_dir: "/workspace/Dataset/MUSDB18HQ"
+txt_dir: "/workspace/BSRNN/src/files"
 txt_path: null
 target: vocals
 is_training: True

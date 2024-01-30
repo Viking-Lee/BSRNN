@@ -5,7 +5,7 @@ from pathlib import Path
 import torch
 from torch.utils.data import Dataset
 import torchaudio
-from tqdm import tqdm   # python的进度条库，用于在循环或迭代过程中显示进度条，可以看到程序运行的进度nizuo
+from tqdm import tqdm
 
 
 class SourceSeparationDataset(Dataset):
@@ -69,7 +69,7 @@ class SourceSeparationDataset(Dataset):
             else:
                 filelist.append(
                     (str(filepath_template), (int(start_idx), int(end_idx)))
-)
+                )
         return filelist
 
     def load_file(
@@ -77,26 +77,26 @@ class SourceSeparationDataset(Dataset):
             file_path: str,
             indices: tp.Tuple[int, int]
     ) -> torch.Tensor:
-        assert Path(file_path).is_file(), f"There is no such file - {file_path}."   # is_file()是Path的一个方法，用于检查该路径是否为一个合法的文件
+        assert Path(file_path).is_file(), f"There is no such file - {file_path}."
 
         offset = indices[0]
         num_frames = indices[1] - indices[0]
         y, sr = torchaudio.load(
             file_path,
-            frame_offset=offset,     # 从哪个索引开始加载
-            num_frames=num_frames,   # 加载音频的长度
-            channels_first=True     #返回的tensor数据channel通道在最前
+            frame_offset=offset,
+            num_frames=num_frames,
+            channels_first=True
         )
-        assert sr == self.sr, f"Sampling rate should be equal {self.sr}, not {sr}."  # 判断采样率是否相等
+        assert sr == self.sr, f"Sampling rate should be equal {self.sr}, not {sr}."
         if self.is_mono:
-            y = torch.mean(y, dim=0, keepdim=True)    # 如果是单声道，则取两个声道的平均值输出
+            y = torch.mean(y, dim=0, keepdim=True)
         return y
 
     def load_files(
             self, fp_template: str, indices: tp.Tuple[int, int],
     ) -> tp.Tuple[torch.Tensor, torch.Tensor]:
         mix_segment = self.load_file(
-            fp_template.format('mixture'), indices    # 将fp_template中的占位符 {} 替换成mixture
+            fp_template.format('mixture'), indices
         )
         tgt_segment = self.load_file(
             fp_template.format(self.target), indices
@@ -104,7 +104,7 @@ class SourceSeparationDataset(Dataset):
         max_norm = max(
             mix_segment.abs().max(), tgt_segment.abs().max()
         )
-        mix_segment /= max_norm     # 归一化
+        mix_segment /= max_norm
         tgt_segment /= max_norm
         return (
             mix_segment, tgt_segment
@@ -130,9 +130,9 @@ class SourceSeparationDataset(Dataset):
         # decide how many sources to mix
         if not self.mix_tgt_too:
             self.TARGETS.discard(self.target)
-        n_sources = random.randrange(1, len(self.TARGETS) + 1)      # 生成1-3之间的整数
+        n_sources = random.randrange(1, len(self.TARGETS) + 1)
         # decide which sources to mix
-        targets_to_add = random.sample(    # 从剩下的TARGETS中任选 n_source个tgt
+        targets_to_add = random.sample(
             self.TARGETS, n_sources
         )
         # create new mix segment
@@ -158,7 +158,7 @@ class SourceSeparationDataset(Dataset):
         if self.is_training:
             # dropping target
             if random.random() < self.silent_prob:
-                mix_segment, tgt_segment = self.imitate_silent_segments(    # 模仿无声片段  此时输出的mix_segment不包含tgt_segment, tgt_segment都为0
+                mix_segment, tgt_segment = self.imitate_silent_segments(
                     mix_segment, tgt_segment
                 )
             # mixing with other sources
@@ -168,7 +168,7 @@ class SourceSeparationDataset(Dataset):
                 )
         return mix_segment, tgt_segment
 
-    def __getitem__(           # 定义类的实例能够通过索引访问元素
+    def __getitem__(
             self,
             index: int
     ) -> tp.Tuple[torch.Tensor, torch.Tensor]:
@@ -179,7 +179,7 @@ class SourceSeparationDataset(Dataset):
         if self.preload_dataset:
             mix_segment, tgt_segment = self.filelist[index]
         else:
-            mix_segment, tgt_segment = self.load_files(*self.filelist[index])      # 获取特定位置的数据样本
+            mix_segment, tgt_segment = self.load_files(*self.filelist[index])
 
         # augmentations related to mixing/dropping sources
         mix_segment, tgt_segment = self.augment(mix_segment, tgt_segment)
@@ -230,7 +230,7 @@ class EvalSourceSeparationDataset(Dataset):
         filelist = []
         test_dir = self.in_fp / self.mode
 
-        for fp in test_dir.glob('*'):       # 遍历 test_dir中所有的文件或子目录
+        for fp in test_dir.glob('*'):
             fp_template = str(fp / "{}.wav")
             fp_mix = fp_template.format('mixture')
             fp_tgt = fp_template.format(self.target)

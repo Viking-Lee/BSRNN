@@ -17,7 +17,7 @@ class BandSplitModule(nn.Module):
             sr: int,
             n_fft: int,
             bandsplits: tp.List[tp.Tuple[int, int]],
-            t_timesteps: int = 259,
+            t_timesteps: int = 517,
             fc_dim: int = 128,
             complex_as_channel: bool = True,
             is_mono: bool = False,
@@ -59,13 +59,13 @@ class BandSplitModule(nn.Module):
             B, C, F, T = x.shape
             # view complex as channels
             if x.dtype == torch.cfloat:
-                x = torch.view_as_real(x).permute(0, 1, 4, 2, 3)    # 使用view_as_real方法后，x的维度变为 (B, C, F, T, 2)，  使用Permute（0，1， 4，2，3）之后,维度为 (B, C, 2, F, T)
+                x = torch.view_as_real(x).permute(0, 1, 4, 2, 3)
             # from channels to frequency
             x = x.reshape(B, -1, T)
             # run through model
             x = self.layernorms[i](x)
-            x = x.transpose(-1, -2)      # 仅对两个维度进行重新排列
-            x = self.fcs[i](x)           #
+            x = x.transpose(-1, -2)
+            x = self.fcs[i](x)
             xs.append(x)
         return torch.stack(xs, dim=1)
 
@@ -95,9 +95,9 @@ if __name__ == '__main__':
     }
 
     model = BandSplitModule(**cfg)
-    _ = model.eval()   # 将模型设为评估模式，在该模式下，模型会关闭一些用于训练的特定功能，比如dropout和batch normalization等等
+    _ = model.eval()
 
-    with torch.no_grad():  # 将代码设置为不进行梯度计算
+    with torch.no_grad():
         out_features = model(in_features)
 
     print(f"In: {in_features.shape}\nOut: {out_features.shape}")

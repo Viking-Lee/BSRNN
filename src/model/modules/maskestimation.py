@@ -18,7 +18,7 @@ class GLU(nn.Module):
 
     def forward(self, x: torch.Tensor):
         x = self.linear(x)
-        x = x[..., :self.input_dim] * self.sigmoid(x[..., self.input_dim:])    # Q：why is apply in second dimension
+        x = x[..., :self.input_dim] * self.sigmoid(x[..., self.input_dim:])
         return x
 
 
@@ -110,9 +110,9 @@ class MaskEstimationModule(nn.Module):
             B, T, F = out.shape
             # return to complex
             if self.cac:
-                out = out.permute(0, 2, 1).contiguous()                  # (B, F, T)
+                out = out.permute(0, 2, 1).contiguous()
                 out = out.view(B, -1, 2, F//self.frequency_mul, T).permute(0, 1, 3, 4, 2)
-                out = torch.view_as_complex(out.contiguous())            # 转换为复数形式
+                out = torch.view_as_complex(out.contiguous())
             else:
                 out = out.view(B, -1, F//self.frequency_mul, T).contiguous()
             outs.append(out)

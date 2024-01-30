@@ -4,10 +4,10 @@ import torch
 import torch.nn as nn
 import pytorch_lightning as pl
 from torch.optim import Optimizer, lr_scheduler
-from omegaconf import DictConfig     # omegaconf是管理配置和超参数的库， DictConfig类则表示配置文件中字典结构
+from omegaconf import DictConfig
 
 
-class PLModel(pl.LightningModule):   # pl.LightningModule模型训练过程中的核心逻辑和组件，用于定义模型架构，损失函数，优化器，训练循环。封装训练模型
+class PLModel(pl.LightningModule):
     def __init__(
             self,
             model: nn.Module,
@@ -15,7 +15,7 @@ class PLModel(pl.LightningModule):   # pl.LightningModule模型训练过程中�
             inverse_featurizer: nn.Module,
             augmentations: nn.Module,
             opt: Optimizer,
-            sch: lr_scheduler._LRScheduler,     # lr_scheduler是学习率调度模块，根据训练的迭代次数动态地调整学习率，有助于模型更快地收敛
+            sch: lr_scheduler._LRScheduler,
             hparams: DictConfig = None
     ):
         super().__init__()
@@ -31,7 +31,7 @@ class PLModel(pl.LightningModule):   # pl.LightningModule模型训练过程中�
         self.model = model
 
         # losses
-        self.mae_specR = nn.L1Loss()   # L1损失， MAE
+        self.mae_specR = nn.L1Loss()
         self.mae_specI = nn.L1Loss()
         self.mae_time = nn.L1Loss()
 
@@ -42,7 +42,7 @@ class PLModel(pl.LightningModule):   # pl.LightningModule模型训练过程中�
         # logging
         self.save_hyperparameters(hparams)
 
-    def training_step(                       # train.fit()会在内部调用该方式时提供batch_idx,用作当前批次的索引
+    def training_step(
             self, batch, batch_idx
     ) -> torch.Tensor:
         """

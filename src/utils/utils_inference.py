@@ -7,7 +7,7 @@ import typing as tp
 
 def load_pl_state_dict(
         path: Path, device: torch.device,
-):
+) -> OrderedDict[str, torch.Tensor]:
     """
     Loads and preprocesses pytorch-lightning state dict
     """
