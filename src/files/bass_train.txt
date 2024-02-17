@@ -30,6 +30,18 @@ A Classic Education - NightOwl	3704400	3969000
 A Classic Education - NightOwl	3836700	4101300
 A Classic Education - NightOwl	3969000	4233600
 A Classic Education - NightOwl	4101300	4365900
+A Classic Education - NightOwl	4233600	4498200
+A Classic Education - NightOwl	4365900	4630500
+A Classic Education - NightOwl	4498200	4762800
+A Classic Education - NightOwl	4630500	4895100
+A Classic Education - NightOwl	4762800	5027400
+A Classic Education - NightOwl	4895100	5159700
+A Classic Education - NightOwl	5027400	5292000
+A Classic Education - NightOwl	5159700	5424300
+A Classic Education - NightOwl	5292000	5556600
+A Classic Education - NightOwl	5424300	5688900
+A Classic Education - NightOwl	5556600	5821200
+A Classic Education - NightOwl	5688900	5953500
 A Classic Education - NightOwl	5821200	6085800
 A Classic Education - NightOwl	5953500	6218100
 A Classic Education - NightOwl	6085800	6350400
@@ -41,7 +53,6 @@ A Classic Education - NightOwl	6747300	7011900
 A Classic Education - NightOwl	6879600	7144200
 A Classic Education - NightOwl	7011900	7276500
 A Classic Education - NightOwl	7144200	7408800
-A Classic Education - NightOwl	7276500	7541100
 ANiMAL - Clinic A	396900	661500
 ANiMAL - Clinic A	529200	793800
 ANiMAL - Clinic A	661500	926100
@@ -80,10 +91,7 @@ ANiMAL - Clinic A	4895100	5159700
 ANiMAL - Clinic A	5027400	5292000
 ANiMAL - Clinic A	5159700	5424300
 ANiMAL - Clinic A	5292000	5556600
-ANiMAL - Clinic A	5424300	5688900
 ANiMAL - Clinic A	5556600	5821200
-ANiMAL - Clinic A	5688900	5953500
-ANiMAL - Clinic A	5821200	6085800
 ANiMAL - Clinic A	5953500	6218100
 ANiMAL - Clinic A	6085800	6350400
 ANiMAL - Clinic A	6218100	6482700
@@ -97,12 +105,27 @@ ANiMAL - Clinic A	7144200	7408800
 ANiMAL - Clinic A	7276500	7541100
 ANiMAL - Clinic A	7408800	7673400
 ANiMAL - Clinic A	7541100	7805700
+ANiMAL - Clinic A	7673400	7938000
+ANiMAL - Clinic A	7805700	8070300
+ANiMAL - Clinic A	7938000	8202600
+ANiMAL - Clinic A	8070300	8334900
+ANiMAL - Clinic A	8202600	8467200
+ANiMAL - Clinic A	8334900	8599500
+ANiMAL - Clinic A	8467200	8731800
+ANiMAL - Clinic A	8599500	8864100
+ANiMAL - Clinic A	8731800	8996400
+ANiMAL - Clinic A	8864100	9128700
 ANiMAL - Clinic A	8996400	9261000
 ANiMAL - Clinic A	9128700	9393300
+ANiMAL - Clinic A	9261000	9525600
+ANiMAL - Clinic A	9393300	9657900
+ANiMAL - Clinic A	9525600	9790200
+ANiMAL - Clinic A	9657900	9922500
 ANiMAL - Clinic A	9790200	10054800
 ANiMAL - Clinic A	9922500	10187100
 ANiMAL - Easy Tiger	264600	529200
 ANiMAL - Easy Tiger	396900	661500
+ANiMAL - Easy Tiger	529200	793800
 ANiMAL - Easy Tiger	661500	926100
 ANiMAL - Easy Tiger	793800	1058400
 ANiMAL - Easy Tiger	926100	1190700
@@ -155,7 +178,6 @@ ANiMAL - Easy Tiger	7011900	7276500
 ANiMAL - Easy Tiger	7144200	7408800
 ANiMAL - Easy Tiger	7276500	7541100
 ANiMAL - Easy Tiger	7408800	7673400
-ANiMAL - Easy Tiger	7541100	7805700
 ANiMAL - Easy Tiger	7673400	7938000
 ANiMAL - Easy Tiger	7805700	8070300
 ANiMAL - Easy Tiger	7938000	8202600
@@ -165,6 +187,13 @@ ANiMAL - Easy Tiger	8334900	8599500
 ANiMAL - Easy Tiger	8467200	8731800
 ANiMAL - Easy Tiger	8599500	8864100
 ANiMAL - Easy Tiger	8731800	8996400
+Actions - Devil's Words	0	264600
+Actions - Devil's Words	132300	396900
+Actions - Devil's Words	264600	529200
+Actions - Devil's Words	396900	661500
+Actions - Devil's Words	529200	793800
+Actions - Devil's Words	661500	926100
+Actions - Devil's Words	793800	1058400
 Actions - Devil's Words	926100	1190700
 Actions - Devil's Words	1058400	1323000
 Actions - Devil's Words	1190700	1455300
@@ -205,10 +234,6 @@ Actions - Devil's Words	5688900	5953500
 Actions - Devil's Words	5821200	6085800
 Actions - Devil's Words	5953500	6218100
 Actions - Devil's Words	6085800	6350400
-Actions - Devil's Words	6218100	6482700
-Actions - Devil's Words	6350400	6615000
-Actions - Devil's Words	6482700	6747300
-Actions - Devil's Words	6615000	6879600
 Actions - Devil's Words	6747300	7011900
 Actions - Devil's Words	6879600	7144200
 Actions - Devil's Words	7011900	7276500
@@ -222,10 +247,6 @@ Actions - Devil's Words	7938000	8202600
 Actions - Devil's Words	8070300	8334900
 Actions - Devil's Words	8202600	8467200
 Actions - Devil's Words	8334900	8599500
-Actions - South Of The Water	0	264600
-Actions - South Of The Water	132300	396900
-Actions - South Of The Water	264600	529200
-Actions - South Of The Water	396900	661500
 Actions - South Of The Water	529200	793800
 Actions - South Of The Water	661500	926100
 Actions - South Of The Water	793800	1058400
@@ -233,6 +254,8 @@ Actions - South Of The Water	926100	1190700
 Actions - South Of The Water	1058400	1323000
 Actions - South Of The Water	1190700	1455300
 Actions - South Of The Water	1323000	1587600
+Actions - South Of The Water	1455300	1719900
+Actions - South Of The Water	1587600	1852200
 Actions - South Of The Water	1719900	1984500
 Actions - South Of The Water	1852200	2116800
 Actions - South Of The Water	1984500	2249100
@@ -277,6 +300,10 @@ Actions - South Of The Water	7011900	7276500
 Actions - South Of The Water	7144200	7408800
 Actions - South Of The Water	7276500	7541100
 Actions - South Of The Water	7408800	7673400
+Aimee Norwich - Child	529200	793800
+Aimee Norwich - Child	661500	926100
+Aimee Norwich - Child	793800	1058400
+Aimee Norwich - Child	926100	1190700
 Aimee Norwich - Child	1058400	1323000
 Aimee Norwich - Child	1190700	1455300
 Aimee Norwich - Child	1323000	1587600
@@ -313,46 +340,43 @@ Aimee Norwich - Child	5292000	5556600
 Aimee Norwich - Child	5424300	5688900
 Aimee Norwich - Child	5556600	5821200
 Aimee Norwich - Child	5688900	5953500
-Alexander Ross - Velvet Curtain	529200	793800
-Alexander Ross - Velvet Curtain	661500	926100
-Alexander Ross - Velvet Curtain	793800	1058400
-Alexander Ross - Velvet Curtain	926100	1190700
-Alexander Ross - Velvet Curtain	1058400	1323000
-Alexander Ross - Velvet Curtain	1190700	1455300
-Alexander Ross - Velvet Curtain	1323000	1587600
-Alexander Ross - Velvet Curtain	1455300	1719900
-Alexander Ross - Velvet Curtain	1587600	1852200
-Alexander Ross - Velvet Curtain	1719900	1984500
-Alexander Ross - Velvet Curtain	1852200	2116800
-Alexander Ross - Velvet Curtain	1984500	2249100
-Alexander Ross - Velvet Curtain	2116800	2381400
-Alexander Ross - Velvet Curtain	2249100	2513700
-Alexander Ross - Velvet Curtain	2381400	2646000
-Alexander Ross - Velvet Curtain	2513700	2778300
-Alexander Ross - Velvet Curtain	2646000	2910600
-Alexander Ross - Velvet Curtain	2778300	3042900
-Alexander Ross - Velvet Curtain	2910600	3175200
-Alexander Ross - Velvet Curtain	3042900	3307500
-Alexander Ross - Velvet Curtain	3175200	3439800
-Alexander Ross - Velvet Curtain	3307500	3572100
-Alexander Ross - Velvet Curtain	3439800	3704400
-Alexander Ross - Velvet Curtain	3572100	3836700
-Alexander Ross - Velvet Curtain	3704400	3969000
-Alexander Ross - Velvet Curtain	3836700	4101300
-Alexander Ross - Velvet Curtain	3969000	4233600
-Alexander Ross - Velvet Curtain	4101300	4365900
+Aimee Norwich - Child	5821200	6085800
+Aimee Norwich - Child	5953500	6218100
+Aimee Norwich - Child	6085800	6350400
+Aimee Norwich - Child	6218100	6482700
+Aimee Norwich - Child	6350400	6615000
+Aimee Norwich - Child	6482700	6747300
+Aimee Norwich - Child	6615000	6879600
+Aimee Norwich - Child	6747300	7011900
+Aimee Norwich - Child	6879600	7144200
+Aimee Norwich - Child	7011900	7276500
+Aimee Norwich - Child	7144200	7408800
+Aimee Norwich - Child	7276500	7541100
+Aimee Norwich - Child	7408800	7673400
+Aimee Norwich - Child	7541100	7805700
+Alexander Ross - Velvet Curtain	4365900	4630500
+Alexander Ross - Velvet Curtain	4498200	4762800
+Alexander Ross - Velvet Curtain	4630500	4895100
+Alexander Ross - Velvet Curtain	4762800	5027400
 Alexander Ross - Velvet Curtain	4895100	5159700
 Alexander Ross - Velvet Curtain	5027400	5292000
 Alexander Ross - Velvet Curtain	5159700	5424300
 Alexander Ross - Velvet Curtain	5292000	5556600
 Alexander Ross - Velvet Curtain	5424300	5688900
 Alexander Ross - Velvet Curtain	5556600	5821200
+Alexander Ross - Velvet Curtain	5688900	5953500
 Alexander Ross - Velvet Curtain	5821200	6085800
 Alexander Ross - Velvet Curtain	5953500	6218100
 Alexander Ross - Velvet Curtain	6085800	6350400
+Alexander Ross - Velvet Curtain	6218100	6482700
 Alexander Ross - Velvet Curtain	6350400	6615000
 Alexander Ross - Velvet Curtain	6482700	6747300
 Alexander Ross - Velvet Curtain	6615000	6879600
+Alexander Ross - Velvet Curtain	6747300	7011900
+Alexander Ross - Velvet Curtain	6879600	7144200
+Alexander Ross - Velvet Curtain	7011900	7276500
+Alexander Ross - Velvet Curtain	7144200	7408800
+Alexander Ross - Velvet Curtain	7276500	7541100
 Alexander Ross - Velvet Curtain	7408800	7673400
 Alexander Ross - Velvet Curtain	7541100	7805700
 Alexander Ross - Velvet Curtain	7673400	7938000
@@ -386,23 +410,37 @@ Alexander Ross - Velvet Curtain	11245500	11510100
 Alexander Ross - Velvet Curtain	11377800	11642400
 Alexander Ross - Velvet Curtain	11510100	11774700
 Alexander Ross - Velvet Curtain	11642400	11907000
+Alexander Ross - Velvet Curtain	11774700	12039300
+Alexander Ross - Velvet Curtain	11907000	12171600
+Alexander Ross - Velvet Curtain	12039300	12303900
+Alexander Ross - Velvet Curtain	12171600	12436200
 Alexander Ross - Velvet Curtain	12303900	12568500
 Alexander Ross - Velvet Curtain	12436200	12700800
 Alexander Ross - Velvet Curtain	12568500	12833100
 Alexander Ross - Velvet Curtain	12700800	12965400
 Alexander Ross - Velvet Curtain	12833100	13097700
 Alexander Ross - Velvet Curtain	12965400	13230000
+Alexander Ross - Velvet Curtain	13097700	13362300
+Alexander Ross - Velvet Curtain	13230000	13494600
 Alexander Ross - Velvet Curtain	13362300	13626900
 Alexander Ross - Velvet Curtain	13494600	13759200
+Alexander Ross - Velvet Curtain	13626900	13891500
+Alexander Ross - Velvet Curtain	13759200	14023800
 Alexander Ross - Velvet Curtain	13891500	14156100
 Alexander Ross - Velvet Curtain	14023800	14288400
+Alexander Ross - Velvet Curtain	14156100	14420700
+Alexander Ross - Velvet Curtain	14288400	14553000
+Alexander Ross - Velvet Curtain	14420700	14685300
 Alexander Ross - Velvet Curtain	15346800	15611400
 Alexander Ross - Velvet Curtain	15479100	15743700
 Alexander Ross - Velvet Curtain	15611400	15876000
 Alexander Ross - Velvet Curtain	15743700	16008300
+Alexander Ross - Velvet Curtain	15876000	16140600
 Alexander Ross - Velvet Curtain	16008300	16272900
 Alexander Ross - Velvet Curtain	16140600	16405200
 Alexander Ross - Velvet Curtain	16272900	16537500
+Alexander Ross - Velvet Curtain	16405200	16669800
+Alexander Ross - Velvet Curtain	16537500	16802100
 Alexander Ross - Velvet Curtain	16669800	16934400
 Alexander Ross - Velvet Curtain	16802100	17066700
 Alexander Ross - Velvet Curtain	16934400	17199000
@@ -440,6 +478,16 @@ Alexander Ross - Velvet Curtain	21035700	21300300
 Alexander Ross - Velvet Curtain	21168000	21432600
 Alexander Ross - Velvet Curtain	21300300	21564900
 Alexander Ross - Velvet Curtain	21432600	21697200
+Angela Thomas Wade - Milk Cow Blues	0	264600
+Angela Thomas Wade - Milk Cow Blues	132300	396900
+Angela Thomas Wade - Milk Cow Blues	264600	529200
+Angela Thomas Wade - Milk Cow Blues	396900	661500
+Angela Thomas Wade - Milk Cow Blues	529200	793800
+Angela Thomas Wade - Milk Cow Blues	661500	926100
+Angela Thomas Wade - Milk Cow Blues	793800	1058400
+Angela Thomas Wade - Milk Cow Blues	926100	1190700
+Angela Thomas Wade - Milk Cow Blues	1058400	1323000
+Angela Thomas Wade - Milk Cow Blues	1190700	1455300
 Angela Thomas Wade - Milk Cow Blues	1323000	1587600
 Angela Thomas Wade - Milk Cow Blues	1455300	1719900
 Angela Thomas Wade - Milk Cow Blues	1587600	1852200
@@ -458,6 +506,16 @@ Angela Thomas Wade - Milk Cow Blues	3175200	3439800
 Angela Thomas Wade - Milk Cow Blues	3307500	3572100
 Angela Thomas Wade - Milk Cow Blues	3439800	3704400
 Angela Thomas Wade - Milk Cow Blues	3572100	3836700
+Angela Thomas Wade - Milk Cow Blues	3704400	3969000
+Angela Thomas Wade - Milk Cow Blues	3836700	4101300
+Angela Thomas Wade - Milk Cow Blues	3969000	4233600
+Angela Thomas Wade - Milk Cow Blues	4101300	4365900
+Angela Thomas Wade - Milk Cow Blues	4233600	4498200
+Angela Thomas Wade - Milk Cow Blues	4365900	4630500
+Angela Thomas Wade - Milk Cow Blues	4498200	4762800
+Angela Thomas Wade - Milk Cow Blues	4630500	4895100
+Angela Thomas Wade - Milk Cow Blues	4762800	5027400
+Angela Thomas Wade - Milk Cow Blues	4895100	5159700
 Angela Thomas Wade - Milk Cow Blues	5027400	5292000
 Angela Thomas Wade - Milk Cow Blues	5159700	5424300
 Angela Thomas Wade - Milk Cow Blues	5292000	5556600
@@ -467,10 +525,17 @@ Angela Thomas Wade - Milk Cow Blues	5688900	5953500
 Angela Thomas Wade - Milk Cow Blues	5821200	6085800
 Angela Thomas Wade - Milk Cow Blues	5953500	6218100
 Angela Thomas Wade - Milk Cow Blues	6085800	6350400
+Angela Thomas Wade - Milk Cow Blues	6218100	6482700
+Angela Thomas Wade - Milk Cow Blues	6350400	6615000
+Angela Thomas Wade - Milk Cow Blues	6482700	6747300
+Angela Thomas Wade - Milk Cow Blues	6615000	6879600
+Angela Thomas Wade - Milk Cow Blues	6747300	7011900
+Angela Thomas Wade - Milk Cow Blues	6879600	7144200
+Angela Thomas Wade - Milk Cow Blues	7011900	7276500
+Angela Thomas Wade - Milk Cow Blues	7144200	7408800
+Angela Thomas Wade - Milk Cow Blues	7276500	7541100
+Angela Thomas Wade - Milk Cow Blues	7408800	7673400
 Angela Thomas Wade - Milk Cow Blues	7541100	7805700
-Angela Thomas Wade - Milk Cow Blues	7673400	7938000
-Angela Thomas Wade - Milk Cow Blues	7805700	8070300
-Angela Thomas Wade - Milk Cow Blues	7938000	8202600
 Angela Thomas Wade - Milk Cow Blues	8070300	8334900
 Angela Thomas Wade - Milk Cow Blues	8202600	8467200
 Angela Thomas Wade - Milk Cow Blues	8334900	8599500
@@ -488,7 +553,6 @@ Atlantis Bound - It Was My Fault For Waiting	1455300	1719900
 Atlantis Bound - It Was My Fault For Waiting	1587600	1852200
 Atlantis Bound - It Was My Fault For Waiting	1719900	1984500
 Atlantis Bound - It Was My Fault For Waiting	1852200	2116800
-Atlantis Bound - It Was My Fault For Waiting	1984500	2249100
 Atlantis Bound - It Was My Fault For Waiting	2116800	2381400
 Atlantis Bound - It Was My Fault For Waiting	2249100	2513700
 Atlantis Bound - It Was My Fault For Waiting	2381400	2646000
@@ -502,8 +566,6 @@ Atlantis Bound - It Was My Fault For Waiting	3307500	3572100
 Atlantis Bound - It Was My Fault For Waiting	3439800	3704400
 Atlantis Bound - It Was My Fault For Waiting	3572100	3836700
 Atlantis Bound - It Was My Fault For Waiting	3704400	3969000
-Atlantis Bound - It Was My Fault For Waiting	3836700	4101300
-Atlantis Bound - It Was My Fault For Waiting	3969000	4233600
 Atlantis Bound - It Was My Fault For Waiting	4101300	4365900
 Atlantis Bound - It Was My Fault For Waiting	4233600	4498200
 Atlantis Bound - It Was My Fault For Waiting	4365900	4630500
@@ -531,6 +593,13 @@ Atlantis Bound - It Was My Fault For Waiting	7144200	7408800
 Atlantis Bound - It Was My Fault For Waiting	7276500	7541100
 Atlantis Bound - It Was My Fault For Waiting	7408800	7673400
 Atlantis Bound - It Was My Fault For Waiting	7541100	7805700
+Atlantis Bound - It Was My Fault For Waiting	7673400	7938000
+Atlantis Bound - It Was My Fault For Waiting	7805700	8070300
+Atlantis Bound - It Was My Fault For Waiting	7938000	8202600
+Atlantis Bound - It Was My Fault For Waiting	8070300	8334900
+Atlantis Bound - It Was My Fault For Waiting	8202600	8467200
+Atlantis Bound - It Was My Fault For Waiting	8334900	8599500
+Atlantis Bound - It Was My Fault For Waiting	8467200	8731800
 Atlantis Bound - It Was My Fault For Waiting	8599500	8864100
 Atlantis Bound - It Was My Fault For Waiting	8731800	8996400
 Atlantis Bound - It Was My Fault For Waiting	8864100	9128700
@@ -548,24 +617,27 @@ Atlantis Bound - It Was My Fault For Waiting	10319400	10584000
 Atlantis Bound - It Was My Fault For Waiting	10451700	10716300
 Atlantis Bound - It Was My Fault For Waiting	10584000	10848600
 Atlantis Bound - It Was My Fault For Waiting	10716300	10980900
-Auctioneer - Our Future Faces	0	264600
-Auctioneer - Our Future Faces	132300	396900
-Auctioneer - Our Future Faces	264600	529200
-Auctioneer - Our Future Faces	396900	661500
-Auctioneer - Our Future Faces	529200	793800
-Auctioneer - Our Future Faces	661500	926100
-Auctioneer - Our Future Faces	793800	1058400
-Auctioneer - Our Future Faces	1190700	1455300
+Atlantis Bound - It Was My Fault For Waiting	10848600	11113200
 Auctioneer - Our Future Faces	1323000	1587600
 Auctioneer - Our Future Faces	1455300	1719900
 Auctioneer - Our Future Faces	1587600	1852200
 Auctioneer - Our Future Faces	1719900	1984500
+Auctioneer - Our Future Faces	1852200	2116800
+Auctioneer - Our Future Faces	1984500	2249100
+Auctioneer - Our Future Faces	2116800	2381400
 Auctioneer - Our Future Faces	2249100	2513700
 Auctioneer - Our Future Faces	2381400	2646000
 Auctioneer - Our Future Faces	2513700	2778300
 Auctioneer - Our Future Faces	2646000	2910600
 Auctioneer - Our Future Faces	2778300	3042900
 Auctioneer - Our Future Faces	2910600	3175200
+Auctioneer - Our Future Faces	3042900	3307500
+Auctioneer - Our Future Faces	3175200	3439800
+Auctioneer - Our Future Faces	3307500	3572100
+Auctioneer - Our Future Faces	3439800	3704400
+Auctioneer - Our Future Faces	3572100	3836700
+Auctioneer - Our Future Faces	3704400	3969000
+Auctioneer - Our Future Faces	3836700	4101300
 Auctioneer - Our Future Faces	3969000	4233600
 Auctioneer - Our Future Faces	4101300	4365900
 Auctioneer - Our Future Faces	4233600	4498200
@@ -591,6 +663,32 @@ Auctioneer - Our Future Faces	6747300	7011900
 Auctioneer - Our Future Faces	6879600	7144200
 Auctioneer - Our Future Faces	7011900	7276500
 Auctioneer - Our Future Faces	7144200	7408800
+Auctioneer - Our Future Faces	7276500	7541100
+Auctioneer - Our Future Faces	7408800	7673400
+Auctioneer - Our Future Faces	7541100	7805700
+Auctioneer - Our Future Faces	7673400	7938000
+Auctioneer - Our Future Faces	7805700	8070300
+Auctioneer - Our Future Faces	7938000	8202600
+Auctioneer - Our Future Faces	8070300	8334900
+Auctioneer - Our Future Faces	8202600	8467200
+Auctioneer - Our Future Faces	8334900	8599500
+Auctioneer - Our Future Faces	8467200	8731800
+Auctioneer - Our Future Faces	8599500	8864100
+Auctioneer - Our Future Faces	8731800	8996400
+Auctioneer - Our Future Faces	8864100	9128700
+AvaLuna - Waterduct	0	264600
+AvaLuna - Waterduct	132300	396900
+AvaLuna - Waterduct	264600	529200
+AvaLuna - Waterduct	396900	661500
+AvaLuna - Waterduct	529200	793800
+AvaLuna - Waterduct	661500	926100
+AvaLuna - Waterduct	793800	1058400
+AvaLuna - Waterduct	926100	1190700
+AvaLuna - Waterduct	1058400	1323000
+AvaLuna - Waterduct	1190700	1455300
+AvaLuna - Waterduct	1323000	1587600
+AvaLuna - Waterduct	1455300	1719900
+AvaLuna - Waterduct	1587600	1852200
 AvaLuna - Waterduct	1719900	1984500
 AvaLuna - Waterduct	1852200	2116800
 AvaLuna - Waterduct	1984500	2249100
@@ -663,6 +761,9 @@ AvaLuna - Waterduct	10716300	10980900
 AvaLuna - Waterduct	10848600	11113200
 AvaLuna - Waterduct	10980900	11245500
 AvaLuna - Waterduct	11113200	11377800
+BigTroubles - Phantom	0	264600
+BigTroubles - Phantom	132300	396900
+BigTroubles - Phantom	264600	529200
 BigTroubles - Phantom	396900	661500
 BigTroubles - Phantom	529200	793800
 BigTroubles - Phantom	661500	926100
@@ -690,6 +791,17 @@ BigTroubles - Phantom	3439800	3704400
 BigTroubles - Phantom	3572100	3836700
 BigTroubles - Phantom	3704400	3969000
 BigTroubles - Phantom	3836700	4101300
+BigTroubles - Phantom	3969000	4233600
+BigTroubles - Phantom	4101300	4365900
+BigTroubles - Phantom	4233600	4498200
+BigTroubles - Phantom	4365900	4630500
+BigTroubles - Phantom	4498200	4762800
+BigTroubles - Phantom	4630500	4895100
+BigTroubles - Phantom	4762800	5027400
+BigTroubles - Phantom	4895100	5159700
+BigTroubles - Phantom	5027400	5292000
+BigTroubles - Phantom	5159700	5424300
+BigTroubles - Phantom	5292000	5556600
 BigTroubles - Phantom	5424300	5688900
 BigTroubles - Phantom	5556600	5821200
 BigTroubles - Phantom	5688900	5953500
@@ -714,10 +826,6 @@ Bill Chudziak - Children Of No-one	4762800	5027400
 Bill Chudziak - Children Of No-one	4895100	5159700
 Bill Chudziak - Children Of No-one	5027400	5292000
 Bill Chudziak - Children Of No-one	5159700	5424300
-Bill Chudziak - Children Of No-one	5292000	5556600
-Bill Chudziak - Children Of No-one	5424300	5688900
-Bill Chudziak - Children Of No-one	5556600	5821200
-Bill Chudziak - Children Of No-one	5688900	5953500
 Bill Chudziak - Children Of No-one	5821200	6085800
 Bill Chudziak - Children Of No-one	5953500	6218100
 Bill Chudziak - Children Of No-one	6085800	6350400
@@ -729,6 +837,9 @@ Bill Chudziak - Children Of No-one	6747300	7011900
 Bill Chudziak - Children Of No-one	6879600	7144200
 Bill Chudziak - Children Of No-one	7011900	7276500
 Bill Chudziak - Children Of No-one	7144200	7408800
+Bill Chudziak - Children Of No-one	7276500	7541100
+Bill Chudziak - Children Of No-one	7408800	7673400
+Bill Chudziak - Children Of No-one	7541100	7805700
 Bill Chudziak - Children Of No-one	7673400	7938000
 Bill Chudziak - Children Of No-one	7805700	8070300
 Bill Chudziak - Children Of No-one	7938000	8202600
@@ -743,12 +854,7 @@ Bill Chudziak - Children Of No-one	8996400	9261000
 Bill Chudziak - Children Of No-one	9128700	9393300
 Bill Chudziak - Children Of No-one	9261000	9525600
 Bill Chudziak - Children Of No-one	9393300	9657900
-Black Bloc - If You Want Success	1190700	1455300
-Black Bloc - If You Want Success	1323000	1587600
-Black Bloc - If You Want Success	1455300	1719900
-Black Bloc - If You Want Success	1587600	1852200
-Black Bloc - If You Want Success	1719900	1984500
-Black Bloc - If You Want Success	1852200	2116800
+Bill Chudziak - Children Of No-one	9525600	9790200
 Black Bloc - If You Want Success	1984500	2249100
 Black Bloc - If You Want Success	2116800	2381400
 Black Bloc - If You Want Success	2249100	2513700
@@ -766,6 +872,11 @@ Black Bloc - If You Want Success	3704400	3969000
 Black Bloc - If You Want Success	3836700	4101300
 Black Bloc - If You Want Success	3969000	4233600
 Black Bloc - If You Want Success	4101300	4365900
+Black Bloc - If You Want Success	4233600	4498200
+Black Bloc - If You Want Success	4365900	4630500
+Black Bloc - If You Want Success	4498200	4762800
+Black Bloc - If You Want Success	4630500	4895100
+Black Bloc - If You Want Success	4762800	5027400
 Black Bloc - If You Want Success	4895100	5159700
 Black Bloc - If You Want Success	5027400	5292000
 Black Bloc - If You Want Success	5159700	5424300
@@ -778,18 +889,31 @@ Black Bloc - If You Want Success	5953500	6218100
 Black Bloc - If You Want Success	6085800	6350400
 Black Bloc - If You Want Success	6218100	6482700
 Black Bloc - If You Want Success	6350400	6615000
+Black Bloc - If You Want Success	6482700	6747300
+Black Bloc - If You Want Success	6615000	6879600
+Black Bloc - If You Want Success	6747300	7011900
+Black Bloc - If You Want Success	6879600	7144200
+Black Bloc - If You Want Success	7938000	8202600
+Black Bloc - If You Want Success	8202600	8467200
+Black Bloc - If You Want Success	8334900	8599500
+Black Bloc - If You Want Success	8467200	8731800
+Black Bloc - If You Want Success	8599500	8864100
+Black Bloc - If You Want Success	8864100	9128700
 Black Bloc - If You Want Success	8996400	9261000
-Black Bloc - If You Want Success	9128700	9393300
 Black Bloc - If You Want Success	9261000	9525600
 Black Bloc - If You Want Success	9393300	9657900
 Black Bloc - If You Want Success	9525600	9790200
-Black Bloc - If You Want Success	9657900	9922500
 Black Bloc - If You Want Success	9790200	10054800
 Black Bloc - If You Want Success	9922500	10187100
 Black Bloc - If You Want Success	10054800	10319400
 Black Bloc - If You Want Success	10187100	10451700
 Black Bloc - If You Want Success	10319400	10584000
-Black Bloc - If You Want Success	10451700	10716300
+Black Bloc - If You Want Success	10980900	11245500
+Black Bloc - If You Want Success	11113200	11377800
+Black Bloc - If You Want Success	11245500	11510100
+Black Bloc - If You Want Success	11377800	11642400
+Black Bloc - If You Want Success	11510100	11774700
+Black Bloc - If You Want Success	11642400	11907000
 Black Bloc - If You Want Success	11774700	12039300
 Black Bloc - If You Want Success	11907000	12171600
 Black Bloc - If You Want Success	12039300	12303900
@@ -813,6 +937,23 @@ Black Bloc - If You Want Success	14288400	14553000
 Black Bloc - If You Want Success	14420700	14685300
 Black Bloc - If You Want Success	14553000	14817600
 Black Bloc - If You Want Success	14685300	14949900
+Black Bloc - If You Want Success	14817600	15082200
+Black Bloc - If You Want Success	14949900	15214500
+Black Bloc - If You Want Success	15082200	15346800
+Black Bloc - If You Want Success	15214500	15479100
+Black Bloc - If You Want Success	15346800	15611400
+Black Bloc - If You Want Success	15479100	15743700
+Black Bloc - If You Want Success	15611400	15876000
+Black Bloc - If You Want Success	15743700	16008300
+Black Bloc - If You Want Success	15876000	16140600
+Black Bloc - If You Want Success	16008300	16272900
+Black Bloc - If You Want Success	16140600	16405200
+Black Bloc - If You Want Success	16272900	16537500
+Black Bloc - If You Want Success	16405200	16669800
+Black Bloc - If You Want Success	16537500	16802100
+Black Bloc - If You Want Success	16669800	16934400
+Black Bloc - If You Want Success	16802100	17066700
+Black Bloc - If You Want Success	16934400	17199000
 Celestial Shore - Die For Us	396900	661500
 Celestial Shore - Die For Us	529200	793800
 Celestial Shore - Die For Us	661500	926100
@@ -834,6 +975,13 @@ Celestial Shore - Die For Us	2646000	2910600
 Celestial Shore - Die For Us	2778300	3042900
 Celestial Shore - Die For Us	2910600	3175200
 Celestial Shore - Die For Us	3042900	3307500
+Celestial Shore - Die For Us	3175200	3439800
+Celestial Shore - Die For Us	3307500	3572100
+Celestial Shore - Die For Us	3439800	3704400
+Celestial Shore - Die For Us	3572100	3836700
+Celestial Shore - Die For Us	3704400	3969000
+Celestial Shore - Die For Us	3836700	4101300
+Celestial Shore - Die For Us	3969000	4233600
 Celestial Shore - Die For Us	4101300	4365900
 Celestial Shore - Die For Us	4233600	4498200
 Celestial Shore - Die For Us	4365900	4630500
@@ -851,6 +999,53 @@ Celestial Shore - Die For Us	5821200	6085800
 Celestial Shore - Die For Us	5953500	6218100
 Celestial Shore - Die For Us	6085800	6350400
 Celestial Shore - Die For Us	6218100	6482700
+Celestial Shore - Die For Us	6350400	6615000
+Celestial Shore - Die For Us	6482700	6747300
+Celestial Shore - Die For Us	6615000	6879600
+Celestial Shore - Die For Us	6747300	7011900
+Celestial Shore - Die For Us	6879600	7144200
+Celestial Shore - Die For Us	7011900	7276500
+Celestial Shore - Die For Us	7144200	7408800
+Celestial Shore - Die For Us	7276500	7541100
+Celestial Shore - Die For Us	7408800	7673400
+Celestial Shore - Die For Us	7541100	7805700
+Celestial Shore - Die For Us	7673400	7938000
+Celestial Shore - Die For Us	7805700	8070300
+Celestial Shore - Die For Us	7938000	8202600
+Celestial Shore - Die For Us	8070300	8334900
+Celestial Shore - Die For Us	8202600	8467200
+Celestial Shore - Die For Us	8334900	8599500
+Celestial Shore - Die For Us	8467200	8731800
+Celestial Shore - Die For Us	8599500	8864100
+Celestial Shore - Die For Us	8731800	8996400
+Celestial Shore - Die For Us	8864100	9128700
+Celestial Shore - Die For Us	8996400	9261000
+Celestial Shore - Die For Us	9128700	9393300
+Celestial Shore - Die For Us	9261000	9525600
+Celestial Shore - Die For Us	9393300	9657900
+Celestial Shore - Die For Us	9525600	9790200
+Celestial Shore - Die For Us	9657900	9922500
+Celestial Shore - Die For Us	9790200	10054800
+Celestial Shore - Die For Us	9922500	10187100
+Celestial Shore - Die For Us	10054800	10319400
+Celestial Shore - Die For Us	10187100	10451700
+Celestial Shore - Die For Us	10319400	10584000
+Celestial Shore - Die For Us	10451700	10716300
+Celestial Shore - Die For Us	10584000	10848600
+Celestial Shore - Die For Us	10716300	10980900
+Celestial Shore - Die For Us	10848600	11113200
+Celestial Shore - Die For Us	10980900	11245500
+Celestial Shore - Die For Us	11113200	11377800
+Celestial Shore - Die For Us	11245500	11510100
+Celestial Shore - Die For Us	11377800	11642400
+Celestial Shore - Die For Us	11510100	11774700
+Celestial Shore - Die For Us	11642400	11907000
+Celestial Shore - Die For Us	11774700	12039300
+Chris Durban - Celebrate	1455300	1719900
+Chris Durban - Celebrate	1587600	1852200
+Chris Durban - Celebrate	1719900	1984500
+Chris Durban - Celebrate	1852200	2116800
+Chris Durban - Celebrate	1984500	2249100
 Chris Durban - Celebrate	2116800	2381400
 Chris Durban - Celebrate	2249100	2513700
 Chris Durban - Celebrate	2381400	2646000
@@ -871,6 +1066,9 @@ Chris Durban - Celebrate	4233600	4498200
 Chris Durban - Celebrate	4365900	4630500
 Chris Durban - Celebrate	4498200	4762800
 Chris Durban - Celebrate	4630500	4895100
+Chris Durban - Celebrate	4762800	5027400
+Chris Durban - Celebrate	4895100	5159700
+Chris Durban - Celebrate	5027400	5292000
 Chris Durban - Celebrate	5159700	5424300
 Chris Durban - Celebrate	5292000	5556600
 Chris Durban - Celebrate	5424300	5688900
@@ -891,6 +1089,9 @@ Chris Durban - Celebrate	7276500	7541100
 Chris Durban - Celebrate	7408800	7673400
 Chris Durban - Celebrate	7541100	7805700
 Chris Durban - Celebrate	7673400	7938000
+Chris Durban - Celebrate	7805700	8070300
+Chris Durban - Celebrate	7938000	8202600
+Chris Durban - Celebrate	8070300	8334900
 Chris Durban - Celebrate	8202600	8467200
 Chris Durban - Celebrate	8334900	8599500
 Chris Durban - Celebrate	8467200	8731800
@@ -900,10 +1101,14 @@ Chris Durban - Celebrate	8864100	9128700
 Chris Durban - Celebrate	8996400	9261000
 Chris Durban - Celebrate	9128700	9393300
 Chris Durban - Celebrate	9261000	9525600
+Chris Durban - Celebrate	9393300	9657900
+Chris Durban - Celebrate	9525600	9790200
+Chris Durban - Celebrate	9657900	9922500
 Chris Durban - Celebrate	9790200	10054800
 Chris Durban - Celebrate	9922500	10187100
 Chris Durban - Celebrate	10054800	10319400
 Chris Durban - Celebrate	10187100	10451700
+Chris Durban - Celebrate	10319400	10584000
 Chris Durban - Celebrate	10451700	10716300
 Chris Durban - Celebrate	10584000	10848600
 Chris Durban - Celebrate	10716300	10980900
@@ -921,18 +1126,9 @@ Chris Durban - Celebrate	12171600	12436200
 Chris Durban - Celebrate	12303900	12568500
 Chris Durban - Celebrate	12436200	12700800
 Chris Durban - Celebrate	12568500	12833100
-Clara Berry And Wooldog - Air Traffic	661500	926100
-Clara Berry And Wooldog - Air Traffic	793800	1058400
-Clara Berry And Wooldog - Air Traffic	926100	1190700
-Clara Berry And Wooldog - Air Traffic	1058400	1323000
-Clara Berry And Wooldog - Air Traffic	1190700	1455300
-Clara Berry And Wooldog - Air Traffic	1323000	1587600
-Clara Berry And Wooldog - Air Traffic	1455300	1719900
-Clara Berry And Wooldog - Air Traffic	1587600	1852200
-Clara Berry And Wooldog - Air Traffic	1719900	1984500
-Clara Berry And Wooldog - Air Traffic	1852200	2116800
-Clara Berry And Wooldog - Air Traffic	1984500	2249100
-Clara Berry And Wooldog - Air Traffic	2116800	2381400
+Chris Durban - Celebrate	12700800	12965400
+Chris Durban - Celebrate	12833100	13097700
+Chris Durban - Celebrate	12965400	13230000
 Clara Berry And Wooldog - Air Traffic	2249100	2513700
 Clara Berry And Wooldog - Air Traffic	2381400	2646000
 Clara Berry And Wooldog - Air Traffic	2513700	2778300
@@ -967,17 +1163,19 @@ Clara Berry And Wooldog - Air Traffic	6218100	6482700
 Clara Berry And Wooldog - Air Traffic	6350400	6615000
 Clara Berry And Wooldog - Air Traffic	6482700	6747300
 Clara Berry And Wooldog - Air Traffic	6615000	6879600
-Clara Berry And Wooldog - Air Traffic	6747300	7011900
-Clara Berry And Wooldog - Air Traffic	6879600	7144200
-Clara Berry And Wooldog - Air Traffic	7011900	7276500
+Clara Berry And Wooldog - Stella	264600	529200
+Clara Berry And Wooldog - Stella	396900	661500
+Clara Berry And Wooldog - Stella	529200	793800
 Clara Berry And Wooldog - Stella	661500	926100
 Clara Berry And Wooldog - Stella	793800	1058400
 Clara Berry And Wooldog - Stella	926100	1190700
 Clara Berry And Wooldog - Stella	1058400	1323000
 Clara Berry And Wooldog - Stella	1190700	1455300
+Clara Berry And Wooldog - Stella	1323000	1587600
 Clara Berry And Wooldog - Stella	1455300	1719900
 Clara Berry And Wooldog - Stella	1587600	1852200
 Clara Berry And Wooldog - Stella	1719900	1984500
+Clara Berry And Wooldog - Stella	1852200	2116800
 Clara Berry And Wooldog - Stella	1984500	2249100
 Clara Berry And Wooldog - Stella	2116800	2381400
 Clara Berry And Wooldog - Stella	2249100	2513700
@@ -995,9 +1193,12 @@ Clara Berry And Wooldog - Stella	3704400	3969000
 Clara Berry And Wooldog - Stella	3836700	4101300
 Clara Berry And Wooldog - Stella	3969000	4233600
 Clara Berry And Wooldog - Stella	4101300	4365900
+Clara Berry And Wooldog - Stella	4233600	4498200
 Clara Berry And Wooldog - Stella	4365900	4630500
 Clara Berry And Wooldog - Stella	4498200	4762800
 Clara Berry And Wooldog - Stella	4630500	4895100
+Clara Berry And Wooldog - Stella	4762800	5027400
+Clara Berry And Wooldog - Stella	4895100	5159700
 Clara Berry And Wooldog - Stella	5027400	5292000
 Clara Berry And Wooldog - Stella	5159700	5424300
 Clara Berry And Wooldog - Stella	5292000	5556600
@@ -1009,6 +1210,7 @@ Clara Berry And Wooldog - Stella	5953500	6218100
 Clara Berry And Wooldog - Stella	6085800	6350400
 Clara Berry And Wooldog - Stella	6218100	6482700
 Clara Berry And Wooldog - Stella	6350400	6615000
+Clara Berry And Wooldog - Stella	6482700	6747300
 Clara Berry And Wooldog - Stella	6615000	6879600
 Clara Berry And Wooldog - Stella	6747300	7011900
 Clara Berry And Wooldog - Stella	6879600	7144200
@@ -1020,6 +1222,21 @@ Clara Berry And Wooldog - Stella	7541100	7805700
 Clara Berry And Wooldog - Stella	7673400	7938000
 Clara Berry And Wooldog - Stella	7805700	8070300
 Clara Berry And Wooldog - Stella	7938000	8202600
+Clara Berry And Wooldog - Stella	8070300	8334900
+Clara Berry And Wooldog - Stella	8202600	8467200
+Clara Berry And Wooldog - Stella	8334900	8599500
+Cnoc An Tursa - Bannockburn	132300	396900
+Cnoc An Tursa - Bannockburn	264600	529200
+Cnoc An Tursa - Bannockburn	396900	661500
+Cnoc An Tursa - Bannockburn	529200	793800
+Cnoc An Tursa - Bannockburn	661500	926100
+Cnoc An Tursa - Bannockburn	793800	1058400
+Cnoc An Tursa - Bannockburn	926100	1190700
+Cnoc An Tursa - Bannockburn	1058400	1323000
+Cnoc An Tursa - Bannockburn	1190700	1455300
+Cnoc An Tursa - Bannockburn	1323000	1587600
+Cnoc An Tursa - Bannockburn	1455300	1719900
+Cnoc An Tursa - Bannockburn	1587600	1852200
 Cnoc An Tursa - Bannockburn	1719900	1984500
 Cnoc An Tursa - Bannockburn	1852200	2116800
 Cnoc An Tursa - Bannockburn	1984500	2249100
@@ -1032,14 +1249,15 @@ Cnoc An Tursa - Bannockburn	2778300	3042900
 Cnoc An Tursa - Bannockburn	2910600	3175200
 Cnoc An Tursa - Bannockburn	3042900	3307500
 Cnoc An Tursa - Bannockburn	3175200	3439800
+Cnoc An Tursa - Bannockburn	3307500	3572100
+Cnoc An Tursa - Bannockburn	3439800	3704400
+Cnoc An Tursa - Bannockburn	3572100	3836700
+Cnoc An Tursa - Bannockburn	3704400	3969000
 Cnoc An Tursa - Bannockburn	3836700	4101300
 Cnoc An Tursa - Bannockburn	3969000	4233600
 Cnoc An Tursa - Bannockburn	4101300	4365900
 Cnoc An Tursa - Bannockburn	4233600	4498200
 Cnoc An Tursa - Bannockburn	4365900	4630500
-Cnoc An Tursa - Bannockburn	5159700	5424300
-Cnoc An Tursa - Bannockburn	5292000	5556600
-Cnoc An Tursa - Bannockburn	5424300	5688900
 Cnoc An Tursa - Bannockburn	5556600	5821200
 Cnoc An Tursa - Bannockburn	5688900	5953500
 Cnoc An Tursa - Bannockburn	5821200	6085800
@@ -1048,10 +1266,20 @@ Cnoc An Tursa - Bannockburn	6085800	6350400
 Cnoc An Tursa - Bannockburn	6218100	6482700
 Cnoc An Tursa - Bannockburn	6350400	6615000
 Cnoc An Tursa - Bannockburn	6482700	6747300
+Cnoc An Tursa - Bannockburn	6615000	6879600
+Cnoc An Tursa - Bannockburn	6747300	7011900
+Cnoc An Tursa - Bannockburn	6879600	7144200
+Cnoc An Tursa - Bannockburn	7011900	7276500
 Cnoc An Tursa - Bannockburn	7144200	7408800
 Cnoc An Tursa - Bannockburn	7276500	7541100
 Cnoc An Tursa - Bannockburn	7408800	7673400
 Cnoc An Tursa - Bannockburn	7541100	7805700
+Cnoc An Tursa - Bannockburn	7673400	7938000
+Cnoc An Tursa - Bannockburn	7805700	8070300
+Cnoc An Tursa - Bannockburn	7938000	8202600
+Cnoc An Tursa - Bannockburn	8070300	8334900
+Cnoc An Tursa - Bannockburn	8202600	8467200
+Cnoc An Tursa - Bannockburn	8731800	8996400
 Cnoc An Tursa - Bannockburn	8864100	9128700
 Cnoc An Tursa - Bannockburn	8996400	9261000
 Cnoc An Tursa - Bannockburn	9128700	9393300
@@ -1060,6 +1288,15 @@ Cnoc An Tursa - Bannockburn	9393300	9657900
 Cnoc An Tursa - Bannockburn	9525600	9790200
 Cnoc An Tursa - Bannockburn	9657900	9922500
 Cnoc An Tursa - Bannockburn	9790200	10054800
+Cnoc An Tursa - Bannockburn	9922500	10187100
+Cnoc An Tursa - Bannockburn	10054800	10319400
+Cnoc An Tursa - Bannockburn	10187100	10451700
+Cnoc An Tursa - Bannockburn	10319400	10584000
+Cnoc An Tursa - Bannockburn	10451700	10716300
+Cnoc An Tursa - Bannockburn	10584000	10848600
+Cnoc An Tursa - Bannockburn	10716300	10980900
+Cnoc An Tursa - Bannockburn	10848600	11113200
+Cnoc An Tursa - Bannockburn	10980900	11245500
 Cnoc An Tursa - Bannockburn	11113200	11377800
 Cnoc An Tursa - Bannockburn	11245500	11510100
 Cnoc An Tursa - Bannockburn	11377800	11642400
@@ -1068,6 +1305,10 @@ Cnoc An Tursa - Bannockburn	11642400	11907000
 Cnoc An Tursa - Bannockburn	11774700	12039300
 Cnoc An Tursa - Bannockburn	11907000	12171600
 Cnoc An Tursa - Bannockburn	12039300	12303900
+Cnoc An Tursa - Bannockburn	12171600	12436200
+Cnoc An Tursa - Bannockburn	12303900	12568500
+Cnoc An Tursa - Bannockburn	12436200	12700800
+Creepoid - OldTree	0	264600
 Creepoid - OldTree	132300	396900
 Creepoid - OldTree	264600	529200
 Creepoid - OldTree	396900	661500
@@ -1092,6 +1333,12 @@ Creepoid - OldTree	2778300	3042900
 Creepoid - OldTree	2910600	3175200
 Creepoid - OldTree	3042900	3307500
 Creepoid - OldTree	3175200	3439800
+Creepoid - OldTree	3307500	3572100
+Creepoid - OldTree	3439800	3704400
+Creepoid - OldTree	3572100	3836700
+Creepoid - OldTree	3704400	3969000
+Creepoid - OldTree	3836700	4101300
+Creepoid - OldTree	3969000	4233600
 Creepoid - OldTree	4101300	4365900
 Creepoid - OldTree	4233600	4498200
 Creepoid - OldTree	4365900	4630500
@@ -1112,6 +1359,34 @@ Creepoid - OldTree	6218100	6482700
 Creepoid - OldTree	6350400	6615000
 Creepoid - OldTree	6482700	6747300
 Creepoid - OldTree	6615000	6879600
+Creepoid - OldTree	6747300	7011900
+Creepoid - OldTree	6879600	7144200
+Creepoid - OldTree	7011900	7276500
+Creepoid - OldTree	7144200	7408800
+Creepoid - OldTree	7276500	7541100
+Creepoid - OldTree	7408800	7673400
+Creepoid - OldTree	7541100	7805700
+Creepoid - OldTree	7673400	7938000
+Creepoid - OldTree	7805700	8070300
+Creepoid - OldTree	7938000	8202600
+Creepoid - OldTree	8070300	8334900
+Creepoid - OldTree	8202600	8467200
+Creepoid - OldTree	8334900	8599500
+Creepoid - OldTree	8467200	8731800
+Creepoid - OldTree	8599500	8864100
+Creepoid - OldTree	8731800	8996400
+Creepoid - OldTree	8864100	9128700
+Creepoid - OldTree	8996400	9261000
+Creepoid - OldTree	9128700	9393300
+Creepoid - OldTree	9261000	9525600
+Creepoid - OldTree	9393300	9657900
+Creepoid - OldTree	9525600	9790200
+Creepoid - OldTree	9657900	9922500
+Creepoid - OldTree	9790200	10054800
+Creepoid - OldTree	9922500	10187100
+Creepoid - OldTree	10054800	10319400
+Creepoid - OldTree	10187100	10451700
+Creepoid - OldTree	10319400	10584000
 Creepoid - OldTree	10451700	10716300
 Creepoid - OldTree	10584000	10848600
 Creepoid - OldTree	10716300	10980900
@@ -1121,11 +1396,20 @@ Creepoid - OldTree	11113200	11377800
 Creepoid - OldTree	11245500	11510100
 Creepoid - OldTree	11377800	11642400
 Creepoid - OldTree	11510100	11774700
+Creepoid - OldTree	11642400	11907000
+Creepoid - OldTree	11774700	12039300
+Creepoid - OldTree	11907000	12171600
+Creepoid - OldTree	12039300	12303900
 Creepoid - OldTree	12171600	12436200
 Creepoid - OldTree	12303900	12568500
 Creepoid - OldTree	12436200	12700800
 Creepoid - OldTree	12568500	12833100
 Creepoid - OldTree	12700800	12965400
+Creepoid - OldTree	12833100	13097700
+Creepoid - OldTree	12965400	13230000
+Dark Ride - Burning Bridges	264600	529200
+Dark Ride - Burning Bridges	396900	661500
+Dark Ride - Burning Bridges	529200	793800
 Dark Ride - Burning Bridges	661500	926100
 Dark Ride - Burning Bridges	793800	1058400
 Dark Ride - Burning Bridges	926100	1190700
@@ -1140,6 +1424,8 @@ Dark Ride - Burning Bridges	1984500	2249100
 Dark Ride - Burning Bridges	2116800	2381400
 Dark Ride - Burning Bridges	2249100	2513700
 Dark Ride - Burning Bridges	2381400	2646000
+Dark Ride - Burning Bridges	2513700	2778300
+Dark Ride - Burning Bridges	2646000	2910600
 Dark Ride - Burning Bridges	2778300	3042900
 Dark Ride - Burning Bridges	2910600	3175200
 Dark Ride - Burning Bridges	3042900	3307500
@@ -1163,9 +1449,18 @@ Dark Ride - Burning Bridges	5292000	5556600
 Dark Ride - Burning Bridges	5424300	5688900
 Dark Ride - Burning Bridges	5556600	5821200
 Dark Ride - Burning Bridges	5688900	5953500
+Dark Ride - Burning Bridges	5821200	6085800
+Dark Ride - Burning Bridges	5953500	6218100
 Dark Ride - Burning Bridges	6085800	6350400
 Dark Ride - Burning Bridges	6218100	6482700
 Dark Ride - Burning Bridges	6350400	6615000
+Dark Ride - Burning Bridges	6482700	6747300
+Dark Ride - Burning Bridges	6615000	6879600
+Dark Ride - Burning Bridges	6747300	7011900
+Dark Ride - Burning Bridges	6879600	7144200
+Dark Ride - Burning Bridges	7011900	7276500
+Dark Ride - Burning Bridges	7144200	7408800
+Dark Ride - Burning Bridges	7276500	7541100
 Dark Ride - Burning Bridges	7408800	7673400
 Dark Ride - Burning Bridges	7541100	7805700
 Dark Ride - Burning Bridges	7673400	7938000
@@ -1185,19 +1480,8 @@ Dark Ride - Burning Bridges	9393300	9657900
 Dark Ride - Burning Bridges	9525600	9790200
 Dark Ride - Burning Bridges	9657900	9922500
 Dark Ride - Burning Bridges	9790200	10054800
-Dreamers Of The Ghetto - Heavy Love	1852200	2116800
-Dreamers Of The Ghetto - Heavy Love	1984500	2249100
-Dreamers Of The Ghetto - Heavy Love	2116800	2381400
-Dreamers Of The Ghetto - Heavy Love	2249100	2513700
-Dreamers Of The Ghetto - Heavy Love	2381400	2646000
-Dreamers Of The Ghetto - Heavy Love	2513700	2778300
-Dreamers Of The Ghetto - Heavy Love	2646000	2910600
-Dreamers Of The Ghetto - Heavy Love	2778300	3042900
-Dreamers Of The Ghetto - Heavy Love	2910600	3175200
-Dreamers Of The Ghetto - Heavy Love	3042900	3307500
-Dreamers Of The Ghetto - Heavy Love	3175200	3439800
+Dark Ride - Burning Bridges	9922500	10187100
 Dreamers Of The Ghetto - Heavy Love	3307500	3572100
-Dreamers Of The Ghetto - Heavy Love	3439800	3704400
 Dreamers Of The Ghetto - Heavy Love	3572100	3836700
 Dreamers Of The Ghetto - Heavy Love	3704400	3969000
 Dreamers Of The Ghetto - Heavy Love	3836700	4101300
@@ -1218,19 +1502,7 @@ Dreamers Of The Ghetto - Heavy Love	5688900	5953500
 Dreamers Of The Ghetto - Heavy Love	5821200	6085800
 Dreamers Of The Ghetto - Heavy Love	5953500	6218100
 Dreamers Of The Ghetto - Heavy Love	6085800	6350400
-Dreamers Of The Ghetto - Heavy Love	6218100	6482700
 Dreamers Of The Ghetto - Heavy Love	6350400	6615000
-Dreamers Of The Ghetto - Heavy Love	6747300	7011900
-Dreamers Of The Ghetto - Heavy Love	6879600	7144200
-Dreamers Of The Ghetto - Heavy Love	7011900	7276500
-Dreamers Of The Ghetto - Heavy Love	7144200	7408800
-Dreamers Of The Ghetto - Heavy Love	7276500	7541100
-Dreamers Of The Ghetto - Heavy Love	7408800	7673400
-Dreamers Of The Ghetto - Heavy Love	7541100	7805700
-Dreamers Of The Ghetto - Heavy Love	7673400	7938000
-Dreamers Of The Ghetto - Heavy Love	7805700	8070300
-Dreamers Of The Ghetto - Heavy Love	7938000	8202600
-Dreamers Of The Ghetto - Heavy Love	8070300	8334900
 Dreamers Of The Ghetto - Heavy Love	8202600	8467200
 Dreamers Of The Ghetto - Heavy Love	8334900	8599500
 Dreamers Of The Ghetto - Heavy Love	8467200	8731800
@@ -1258,11 +1530,15 @@ Dreamers Of The Ghetto - Heavy Love	11245500	11510100
 Dreamers Of The Ghetto - Heavy Love	11377800	11642400
 Dreamers Of The Ghetto - Heavy Love	11510100	11774700
 Dreamers Of The Ghetto - Heavy Love	11642400	11907000
-Dreamers Of The Ghetto - Heavy Love	11774700	12039300
-Dreamers Of The Ghetto - Heavy Love	11907000	12171600
 Dreamers Of The Ghetto - Heavy Love	12039300	12303900
-Dreamers Of The Ghetto - Heavy Love	12171600	12436200
-Dreamers Of The Ghetto - Heavy Love	12303900	12568500
+Dreamers Of The Ghetto - Heavy Love	12436200	12700800
+Drumtracks - Ghost Bitch	0	264600
+Drumtracks - Ghost Bitch	132300	396900
+Drumtracks - Ghost Bitch	264600	529200
+Drumtracks - Ghost Bitch	396900	661500
+Drumtracks - Ghost Bitch	529200	793800
+Drumtracks - Ghost Bitch	661500	926100
+Drumtracks - Ghost Bitch	793800	1058400
 Drumtracks - Ghost Bitch	926100	1190700
 Drumtracks - Ghost Bitch	1058400	1323000
 Drumtracks - Ghost Bitch	1190700	1455300
@@ -1335,23 +1611,6 @@ Drumtracks - Ghost Bitch	9922500	10187100
 Drumtracks - Ghost Bitch	10054800	10319400
 Drumtracks - Ghost Bitch	10187100	10451700
 Drumtracks - Ghost Bitch	10319400	10584000
-Drumtracks - Ghost Bitch	10451700	10716300
-Drumtracks - Ghost Bitch	10584000	10848600
-Drumtracks - Ghost Bitch	10716300	10980900
-Drumtracks - Ghost Bitch	10848600	11113200
-Drumtracks - Ghost Bitch	10980900	11245500
-Drumtracks - Ghost Bitch	11113200	11377800
-Drumtracks - Ghost Bitch	11245500	11510100
-Drumtracks - Ghost Bitch	11377800	11642400
-Drumtracks - Ghost Bitch	11510100	11774700
-Drumtracks - Ghost Bitch	11642400	11907000
-Drumtracks - Ghost Bitch	11774700	12039300
-Drumtracks - Ghost Bitch	11907000	12171600
-Drumtracks - Ghost Bitch	12039300	12303900
-Drumtracks - Ghost Bitch	12171600	12436200
-Drumtracks - Ghost Bitch	12303900	12568500
-Drumtracks - Ghost Bitch	12436200	12700800
-Drumtracks - Ghost Bitch	12568500	12833100
 Drumtracks - Ghost Bitch	12700800	12965400
 Drumtracks - Ghost Bitch	12833100	13097700
 Drumtracks - Ghost Bitch	12965400	13230000
@@ -1368,30 +1627,6 @@ Drumtracks - Ghost Bitch	14288400	14553000
 Drumtracks - Ghost Bitch	14420700	14685300
 Drumtracks - Ghost Bitch	14553000	14817600
 Drumtracks - Ghost Bitch	14685300	14949900
-Faces On Film - Waiting For Ga	793800	1058400
-Faces On Film - Waiting For Ga	926100	1190700
-Faces On Film - Waiting For Ga	1058400	1323000
-Faces On Film - Waiting For Ga	1190700	1455300
-Faces On Film - Waiting For Ga	1323000	1587600
-Faces On Film - Waiting For Ga	1455300	1719900
-Faces On Film - Waiting For Ga	1587600	1852200
-Faces On Film - Waiting For Ga	1719900	1984500
-Faces On Film - Waiting For Ga	1852200	2116800
-Faces On Film - Waiting For Ga	1984500	2249100
-Faces On Film - Waiting For Ga	2116800	2381400
-Faces On Film - Waiting For Ga	2249100	2513700
-Faces On Film - Waiting For Ga	2381400	2646000
-Faces On Film - Waiting For Ga	2513700	2778300
-Faces On Film - Waiting For Ga	2646000	2910600
-Faces On Film - Waiting For Ga	2778300	3042900
-Faces On Film - Waiting For Ga	2910600	3175200
-Faces On Film - Waiting For Ga	3042900	3307500
-Faces On Film - Waiting For Ga	3175200	3439800
-Faces On Film - Waiting For Ga	3307500	3572100
-Faces On Film - Waiting For Ga	3439800	3704400
-Faces On Film - Waiting For Ga	3572100	3836700
-Faces On Film - Waiting For Ga	3704400	3969000
-Faces On Film - Waiting For Ga	3836700	4101300
 Faces On Film - Waiting For Ga	3969000	4233600
 Faces On Film - Waiting For Ga	4101300	4365900
 Faces On Film - Waiting For Ga	4233600	4498200
@@ -1446,10 +1681,6 @@ Faces On Film - Waiting For Ga	10584000	10848600
 Faces On Film - Waiting For Ga	10716300	10980900
 Faces On Film - Waiting For Ga	10848600	11113200
 Faces On Film - Waiting For Ga	10980900	11245500
-Fergessen - Back From The Start	132300	396900
-Fergessen - Back From The Start	264600	529200
-Fergessen - Back From The Start	396900	661500
-Fergessen - Back From The Start	529200	793800
 Fergessen - Back From The Start	661500	926100
 Fergessen - Back From The Start	793800	1058400
 Fergessen - Back From The Start	926100	1190700
@@ -1478,6 +1709,8 @@ Fergessen - Back From The Start	3836700	4101300
 Fergessen - Back From The Start	3969000	4233600
 Fergessen - Back From The Start	4101300	4365900
 Fergessen - Back From The Start	4233600	4498200
+Fergessen - Back From The Start	4365900	4630500
+Fergessen - Back From The Start	4498200	4762800
 Fergessen - Back From The Start	4630500	4895100
 Fergessen - Back From The Start	4762800	5027400
 Fergessen - Back From The Start	4895100	5159700
@@ -1488,11 +1721,17 @@ Fergessen - Back From The Start	5424300	5688900
 Fergessen - Back From The Start	5556600	5821200
 Fergessen - Back From The Start	5688900	5953500
 Fergessen - Back From The Start	5821200	6085800
+Fergessen - Back From The Start	5953500	6218100
+Fergessen - Back From The Start	6085800	6350400
+Fergessen - Back From The Start	6218100	6482700
+Fergessen - Back From The Start	6350400	6615000
 Fergessen - Back From The Start	6482700	6747300
 Fergessen - Back From The Start	6615000	6879600
 Fergessen - Back From The Start	6747300	7011900
+Fergessen - The Wind	396900	661500
 Fergessen - The Wind	529200	793800
 Fergessen - The Wind	661500	926100
+Fergessen - The Wind	793800	1058400
 Fergessen - The Wind	926100	1190700
 Fergessen - The Wind	1058400	1323000
 Fergessen - The Wind	1190700	1455300
@@ -1546,6 +1785,14 @@ Fergessen - The Wind	7408800	7673400
 Fergessen - The Wind	7541100	7805700
 Fergessen - The Wind	7673400	7938000
 Fergessen - The Wind	7805700	8070300
+Fergessen - The Wind	7938000	8202600
+Fergessen - The Wind	8070300	8334900
+Flags - 54	2116800	2381400
+Flags - 54	2249100	2513700
+Flags - 54	2381400	2646000
+Flags - 54	2513700	2778300
+Flags - 54	2646000	2910600
+Flags - 54	2778300	3042900
 Flags - 54	2910600	3175200
 Flags - 54	3042900	3307500
 Flags - 54	3175200	3439800
@@ -1580,6 +1827,8 @@ Flags - 54	6879600	7144200
 Flags - 54	7011900	7276500
 Flags - 54	7144200	7408800
 Flags - 54	7276500	7541100
+Flags - 54	7805700	8070300
+Flags - 54	7938000	8202600
 Flags - 54	8070300	8334900
 Flags - 54	8202600	8467200
 Flags - 54	8334900	8599500
@@ -1588,37 +1837,14 @@ Flags - 54	8599500	8864100
 Flags - 54	8731800	8996400
 Flags - 54	8864100	9128700
 Flags - 54	8996400	9261000
-Giselle - Moss	529200	793800
-Giselle - Moss	661500	926100
-Giselle - Moss	793800	1058400
-Giselle - Moss	926100	1190700
-Giselle - Moss	1058400	1323000
-Giselle - Moss	1190700	1455300
-Giselle - Moss	1587600	1852200
-Giselle - Moss	1719900	1984500
-Giselle - Moss	1852200	2116800
-Giselle - Moss	1984500	2249100
-Giselle - Moss	2116800	2381400
-Giselle - Moss	2249100	2513700
-Giselle - Moss	2381400	2646000
-Giselle - Moss	2513700	2778300
-Giselle - Moss	2646000	2910600
-Giselle - Moss	2778300	3042900
-Giselle - Moss	2910600	3175200
-Giselle - Moss	3042900	3307500
-Giselle - Moss	3175200	3439800
-Giselle - Moss	3307500	3572100
-Giselle - Moss	3439800	3704400
-Giselle - Moss	3572100	3836700
-Giselle - Moss	3704400	3969000
-Giselle - Moss	3836700	4101300
-Giselle - Moss	3969000	4233600
-Giselle - Moss	4101300	4365900
-Giselle - Moss	4233600	4498200
-Giselle - Moss	4365900	4630500
-Giselle - Moss	4498200	4762800
-Giselle - Moss	4630500	4895100
+Flags - 54	9128700	9393300
+Flags - 54	9261000	9525600
+Flags - 54	9393300	9657900
+Flags - 54	9525600	9790200
 Giselle - Moss	4762800	5027400
+Giselle - Moss	4895100	5159700
+Giselle - Moss	5027400	5292000
+Giselle - Moss	5159700	5424300
 Giselle - Moss	5292000	5556600
 Giselle - Moss	5424300	5688900
 Giselle - Moss	5556600	5821200
@@ -1641,21 +1867,25 @@ Giselle - Moss	7673400	7938000
 Giselle - Moss	7805700	8070300
 Giselle - Moss	7938000	8202600
 Giselle - Moss	8070300	8334900
+Giselle - Moss	8202600	8467200
+Grants - PunchDrunk	132300	396900
+Grants - PunchDrunk	264600	529200
+Grants - PunchDrunk	396900	661500
 Grants - PunchDrunk	529200	793800
 Grants - PunchDrunk	661500	926100
 Grants - PunchDrunk	793800	1058400
 Grants - PunchDrunk	926100	1190700
 Grants - PunchDrunk	1058400	1323000
-Grants - PunchDrunk	1190700	1455300
 Grants - PunchDrunk	1323000	1587600
+Grants - PunchDrunk	1455300	1719900
+Grants - PunchDrunk	1587600	1852200
+Grants - PunchDrunk	1719900	1984500
 Grants - PunchDrunk	1852200	2116800
-Grants - PunchDrunk	1984500	2249100
-Grants - PunchDrunk	2116800	2381400
-Grants - PunchDrunk	2249100	2513700
-Grants - PunchDrunk	2381400	2646000
-Grants - PunchDrunk	2513700	2778300
 Grants - PunchDrunk	2646000	2910600
 Grants - PunchDrunk	2778300	3042900
+Grants - PunchDrunk	2910600	3175200
+Grants - PunchDrunk	3042900	3307500
+Grants - PunchDrunk	3175200	3439800
 Grants - PunchDrunk	3572100	3836700
 Grants - PunchDrunk	3704400	3969000
 Grants - PunchDrunk	3836700	4101300
@@ -1671,6 +1901,14 @@ Grants - PunchDrunk	5027400	5292000
 Grants - PunchDrunk	5159700	5424300
 Grants - PunchDrunk	5292000	5556600
 Grants - PunchDrunk	5424300	5688900
+Grants - PunchDrunk	5556600	5821200
+Grants - PunchDrunk	5688900	5953500
+Grants - PunchDrunk	5821200	6085800
+Grants - PunchDrunk	5953500	6218100
+Grants - PunchDrunk	6085800	6350400
+Grants - PunchDrunk	6218100	6482700
+Grants - PunchDrunk	6350400	6615000
+Grants - PunchDrunk	6482700	6747300
 Grants - PunchDrunk	6615000	6879600
 Grants - PunchDrunk	6747300	7011900
 Grants - PunchDrunk	6879600	7144200
@@ -1679,12 +1917,17 @@ Grants - PunchDrunk	7144200	7408800
 Grants - PunchDrunk	7276500	7541100
 Grants - PunchDrunk	7408800	7673400
 Grants - PunchDrunk	7541100	7805700
+Grants - PunchDrunk	7673400	7938000
+Grants - PunchDrunk	7805700	8070300
 Grants - PunchDrunk	7938000	8202600
 Grants - PunchDrunk	8070300	8334900
 Grants - PunchDrunk	8202600	8467200
 Grants - PunchDrunk	8334900	8599500
 Grants - PunchDrunk	8467200	8731800
 Grants - PunchDrunk	8599500	8864100
+Helado Negro - Mitad Del Mundo	529200	793800
+Helado Negro - Mitad Del Mundo	661500	926100
+Helado Negro - Mitad Del Mundo	793800	1058400
 Helado Negro - Mitad Del Mundo	926100	1190700
 Helado Negro - Mitad Del Mundo	1058400	1323000
 Helado Negro - Mitad Del Mundo	1190700	1455300
@@ -1700,10 +1943,6 @@ Helado Negro - Mitad Del Mundo	2381400	2646000
 Helado Negro - Mitad Del Mundo	2513700	2778300
 Helado Negro - Mitad Del Mundo	2646000	2910600
 Helado Negro - Mitad Del Mundo	2778300	3042900
-Helado Negro - Mitad Del Mundo	2910600	3175200
-Helado Negro - Mitad Del Mundo	3042900	3307500
-Helado Negro - Mitad Del Mundo	3175200	3439800
-Helado Negro - Mitad Del Mundo	3307500	3572100
 Helado Negro - Mitad Del Mundo	3439800	3704400
 Helado Negro - Mitad Del Mundo	3572100	3836700
 Helado Negro - Mitad Del Mundo	3704400	3969000
@@ -1734,11 +1973,7 @@ Helado Negro - Mitad Del Mundo	6879600	7144200
 Helado Negro - Mitad Del Mundo	7011900	7276500
 Helado Negro - Mitad Del Mundo	7144200	7408800
 Helado Negro - Mitad Del Mundo	7276500	7541100
-Hezekiah Jones - Borrowed Heart	0	264600
-Hezekiah Jones - Borrowed Heart	132300	396900
-Hezekiah Jones - Borrowed Heart	264600	529200
-Hezekiah Jones - Borrowed Heart	396900	661500
-Hezekiah Jones - Borrowed Heart	529200	793800
+Helado Negro - Mitad Del Mundo	7408800	7673400
 Hezekiah Jones - Borrowed Heart	661500	926100
 Hezekiah Jones - Borrowed Heart	793800	1058400
 Hezekiah Jones - Borrowed Heart	926100	1190700
@@ -1746,6 +1981,7 @@ Hezekiah Jones - Borrowed Heart	1058400	1323000
 Hezekiah Jones - Borrowed Heart	1190700	1455300
 Hezekiah Jones - Borrowed Heart	1323000	1587600
 Hezekiah Jones - Borrowed Heart	1455300	1719900
+Hezekiah Jones - Borrowed Heart	1587600	1852200
 Hezekiah Jones - Borrowed Heart	1719900	1984500
 Hezekiah Jones - Borrowed Heart	1852200	2116800
 Hezekiah Jones - Borrowed Heart	1984500	2249100
@@ -1761,6 +1997,7 @@ Hezekiah Jones - Borrowed Heart	3175200	3439800
 Hezekiah Jones - Borrowed Heart	3307500	3572100
 Hezekiah Jones - Borrowed Heart	3439800	3704400
 Hezekiah Jones - Borrowed Heart	3572100	3836700
+Hezekiah Jones - Borrowed Heart	3704400	3969000
 Hezekiah Jones - Borrowed Heart	3836700	4101300
 Hezekiah Jones - Borrowed Heart	3969000	4233600
 Hezekiah Jones - Borrowed Heart	4101300	4365900
@@ -1776,6 +2013,19 @@ Hezekiah Jones - Borrowed Heart	5292000	5556600
 Hezekiah Jones - Borrowed Heart	5424300	5688900
 Hezekiah Jones - Borrowed Heart	5556600	5821200
 Hezekiah Jones - Borrowed Heart	5688900	5953500
+Hezekiah Jones - Borrowed Heart	5821200	6085800
+Hezekiah Jones - Borrowed Heart	5953500	6218100
+Hezekiah Jones - Borrowed Heart	6085800	6350400
+Hezekiah Jones - Borrowed Heart	6218100	6482700
+Hezekiah Jones - Borrowed Heart	6350400	6615000
+Hezekiah Jones - Borrowed Heart	6482700	6747300
+Hezekiah Jones - Borrowed Heart	6615000	6879600
+Hezekiah Jones - Borrowed Heart	6747300	7011900
+Hezekiah Jones - Borrowed Heart	6879600	7144200
+Hezekiah Jones - Borrowed Heart	7011900	7276500
+Hezekiah Jones - Borrowed Heart	7144200	7408800
+Hezekiah Jones - Borrowed Heart	7276500	7541100
+Hezekiah Jones - Borrowed Heart	7408800	7673400
 Hezekiah Jones - Borrowed Heart	7541100	7805700
 Hezekiah Jones - Borrowed Heart	7673400	7938000
 Hezekiah Jones - Borrowed Heart	7805700	8070300
@@ -1798,7 +2048,23 @@ Hezekiah Jones - Borrowed Heart	9922500	10187100
 Hezekiah Jones - Borrowed Heart	10054800	10319400
 Hezekiah Jones - Borrowed Heart	10187100	10451700
 Hezekiah Jones - Borrowed Heart	10319400	10584000
+Hollow Ground - Left Blind	132300	396900
+Hollow Ground - Left Blind	264600	529200
+Hollow Ground - Left Blind	396900	661500
+Hollow Ground - Left Blind	529200	793800
+Hollow Ground - Left Blind	661500	926100
+Hollow Ground - Left Blind	793800	1058400
+Hollow Ground - Left Blind	926100	1190700
+Hollow Ground - Left Blind	1058400	1323000
+Hollow Ground - Left Blind	1190700	1455300
+Hollow Ground - Left Blind	1323000	1587600
 Hollow Ground - Left Blind	1455300	1719900
+Hollow Ground - Left Blind	1587600	1852200
+Hollow Ground - Left Blind	1719900	1984500
+Hollow Ground - Left Blind	1852200	2116800
+Hollow Ground - Left Blind	1984500	2249100
+Hollow Ground - Left Blind	2116800	2381400
+Hollow Ground - Left Blind	2249100	2513700
 Hollow Ground - Left Blind	2381400	2646000
 Hollow Ground - Left Blind	2513700	2778300
 Hollow Ground - Left Blind	2646000	2910600
@@ -1813,6 +2079,12 @@ Hollow Ground - Left Blind	3704400	3969000
 Hollow Ground - Left Blind	3836700	4101300
 Hollow Ground - Left Blind	3969000	4233600
 Hollow Ground - Left Blind	4101300	4365900
+Hollow Ground - Left Blind	4233600	4498200
+Hollow Ground - Left Blind	4365900	4630500
+Hollow Ground - Left Blind	4498200	4762800
+Hollow Ground - Left Blind	4630500	4895100
+Hollow Ground - Left Blind	4762800	5027400
+Hollow Ground - Left Blind	4895100	5159700
 Hollow Ground - Left Blind	5027400	5292000
 Hollow Ground - Left Blind	5159700	5424300
 Hollow Ground - Left Blind	5292000	5556600
@@ -1822,7 +2094,17 @@ Hollow Ground - Left Blind	5688900	5953500
 Hollow Ground - Left Blind	5821200	6085800
 Hollow Ground - Left Blind	5953500	6218100
 Hollow Ground - Left Blind	6085800	6350400
+Hollow Ground - Left Blind	6218100	6482700
+Hollow Ground - Left Blind	6350400	6615000
+Hollow Ground - Left Blind	6482700	6747300
 Hollow Ground - Left Blind	6615000	6879600
+Hop Along - Sister Cities	0	264600
+Hop Along - Sister Cities	132300	396900
+Hop Along - Sister Cities	264600	529200
+Hop Along - Sister Cities	396900	661500
+Hop Along - Sister Cities	529200	793800
+Hop Along - Sister Cities	661500	926100
+Hop Along - Sister Cities	793800	1058400
 Hop Along - Sister Cities	926100	1190700
 Hop Along - Sister Cities	1058400	1323000
 Hop Along - Sister Cities	1190700	1455300
@@ -1886,6 +2168,28 @@ Hop Along - Sister Cities	8731800	8996400
 Hop Along - Sister Cities	8864100	9128700
 Hop Along - Sister Cities	8996400	9261000
 Hop Along - Sister Cities	9128700	9393300
+Hop Along - Sister Cities	9261000	9525600
+Hop Along - Sister Cities	9393300	9657900
+Hop Along - Sister Cities	9525600	9790200
+Hop Along - Sister Cities	9657900	9922500
+Hop Along - Sister Cities	9790200	10054800
+Hop Along - Sister Cities	9922500	10187100
+Hop Along - Sister Cities	10054800	10319400
+Hop Along - Sister Cities	10187100	10451700
+Hop Along - Sister Cities	10319400	10584000
+Hop Along - Sister Cities	10451700	10716300
+Hop Along - Sister Cities	10584000	10848600
+Hop Along - Sister Cities	10716300	10980900
+Hop Along - Sister Cities	10848600	11113200
+Hop Along - Sister Cities	10980900	11245500
+Hop Along - Sister Cities	11113200	11377800
+Hop Along - Sister Cities	11245500	11510100
+Hop Along - Sister Cities	11377800	11642400
+Hop Along - Sister Cities	11510100	11774700
+Hop Along - Sister Cities	11642400	11907000
+Hop Along - Sister Cities	11774700	12039300
+Hop Along - Sister Cities	11907000	12171600
+Hop Along - Sister Cities	12039300	12303900
 Invisible Familiars - Disturbing Wildlife	0	264600
 Invisible Familiars - Disturbing Wildlife	132300	396900
 Invisible Familiars - Disturbing Wildlife	264600	529200
@@ -1917,6 +2221,14 @@ Invisible Familiars - Disturbing Wildlife	3572100	3836700
 Invisible Familiars - Disturbing Wildlife	3704400	3969000
 Invisible Familiars - Disturbing Wildlife	3836700	4101300
 Invisible Familiars - Disturbing Wildlife	3969000	4233600
+Invisible Familiars - Disturbing Wildlife	4101300	4365900
+Invisible Familiars - Disturbing Wildlife	4233600	4498200
+Invisible Familiars - Disturbing Wildlife	4365900	4630500
+Invisible Familiars - Disturbing Wildlife	4498200	4762800
+Invisible Familiars - Disturbing Wildlife	4630500	4895100
+Invisible Familiars - Disturbing Wildlife	4762800	5027400
+Invisible Familiars - Disturbing Wildlife	4895100	5159700
+Invisible Familiars - Disturbing Wildlife	5027400	5292000
 Invisible Familiars - Disturbing Wildlife	5159700	5424300
 Invisible Familiars - Disturbing Wildlife	5292000	5556600
 Invisible Familiars - Disturbing Wildlife	5424300	5688900
@@ -1925,6 +2237,7 @@ Invisible Familiars - Disturbing Wildlife	5688900	5953500
 Invisible Familiars - Disturbing Wildlife	5821200	6085800
 Invisible Familiars - Disturbing Wildlife	5953500	6218100
 Invisible Familiars - Disturbing Wildlife	6085800	6350400
+Invisible Familiars - Disturbing Wildlife	6218100	6482700
 Invisible Familiars - Disturbing Wildlife	6350400	6615000
 Invisible Familiars - Disturbing Wildlife	6482700	6747300
 Invisible Familiars - Disturbing Wildlife	6615000	6879600
@@ -1946,6 +2259,14 @@ Invisible Familiars - Disturbing Wildlife	8599500	8864100
 Invisible Familiars - Disturbing Wildlife	8731800	8996400
 Invisible Familiars - Disturbing Wildlife	8864100	9128700
 Invisible Familiars - Disturbing Wildlife	8996400	9261000
+Invisible Familiars - Disturbing Wildlife	9128700	9393300
+Invisible Familiars - Disturbing Wildlife	9261000	9525600
+James May - All Souls Moon	132300	396900
+James May - All Souls Moon	264600	529200
+James May - All Souls Moon	396900	661500
+James May - All Souls Moon	529200	793800
+James May - All Souls Moon	661500	926100
+James May - All Souls Moon	793800	1058400
 James May - All Souls Moon	926100	1190700
 James May - All Souls Moon	1058400	1323000
 James May - All Souls Moon	1190700	1455300
@@ -1971,6 +2292,9 @@ James May - All Souls Moon	3704400	3969000
 James May - All Souls Moon	3836700	4101300
 James May - All Souls Moon	3969000	4233600
 James May - All Souls Moon	4101300	4365900
+James May - All Souls Moon	4233600	4498200
+James May - All Souls Moon	4365900	4630500
+James May - All Souls Moon	4498200	4762800
 James May - All Souls Moon	4630500	4895100
 James May - All Souls Moon	4762800	5027400
 James May - All Souls Moon	4895100	5159700
@@ -2005,6 +2329,15 @@ James May - All Souls Moon	8599500	8864100
 James May - All Souls Moon	8731800	8996400
 James May - All Souls Moon	8864100	9128700
 James May - All Souls Moon	8996400	9261000
+James May - All Souls Moon	9128700	9393300
+James May - All Souls Moon	9261000	9525600
+James May - All Souls Moon	9393300	9657900
+James May - Dont Let Go	0	264600
+James May - Dont Let Go	132300	396900
+James May - Dont Let Go	264600	529200
+James May - Dont Let Go	396900	661500
+James May - Dont Let Go	529200	793800
+James May - Dont Let Go	661500	926100
 James May - Dont Let Go	793800	1058400
 James May - Dont Let Go	926100	1190700
 James May - Dont Let Go	1058400	1323000
@@ -2049,6 +2382,17 @@ James May - Dont Let Go	6085800	6350400
 James May - Dont Let Go	6218100	6482700
 James May - Dont Let Go	6350400	6615000
 James May - Dont Let Go	6482700	6747300
+James May - Dont Let Go	6615000	6879600
+James May - Dont Let Go	6747300	7011900
+James May - Dont Let Go	6879600	7144200
+James May - Dont Let Go	7011900	7276500
+James May - Dont Let Go	7144200	7408800
+James May - Dont Let Go	7276500	7541100
+James May - Dont Let Go	7408800	7673400
+James May - Dont Let Go	7541100	7805700
+James May - Dont Let Go	7673400	7938000
+James May - Dont Let Go	7805700	8070300
+James May - Dont Let Go	7938000	8202600
 James May - Dont Let Go	8070300	8334900
 James May - Dont Let Go	8202600	8467200
 James May - Dont Let Go	8334900	8599500
@@ -2065,6 +2409,16 @@ James May - Dont Let Go	9657900	9922500
 James May - Dont Let Go	9790200	10054800
 James May - Dont Let Go	9922500	10187100
 James May - Dont Let Go	10054800	10319400
+James May - Dont Let Go	10187100	10451700
+James May - Dont Let Go	10319400	10584000
+James May - If You Say	0	264600
+James May - If You Say	132300	396900
+James May - If You Say	264600	529200
+James May - If You Say	396900	661500
+James May - If You Say	529200	793800
+James May - If You Say	661500	926100
+James May - If You Say	793800	1058400
+James May - If You Say	926100	1190700
 James May - If You Say	1058400	1323000
 James May - If You Say	1190700	1455300
 James May - If You Say	1323000	1587600
@@ -2098,6 +2452,14 @@ James May - If You Say	4895100	5159700
 James May - If You Say	5027400	5292000
 James May - If You Say	5159700	5424300
 James May - If You Say	5292000	5556600
+James May - If You Say	5424300	5688900
+James May - If You Say	5556600	5821200
+James May - If You Say	5688900	5953500
+James May - If You Say	5821200	6085800
+James May - If You Say	5953500	6218100
+James May - If You Say	6085800	6350400
+James May - If You Say	6218100	6482700
+James May - If You Say	6350400	6615000
 James May - If You Say	6482700	6747300
 James May - If You Say	6615000	6879600
 James May - If You Say	6747300	7011900
@@ -2115,27 +2477,7 @@ James May - If You Say	8202600	8467200
 James May - If You Say	8334900	8599500
 James May - If You Say	8467200	8731800
 James May - If You Say	8599500	8864100
-Jay Menon - Through My Eyes	0	264600
-Jay Menon - Through My Eyes	132300	396900
-Jay Menon - Through My Eyes	264600	529200
-Jay Menon - Through My Eyes	396900	661500
-Jay Menon - Through My Eyes	529200	793800
-Jay Menon - Through My Eyes	661500	926100
-Jay Menon - Through My Eyes	793800	1058400
-Jay Menon - Through My Eyes	926100	1190700
-Jay Menon - Through My Eyes	1058400	1323000
-Jay Menon - Through My Eyes	1190700	1455300
-Jay Menon - Through My Eyes	1323000	1587600
-Jay Menon - Through My Eyes	1455300	1719900
-Jay Menon - Through My Eyes	1587600	1852200
-Jay Menon - Through My Eyes	1719900	1984500
-Jay Menon - Through My Eyes	1852200	2116800
-Jay Menon - Through My Eyes	1984500	2249100
-Jay Menon - Through My Eyes	2116800	2381400
-Jay Menon - Through My Eyes	2249100	2513700
-Jay Menon - Through My Eyes	2381400	2646000
-Jay Menon - Through My Eyes	2513700	2778300
-Jay Menon - Through My Eyes	2646000	2910600
+James May - If You Say	8731800	8996400
 Jay Menon - Through My Eyes	2910600	3175200
 Jay Menon - Through My Eyes	3042900	3307500
 Jay Menon - Through My Eyes	3175200	3439800
@@ -2167,12 +2509,32 @@ Jay Menon - Through My Eyes	6482700	6747300
 Jay Menon - Through My Eyes	6615000	6879600
 Jay Menon - Through My Eyes	6747300	7011900
 Jay Menon - Through My Eyes	6879600	7144200
+Jay Menon - Through My Eyes	7011900	7276500
+Jay Menon - Through My Eyes	7144200	7408800
+Jay Menon - Through My Eyes	7276500	7541100
+Jay Menon - Through My Eyes	7408800	7673400
+Jay Menon - Through My Eyes	7541100	7805700
+Jay Menon - Through My Eyes	7673400	7938000
+Jay Menon - Through My Eyes	7805700	8070300
+Jay Menon - Through My Eyes	7938000	8202600
+Jay Menon - Through My Eyes	8070300	8334900
 Jay Menon - Through My Eyes	8202600	8467200
+Jay Menon - Through My Eyes	8334900	8599500
 Jay Menon - Through My Eyes	8467200	8731800
-Jay Menon - Through My Eyes	8864100	9128700
-Jay Menon - Through My Eyes	8996400	9261000
-Jay Menon - Through My Eyes	9261000	9525600
-Jay Menon - Through My Eyes	9393300	9657900
+Jay Menon - Through My Eyes	8599500	8864100
+Jay Menon - Through My Eyes	8731800	8996400
+Jay Menon - Through My Eyes	9657900	9922500
+Jay Menon - Through My Eyes	9790200	10054800
+Jay Menon - Through My Eyes	9922500	10187100
+Jay Menon - Through My Eyes	10054800	10319400
+Jay Menon - Through My Eyes	10187100	10451700
+Jay Menon - Through My Eyes	10319400	10584000
+Jay Menon - Through My Eyes	10451700	10716300
+Jay Menon - Through My Eyes	10584000	10848600
+Johnny Lokke - Whisper To A Scream	0	264600
+Johnny Lokke - Whisper To A Scream	132300	396900
+Johnny Lokke - Whisper To A Scream	264600	529200
+Johnny Lokke - Whisper To A Scream	396900	661500
 Johnny Lokke - Whisper To A Scream	529200	793800
 Johnny Lokke - Whisper To A Scream	661500	926100
 Johnny Lokke - Whisper To A Scream	793800	1058400
@@ -2210,6 +2572,22 @@ Johnny Lokke - Whisper To A Scream	4895100	5159700
 Johnny Lokke - Whisper To A Scream	5027400	5292000
 Johnny Lokke - Whisper To A Scream	5159700	5424300
 Johnny Lokke - Whisper To A Scream	5292000	5556600
+Johnny Lokke - Whisper To A Scream	5424300	5688900
+Johnny Lokke - Whisper To A Scream	5556600	5821200
+Johnny Lokke - Whisper To A Scream	5688900	5953500
+Johnny Lokke - Whisper To A Scream	5821200	6085800
+Johnny Lokke - Whisper To A Scream	5953500	6218100
+Johnny Lokke - Whisper To A Scream	6085800	6350400
+Johnny Lokke - Whisper To A Scream	6218100	6482700
+Johnny Lokke - Whisper To A Scream	6350400	6615000
+Johnny Lokke - Whisper To A Scream	6482700	6747300
+Johnny Lokke - Whisper To A Scream	6615000	6879600
+Johnny Lokke - Whisper To A Scream	6747300	7011900
+Johnny Lokke - Whisper To A Scream	6879600	7144200
+Johnny Lokke - Whisper To A Scream	7011900	7276500
+Johnny Lokke - Whisper To A Scream	7144200	7408800
+Johnny Lokke - Whisper To A Scream	7276500	7541100
+Johnny Lokke - Whisper To A Scream	7408800	7673400
 Johnny Lokke - Whisper To A Scream	7541100	7805700
 Johnny Lokke - Whisper To A Scream	7673400	7938000
 Johnny Lokke - Whisper To A Scream	7805700	8070300
@@ -2235,6 +2613,10 @@ Johnny Lokke - Whisper To A Scream	10319400	10584000
 Johnny Lokke - Whisper To A Scream	10451700	10716300
 Johnny Lokke - Whisper To A Scream	10584000	10848600
 Johnny Lokke - Whisper To A Scream	10716300	10980900
+Jokers, Jacks & Kings - Sea Of Leaves	264600	529200
+Jokers, Jacks & Kings - Sea Of Leaves	396900	661500
+Jokers, Jacks & Kings - Sea Of Leaves	529200	793800
+Jokers, Jacks & Kings - Sea Of Leaves	661500	926100
 Jokers, Jacks & Kings - Sea Of Leaves	793800	1058400
 Jokers, Jacks & Kings - Sea Of Leaves	926100	1190700
 Jokers, Jacks & Kings - Sea Of Leaves	1058400	1323000
@@ -2247,6 +2629,9 @@ Jokers, Jacks & Kings - Sea Of Leaves	1852200	2116800
 Jokers, Jacks & Kings - Sea Of Leaves	1984500	2249100
 Jokers, Jacks & Kings - Sea Of Leaves	2116800	2381400
 Jokers, Jacks & Kings - Sea Of Leaves	2249100	2513700
+Jokers, Jacks & Kings - Sea Of Leaves	2381400	2646000
+Jokers, Jacks & Kings - Sea Of Leaves	2513700	2778300
+Jokers, Jacks & Kings - Sea Of Leaves	2646000	2910600
 Jokers, Jacks & Kings - Sea Of Leaves	2778300	3042900
 Jokers, Jacks & Kings - Sea Of Leaves	2910600	3175200
 Jokers, Jacks & Kings - Sea Of Leaves	3042900	3307500
@@ -2256,6 +2641,11 @@ Jokers, Jacks & Kings - Sea Of Leaves	3439800	3704400
 Jokers, Jacks & Kings - Sea Of Leaves	3572100	3836700
 Jokers, Jacks & Kings - Sea Of Leaves	3704400	3969000
 Jokers, Jacks & Kings - Sea Of Leaves	3836700	4101300
+Jokers, Jacks & Kings - Sea Of Leaves	3969000	4233600
+Jokers, Jacks & Kings - Sea Of Leaves	4101300	4365900
+Jokers, Jacks & Kings - Sea Of Leaves	4233600	4498200
+Jokers, Jacks & Kings - Sea Of Leaves	4365900	4630500
+Jokers, Jacks & Kings - Sea Of Leaves	4498200	4762800
 Jokers, Jacks & Kings - Sea Of Leaves	4630500	4895100
 Jokers, Jacks & Kings - Sea Of Leaves	4762800	5027400
 Jokers, Jacks & Kings - Sea Of Leaves	4895100	5159700
@@ -2267,6 +2657,8 @@ Jokers, Jacks & Kings - Sea Of Leaves	5556600	5821200
 Jokers, Jacks & Kings - Sea Of Leaves	5688900	5953500
 Jokers, Jacks & Kings - Sea Of Leaves	5821200	6085800
 Jokers, Jacks & Kings - Sea Of Leaves	5953500	6218100
+Jokers, Jacks & Kings - Sea Of Leaves	6085800	6350400
+Jokers, Jacks & Kings - Sea Of Leaves	6218100	6482700
 Jokers, Jacks & Kings - Sea Of Leaves	6350400	6615000
 Jokers, Jacks & Kings - Sea Of Leaves	6482700	6747300
 Jokers, Jacks & Kings - Sea Of Leaves	6615000	6879600
@@ -2280,6 +2672,7 @@ Jokers, Jacks & Kings - Sea Of Leaves	7541100	7805700
 Jokers, Jacks & Kings - Sea Of Leaves	7673400	7938000
 Jokers, Jacks & Kings - Sea Of Leaves	7805700	8070300
 Jokers, Jacks & Kings - Sea Of Leaves	7938000	8202600
+Jokers, Jacks & Kings - Sea Of Leaves	8070300	8334900
 Leaf - Come Around	1058400	1323000
 Leaf - Come Around	1190700	1455300
 Leaf - Come Around	1323000	1587600
@@ -2301,6 +2694,10 @@ Leaf - Come Around	3307500	3572100
 Leaf - Come Around	3439800	3704400
 Leaf - Come Around	3572100	3836700
 Leaf - Come Around	3704400	3969000
+Leaf - Come Around	3836700	4101300
+Leaf - Come Around	3969000	4233600
+Leaf - Come Around	4101300	4365900
+Leaf - Come Around	4233600	4498200
 Leaf - Come Around	4365900	4630500
 Leaf - Come Around	4498200	4762800
 Leaf - Come Around	4630500	4895100
@@ -2318,7 +2715,6 @@ Leaf - Come Around	6085800	6350400
 Leaf - Come Around	6218100	6482700
 Leaf - Come Around	6350400	6615000
 Leaf - Come Around	6482700	6747300
-Leaf - Come Around	6615000	6879600
 Leaf - Come Around	7144200	7408800
 Leaf - Come Around	7276500	7541100
 Leaf - Come Around	7408800	7673400
@@ -2341,25 +2737,48 @@ Leaf - Come Around	9525600	9790200
 Leaf - Come Around	9657900	9922500
 Leaf - Come Around	9790200	10054800
 Leaf - Come Around	9922500	10187100
+Leaf - Come Around	10451700	10716300
 Leaf - Come Around	10584000	10848600
 Leaf - Come Around	10716300	10980900
 Leaf - Come Around	10848600	11113200
 Leaf - Come Around	10980900	11245500
+Leaf - Come Around	11113200	11377800
+Leaf - Come Around	11245500	11510100
+Leaf - Wicked	0	264600
+Leaf - Wicked	132300	396900
+Leaf - Wicked	264600	529200
+Leaf - Wicked	396900	661500
+Leaf - Wicked	529200	793800
 Leaf - Wicked	661500	926100
+Leaf - Wicked	793800	1058400
+Leaf - Wicked	926100	1190700
 Leaf - Wicked	1058400	1323000
+Leaf - Wicked	1190700	1455300
+Leaf - Wicked	1323000	1587600
 Leaf - Wicked	1455300	1719900
+Leaf - Wicked	1587600	1852200
+Leaf - Wicked	1719900	1984500
 Leaf - Wicked	1852200	2116800
 Leaf - Wicked	1984500	2249100
+Leaf - Wicked	2116800	2381400
 Leaf - Wicked	2249100	2513700
+Leaf - Wicked	2381400	2646000
+Leaf - Wicked	2513700	2778300
 Leaf - Wicked	2646000	2910600
 Leaf - Wicked	2778300	3042900
 Leaf - Wicked	2910600	3175200
 Leaf - Wicked	3042900	3307500
 Leaf - Wicked	3175200	3439800
 Leaf - Wicked	3307500	3572100
+Leaf - Wicked	3439800	3704400
+Leaf - Wicked	3572100	3836700
+Leaf - Wicked	3704400	3969000
 Leaf - Wicked	3836700	4101300
+Leaf - Wicked	3969000	4233600
 Leaf - Wicked	4101300	4365900
 Leaf - Wicked	4233600	4498200
+Leaf - Wicked	4365900	4630500
+Leaf - Wicked	4498200	4762800
 Leaf - Wicked	4630500	4895100
 Leaf - Wicked	4762800	5027400
 Leaf - Wicked	4895100	5159700
@@ -2371,6 +2790,10 @@ Leaf - Wicked	5556600	5821200
 Leaf - Wicked	5688900	5953500
 Leaf - Wicked	5821200	6085800
 Leaf - Wicked	5953500	6218100
+Leaf - Wicked	6085800	6350400
+Leaf - Wicked	6218100	6482700
+Leaf - Wicked	6350400	6615000
+Leaf - Wicked	6482700	6747300
 Leaf - Wicked	6615000	6879600
 Leaf - Wicked	6747300	7011900
 Leaf - Wicked	6879600	7144200
@@ -2403,11 +2826,16 @@ Lushlife - Toynbee Suite	4233600	4498200
 Lushlife - Toynbee Suite	4365900	4630500
 Lushlife - Toynbee Suite	4498200	4762800
 Lushlife - Toynbee Suite	4630500	4895100
-Lushlife - Toynbee Suite	4762800	5027400
-Lushlife - Toynbee Suite	4895100	5159700
-Lushlife - Toynbee Suite	5027400	5292000
-Lushlife - Toynbee Suite	5159700	5424300
-Lushlife - Toynbee Suite	5292000	5556600
+Lushlife - Toynbee Suite	6350400	6615000
+Lushlife - Toynbee Suite	6482700	6747300
+Lushlife - Toynbee Suite	6615000	6879600
+Lushlife - Toynbee Suite	6747300	7011900
+Lushlife - Toynbee Suite	6879600	7144200
+Lushlife - Toynbee Suite	7011900	7276500
+Lushlife - Toynbee Suite	7144200	7408800
+Lushlife - Toynbee Suite	7276500	7541100
+Lushlife - Toynbee Suite	7408800	7673400
+Lushlife - Toynbee Suite	7541100	7805700
 Lushlife - Toynbee Suite	7673400	7938000
 Lushlife - Toynbee Suite	7805700	8070300
 Lushlife - Toynbee Suite	7938000	8202600
@@ -2420,6 +2848,10 @@ Lushlife - Toynbee Suite	8731800	8996400
 Lushlife - Toynbee Suite	8864100	9128700
 Lushlife - Toynbee Suite	8996400	9261000
 Lushlife - Toynbee Suite	9128700	9393300
+Lushlife - Toynbee Suite	9261000	9525600
+Lushlife - Toynbee Suite	9393300	9657900
+Lushlife - Toynbee Suite	9525600	9790200
+Lushlife - Toynbee Suite	9657900	9922500
 Lushlife - Toynbee Suite	9790200	10054800
 Lushlife - Toynbee Suite	9922500	10187100
 Lushlife - Toynbee Suite	10054800	10319400
@@ -2432,8 +2864,6 @@ Lushlife - Toynbee Suite	10848600	11113200
 Lushlife - Toynbee Suite	10980900	11245500
 Lushlife - Toynbee Suite	11113200	11377800
 Lushlife - Toynbee Suite	11245500	11510100
-Lushlife - Toynbee Suite	11377800	11642400
-Lushlife - Toynbee Suite	11510100	11774700
 Lushlife - Toynbee Suite	11642400	11907000
 Lushlife - Toynbee Suite	11774700	12039300
 Lushlife - Toynbee Suite	11907000	12171600
@@ -2456,6 +2886,13 @@ Lushlife - Toynbee Suite	14023800	14288400
 Lushlife - Toynbee Suite	14156100	14420700
 Lushlife - Toynbee Suite	14288400	14553000
 Lushlife - Toynbee Suite	14420700	14685300
+Lushlife - Toynbee Suite	14553000	14817600
+Lushlife - Toynbee Suite	14685300	14949900
+Lushlife - Toynbee Suite	14817600	15082200
+Lushlife - Toynbee Suite	14949900	15214500
+Lushlife - Toynbee Suite	15082200	15346800
+Lushlife - Toynbee Suite	15214500	15479100
+Lushlife - Toynbee Suite	15346800	15611400
 Lushlife - Toynbee Suite	15479100	15743700
 Lushlife - Toynbee Suite	15611400	15876000
 Lushlife - Toynbee Suite	15743700	16008300
@@ -2467,61 +2904,6 @@ Lushlife - Toynbee Suite	16405200	16669800
 Lushlife - Toynbee Suite	16537500	16802100
 Lushlife - Toynbee Suite	16669800	16934400
 Lushlife - Toynbee Suite	16802100	17066700
-Lushlife - Toynbee Suite	16934400	17199000
-Lushlife - Toynbee Suite	21300300	21564900
-Lushlife - Toynbee Suite	21432600	21697200
-Lushlife - Toynbee Suite	21564900	21829500
-Lushlife - Toynbee Suite	21697200	21961800
-Lushlife - Toynbee Suite	21829500	22094100
-Lushlife - Toynbee Suite	21961800	22226400
-Lushlife - Toynbee Suite	22094100	22358700
-Lushlife - Toynbee Suite	22226400	22491000
-Lushlife - Toynbee Suite	22358700	22623300
-Lushlife - Toynbee Suite	22491000	22755600
-Lushlife - Toynbee Suite	22623300	22887900
-Lushlife - Toynbee Suite	22755600	23020200
-Lushlife - Toynbee Suite	22887900	23152500
-Lushlife - Toynbee Suite	23020200	23284800
-Lushlife - Toynbee Suite	23152500	23417100
-Lushlife - Toynbee Suite	23284800	23549400
-Lushlife - Toynbee Suite	23417100	23681700
-Lushlife - Toynbee Suite	23549400	23814000
-Lushlife - Toynbee Suite	23681700	23946300
-Lushlife - Toynbee Suite	23814000	24078600
-Lushlife - Toynbee Suite	23946300	24210900
-Lushlife - Toynbee Suite	24078600	24343200
-Lushlife - Toynbee Suite	24210900	24475500
-Lushlife - Toynbee Suite	24343200	24607800
-Lushlife - Toynbee Suite	24475500	24740100
-Lushlife - Toynbee Suite	24607800	24872400
-Lushlife - Toynbee Suite	24740100	25004700
-Lushlife - Toynbee Suite	24872400	25137000
-Lushlife - Toynbee Suite	25004700	25269300
-Lushlife - Toynbee Suite	25137000	25401600
-Lushlife - Toynbee Suite	25269300	25533900
-Lushlife - Toynbee Suite	25401600	25666200
-Lushlife - Toynbee Suite	25533900	25798500
-Lushlife - Toynbee Suite	26327700	26592300
-Lushlife - Toynbee Suite	26460000	26724600
-Lushlife - Toynbee Suite	26592300	26856900
-Lushlife - Toynbee Suite	26724600	26989200
-Lushlife - Toynbee Suite	26856900	27121500
-Lushlife - Toynbee Suite	26989200	27253800
-Matthew Entwistle - Dont You Ever	1190700	1455300
-Matthew Entwistle - Dont You Ever	1323000	1587600
-Matthew Entwistle - Dont You Ever	1455300	1719900
-Matthew Entwistle - Dont You Ever	1587600	1852200
-Matthew Entwistle - Dont You Ever	1719900	1984500
-Matthew Entwistle - Dont You Ever	1852200	2116800
-Matthew Entwistle - Dont You Ever	1984500	2249100
-Matthew Entwistle - Dont You Ever	2116800	2381400
-Matthew Entwistle - Dont You Ever	2249100	2513700
-Matthew Entwistle - Dont You Ever	2381400	2646000
-Matthew Entwistle - Dont You Ever	2513700	2778300
-Matthew Entwistle - Dont You Ever	2646000	2910600
-Matthew Entwistle - Dont You Ever	2778300	3042900
-Matthew Entwistle - Dont You Ever	2910600	3175200
-Matthew Entwistle - Dont You Ever	3042900	3307500
 Matthew Entwistle - Dont You Ever	3175200	3439800
 Matthew Entwistle - Dont You Ever	3307500	3572100
 Matthew Entwistle - Dont You Ever	3439800	3704400
@@ -2533,18 +2915,28 @@ Matthew Entwistle - Dont You Ever	4101300	4365900
 Matthew Entwistle - Dont You Ever	4233600	4498200
 Matthew Entwistle - Dont You Ever	4365900	4630500
 Matthew Entwistle - Dont You Ever	4498200	4762800
-Meaxic - You Listen	1587600	1852200
-Meaxic - You Listen	1719900	1984500
-Meaxic - You Listen	1852200	2116800
-Meaxic - You Listen	1984500	2249100
-Meaxic - You Listen	2116800	2381400
-Meaxic - You Listen	2249100	2513700
+Matthew Entwistle - Dont You Ever	4630500	4895100
+Meaxic - You Listen	0	264600
+Meaxic - You Listen	132300	396900
+Meaxic - You Listen	264600	529200
+Meaxic - You Listen	396900	661500
+Meaxic - You Listen	529200	793800
+Meaxic - You Listen	661500	926100
+Meaxic - You Listen	793800	1058400
+Meaxic - You Listen	926100	1190700
+Meaxic - You Listen	1058400	1323000
+Meaxic - You Listen	1190700	1455300
+Meaxic - You Listen	1323000	1587600
+Meaxic - You Listen	1455300	1719900
 Meaxic - You Listen	2381400	2646000
 Meaxic - You Listen	2513700	2778300
 Meaxic - You Listen	2646000	2910600
 Meaxic - You Listen	2778300	3042900
 Meaxic - You Listen	2910600	3175200
 Meaxic - You Listen	3042900	3307500
+Meaxic - You Listen	3175200	3439800
+Meaxic - You Listen	3307500	3572100
+Meaxic - You Listen	3439800	3704400
 Meaxic - You Listen	3572100	3836700
 Meaxic - You Listen	3704400	3969000
 Meaxic - You Listen	3836700	4101300
@@ -2553,6 +2945,12 @@ Meaxic - You Listen	4101300	4365900
 Meaxic - You Listen	4233600	4498200
 Meaxic - You Listen	4365900	4630500
 Meaxic - You Listen	4498200	4762800
+Meaxic - You Listen	4630500	4895100
+Meaxic - You Listen	4762800	5027400
+Meaxic - You Listen	4895100	5159700
+Meaxic - You Listen	5027400	5292000
+Meaxic - You Listen	5159700	5424300
+Meaxic - You Listen	5292000	5556600
 Meaxic - You Listen	5424300	5688900
 Meaxic - You Listen	5556600	5821200
 Meaxic - You Listen	5688900	5953500
@@ -2569,6 +2967,19 @@ Meaxic - You Listen	7011900	7276500
 Meaxic - You Listen	7144200	7408800
 Meaxic - You Listen	7276500	7541100
 Meaxic - You Listen	7408800	7673400
+Meaxic - You Listen	7541100	7805700
+Meaxic - You Listen	7673400	7938000
+Meaxic - You Listen	7805700	8070300
+Meaxic - You Listen	7938000	8202600
+Meaxic - You Listen	8070300	8334900
+Meaxic - You Listen	8202600	8467200
+Meaxic - You Listen	8334900	8599500
+Meaxic - You Listen	8467200	8731800
+Meaxic - You Listen	8599500	8864100
+Meaxic - You Listen	8731800	8996400
+Meaxic - You Listen	8864100	9128700
+Meaxic - You Listen	8996400	9261000
+Meaxic - You Listen	9128700	9393300
 Meaxic - You Listen	9261000	9525600
 Meaxic - You Listen	9393300	9657900
 Meaxic - You Listen	9525600	9790200
@@ -2585,6 +2996,19 @@ Meaxic - You Listen	10848600	11113200
 Meaxic - You Listen	10980900	11245500
 Meaxic - You Listen	11113200	11377800
 Meaxic - You Listen	11245500	11510100
+Meaxic - You Listen	11377800	11642400
+Meaxic - You Listen	11510100	11774700
+Meaxic - You Listen	11642400	11907000
+Meaxic - You Listen	11774700	12039300
+Meaxic - You Listen	11907000	12171600
+Meaxic - You Listen	12039300	12303900
+Meaxic - You Listen	12171600	12436200
+Meaxic - You Listen	12303900	12568500
+Meaxic - You Listen	12436200	12700800
+Meaxic - You Listen	12568500	12833100
+Meaxic - You Listen	12700800	12965400
+Meaxic - You Listen	12833100	13097700
+Meaxic - You Listen	12965400	13230000
 Meaxic - You Listen	13097700	13362300
 Meaxic - You Listen	13230000	13494600
 Meaxic - You Listen	13362300	13626900
@@ -2592,6 +3016,33 @@ Meaxic - You Listen	13494600	13759200
 Meaxic - You Listen	13626900	13891500
 Meaxic - You Listen	13759200	14023800
 Meaxic - You Listen	13891500	14156100
+Meaxic - You Listen	14023800	14288400
+Meaxic - You Listen	14156100	14420700
+Meaxic - You Listen	14288400	14553000
+Meaxic - You Listen	14420700	14685300
+Meaxic - You Listen	14553000	14817600
+Meaxic - You Listen	14685300	14949900
+Meaxic - You Listen	14817600	15082200
+Meaxic - You Listen	14949900	15214500
+Meaxic - You Listen	15082200	15346800
+Meaxic - You Listen	15214500	15479100
+Meaxic - You Listen	15346800	15611400
+Meaxic - You Listen	15479100	15743700
+Meaxic - You Listen	15611400	15876000
+Meaxic - You Listen	15743700	16008300
+Meaxic - You Listen	15876000	16140600
+Meaxic - You Listen	16008300	16272900
+Meaxic - You Listen	16140600	16405200
+Meaxic - You Listen	16272900	16537500
+Meaxic - You Listen	16405200	16669800
+Meaxic - You Listen	16537500	16802100
+Meaxic - You Listen	16669800	16934400
+Meaxic - You Listen	16802100	17066700
+Meaxic - You Listen	16934400	17199000
+Meaxic - You Listen	17066700	17331300
+Meaxic - You Listen	17199000	17463600
+Meaxic - You Listen	17331300	17595900
+Meaxic - You Listen	17463600	17728200
 Music Delta - 80s Rock	0	264600
 Music Delta - 80s Rock	132300	396900
 Music Delta - 80s Rock	264600	529200
@@ -2629,6 +3080,8 @@ Music Delta - Country1	0	264600
 Music Delta - Country1	132300	396900
 Music Delta - Country1	264600	529200
 Music Delta - Country1	396900	661500
+Music Delta - Country1	529200	793800
+Music Delta - Country1	661500	926100
 Music Delta - Country1	793800	1058400
 Music Delta - Country1	926100	1190700
 Music Delta - Country1	1058400	1323000
@@ -2637,6 +3090,7 @@ Music Delta - Country2	0	264600
 Music Delta - Country2	132300	396900
 Music Delta - Country2	264600	529200
 Music Delta - Country2	396900	661500
+Music Delta - Disco	0	264600
 Music Delta - Disco	132300	396900
 Music Delta - Disco	264600	529200
 Music Delta - Disco	396900	661500
@@ -2675,9 +3129,7 @@ Music Delta - Disco	4630500	4895100
 Music Delta - Disco	4762800	5027400
 Music Delta - Disco	4895100	5159700
 Music Delta - Disco	5027400	5292000
-Music Delta - Gospel	0	264600
-Music Delta - Gospel	132300	396900
-Music Delta - Gospel	264600	529200
+Music Delta - Disco	5159700	5424300
 Music Delta - Gospel	396900	661500
 Music Delta - Gospel	529200	793800
 Music Delta - Gospel	661500	926100
@@ -2715,6 +3167,7 @@ Music Delta - Hendrix	132300	396900
 Music Delta - Hendrix	264600	529200
 Music Delta - Hendrix	396900	661500
 Music Delta - Hendrix	529200	793800
+Music Delta - Punk	0	264600
 Music Delta - Punk	132300	396900
 Music Delta - Punk	264600	529200
 Music Delta - Punk	396900	661500
@@ -2736,13 +3189,6 @@ Music Delta - Rockabilly	396900	661500
 Music Delta - Rockabilly	529200	793800
 Music Delta - Rockabilly	661500	926100
 Music Delta - Rockabilly	793800	1058400
-Night Panther - Fire	396900	661500
-Night Panther - Fire	529200	793800
-Night Panther - Fire	661500	926100
-Night Panther - Fire	793800	1058400
-Night Panther - Fire	926100	1190700
-Night Panther - Fire	1058400	1323000
-Night Panther - Fire	1190700	1455300
 Night Panther - Fire	1323000	1587600
 Night Panther - Fire	1455300	1719900
 Night Panther - Fire	1587600	1852200
@@ -2750,6 +3196,9 @@ Night Panther - Fire	1719900	1984500
 Night Panther - Fire	1852200	2116800
 Night Panther - Fire	1984500	2249100
 Night Panther - Fire	2116800	2381400
+Night Panther - Fire	2249100	2513700
+Night Panther - Fire	2381400	2646000
+Night Panther - Fire	2513700	2778300
 Night Panther - Fire	2646000	2910600
 Night Panther - Fire	2778300	3042900
 Night Panther - Fire	2910600	3175200
@@ -2765,10 +3214,23 @@ Night Panther - Fire	4101300	4365900
 Night Panther - Fire	4233600	4498200
 Night Panther - Fire	4365900	4630500
 Night Panther - Fire	4498200	4762800
+Night Panther - Fire	4630500	4895100
+Night Panther - Fire	4762800	5027400
+Night Panther - Fire	4895100	5159700
+Night Panther - Fire	5027400	5292000
+Night Panther - Fire	5159700	5424300
+Night Panther - Fire	5292000	5556600
+Night Panther - Fire	5424300	5688900
+Night Panther - Fire	5556600	5821200
+Night Panther - Fire	5688900	5953500
+Night Panther - Fire	5821200	6085800
+Night Panther - Fire	5953500	6218100
+Night Panther - Fire	6085800	6350400
+Night Panther - Fire	6218100	6482700
+Night Panther - Fire	6350400	6615000
 Night Panther - Fire	6482700	6747300
 Night Panther - Fire	6615000	6879600
 Night Panther - Fire	6747300	7011900
-Night Panther - Fire	6879600	7144200
 Night Panther - Fire	7011900	7276500
 Night Panther - Fire	7144200	7408800
 Night Panther - Fire	7276500	7541100
@@ -2794,13 +3256,21 @@ North To Alaska - All The Same	1190700	1455300
 North To Alaska - All The Same	1323000	1587600
 North To Alaska - All The Same	1455300	1719900
 North To Alaska - All The Same	1587600	1852200
-North To Alaska - All The Same	1719900	1984500
 North To Alaska - All The Same	1852200	2116800
+North To Alaska - All The Same	1984500	2249100
+North To Alaska - All The Same	2116800	2381400
+North To Alaska - All The Same	2249100	2513700
+North To Alaska - All The Same	2381400	2646000
 North To Alaska - All The Same	2513700	2778300
 North To Alaska - All The Same	2646000	2910600
 North To Alaska - All The Same	2778300	3042900
 North To Alaska - All The Same	2910600	3175200
 North To Alaska - All The Same	3042900	3307500
+North To Alaska - All The Same	3175200	3439800
+North To Alaska - All The Same	3307500	3572100
+North To Alaska - All The Same	3439800	3704400
+North To Alaska - All The Same	3572100	3836700
+North To Alaska - All The Same	4233600	4498200
 North To Alaska - All The Same	4365900	4630500
 North To Alaska - All The Same	4498200	4762800
 North To Alaska - All The Same	4630500	4895100
@@ -2810,29 +3280,49 @@ North To Alaska - All The Same	5027400	5292000
 North To Alaska - All The Same	5159700	5424300
 North To Alaska - All The Same	5292000	5556600
 North To Alaska - All The Same	5424300	5688900
+North To Alaska - All The Same	5688900	5953500
+North To Alaska - All The Same	5821200	6085800
+North To Alaska - All The Same	5953500	6218100
+North To Alaska - All The Same	6085800	6350400
 North To Alaska - All The Same	6218100	6482700
 North To Alaska - All The Same	6350400	6615000
 North To Alaska - All The Same	6482700	6747300
 North To Alaska - All The Same	6615000	6879600
 North To Alaska - All The Same	6747300	7011900
-North To Alaska - All The Same	7805700	8070300
-North To Alaska - All The Same	7938000	8202600
-North To Alaska - All The Same	8070300	8334900
-North To Alaska - All The Same	8202600	8467200
-North To Alaska - All The Same	8467200	8731800
-North To Alaska - All The Same	8599500	8864100
-North To Alaska - All The Same	8731800	8996400
+North To Alaska - All The Same	6879600	7144200
+North To Alaska - All The Same	7011900	7276500
+North To Alaska - All The Same	7144200	7408800
+North To Alaska - All The Same	7276500	7541100
+North To Alaska - All The Same	7408800	7673400
+North To Alaska - All The Same	8996400	9261000
+North To Alaska - All The Same	9128700	9393300
 North To Alaska - All The Same	9261000	9525600
+North To Alaska - All The Same	9393300	9657900
 North To Alaska - All The Same	9525600	9790200
+North To Alaska - All The Same	9657900	9922500
 North To Alaska - All The Same	9790200	10054800
+North To Alaska - All The Same	9922500	10187100
 North To Alaska - All The Same	10054800	10319400
 North To Alaska - All The Same	10187100	10451700
+North To Alaska - All The Same	10319400	10584000
+North To Alaska - All The Same	10451700	10716300
+North To Alaska - All The Same	10584000	10848600
+Patrick Talbot - Set Me Free	0	264600
+Patrick Talbot - Set Me Free	132300	396900
 Patrick Talbot - Set Me Free	264600	529200
 Patrick Talbot - Set Me Free	396900	661500
 Patrick Talbot - Set Me Free	529200	793800
 Patrick Talbot - Set Me Free	661500	926100
 Patrick Talbot - Set Me Free	793800	1058400
 Patrick Talbot - Set Me Free	926100	1190700
+Patrick Talbot - Set Me Free	1058400	1323000
+Patrick Talbot - Set Me Free	1190700	1455300
+Patrick Talbot - Set Me Free	1323000	1587600
+Patrick Talbot - Set Me Free	1455300	1719900
+Patrick Talbot - Set Me Free	1587600	1852200
+Patrick Talbot - Set Me Free	1719900	1984500
+Patrick Talbot - Set Me Free	1852200	2116800
+Patrick Talbot - Set Me Free	1984500	2249100
 Patrick Talbot - Set Me Free	2116800	2381400
 Patrick Talbot - Set Me Free	2249100	2513700
 Patrick Talbot - Set Me Free	2381400	2646000
@@ -2840,12 +3330,34 @@ Patrick Talbot - Set Me Free	2513700	2778300
 Patrick Talbot - Set Me Free	2646000	2910600
 Patrick Talbot - Set Me Free	2778300	3042900
 Patrick Talbot - Set Me Free	2910600	3175200
+Patrick Talbot - Set Me Free	3042900	3307500
+Patrick Talbot - Set Me Free	3175200	3439800
+Patrick Talbot - Set Me Free	3307500	3572100
+Patrick Talbot - Set Me Free	3439800	3704400
+Patrick Talbot - Set Me Free	3572100	3836700
+Patrick Talbot - Set Me Free	3704400	3969000
+Patrick Talbot - Set Me Free	3836700	4101300
+Patrick Talbot - Set Me Free	3969000	4233600
+Patrick Talbot - Set Me Free	4101300	4365900
+Patrick Talbot - Set Me Free	4233600	4498200
+Patrick Talbot - Set Me Free	4365900	4630500
+Patrick Talbot - Set Me Free	4498200	4762800
+Patrick Talbot - Set Me Free	4630500	4895100
+Patrick Talbot - Set Me Free	4762800	5027400
+Patrick Talbot - Set Me Free	4895100	5159700
+Patrick Talbot - Set Me Free	5027400	5292000
+Patrick Talbot - Set Me Free	5159700	5424300
+Patrick Talbot - Set Me Free	5292000	5556600
+Patrick Talbot - Set Me Free	5424300	5688900
+Patrick Talbot - Set Me Free	5556600	5821200
 Patrick Talbot - Set Me Free	5688900	5953500
 Patrick Talbot - Set Me Free	5821200	6085800
 Patrick Talbot - Set Me Free	5953500	6218100
 Patrick Talbot - Set Me Free	6085800	6350400
 Patrick Talbot - Set Me Free	6218100	6482700
 Patrick Talbot - Set Me Free	6350400	6615000
+Patrick Talbot - Set Me Free	6482700	6747300
+Patrick Talbot - Set Me Free	6615000	6879600
 Patrick Talbot - Set Me Free	6747300	7011900
 Patrick Talbot - Set Me Free	6879600	7144200
 Patrick Talbot - Set Me Free	7011900	7276500
@@ -2858,6 +3370,31 @@ Patrick Talbot - Set Me Free	7805700	8070300
 Patrick Talbot - Set Me Free	7938000	8202600
 Patrick Talbot - Set Me Free	8070300	8334900
 Patrick Talbot - Set Me Free	8202600	8467200
+Patrick Talbot - Set Me Free	8334900	8599500
+Patrick Talbot - Set Me Free	8467200	8731800
+Patrick Talbot - Set Me Free	8599500	8864100
+Patrick Talbot - Set Me Free	8731800	8996400
+Patrick Talbot - Set Me Free	8864100	9128700
+Patrick Talbot - Set Me Free	8996400	9261000
+Patrick Talbot - Set Me Free	9128700	9393300
+Patrick Talbot - Set Me Free	9261000	9525600
+Patrick Talbot - Set Me Free	9393300	9657900
+Patrick Talbot - Set Me Free	9525600	9790200
+Patrick Talbot - Set Me Free	9657900	9922500
+Patrick Talbot - Set Me Free	9790200	10054800
+Patrick Talbot - Set Me Free	9922500	10187100
+Patrick Talbot - Set Me Free	10054800	10319400
+Patrick Talbot - Set Me Free	10187100	10451700
+Patrick Talbot - Set Me Free	10319400	10584000
+Patrick Talbot - Set Me Free	10451700	10716300
+Patrick Talbot - Set Me Free	10584000	10848600
+Patrick Talbot - Set Me Free	10716300	10980900
+Patrick Talbot - Set Me Free	10848600	11113200
+Patrick Talbot - Set Me Free	10980900	11245500
+Patrick Talbot - Set Me Free	11113200	11377800
+Patrick Talbot - Set Me Free	11245500	11510100
+Patrick Talbot - Set Me Free	11377800	11642400
+Patrick Talbot - Set Me Free	11510100	11774700
 Patrick Talbot - Set Me Free	11642400	11907000
 Patrick Talbot - Set Me Free	11774700	12039300
 Patrick Talbot - Set Me Free	11907000	12171600
@@ -2865,11 +3402,16 @@ Patrick Talbot - Set Me Free	12039300	12303900
 Patrick Talbot - Set Me Free	12171600	12436200
 Patrick Talbot - Set Me Free	12303900	12568500
 Patrick Talbot - Set Me Free	12436200	12700800
+Phre The Eon - Everybody's Falling Apart	396900	661500
+Phre The Eon - Everybody's Falling Apart	529200	793800
+Phre The Eon - Everybody's Falling Apart	661500	926100
 Phre The Eon - Everybody's Falling Apart	793800	1058400
 Phre The Eon - Everybody's Falling Apart	926100	1190700
 Phre The Eon - Everybody's Falling Apart	1058400	1323000
 Phre The Eon - Everybody's Falling Apart	1190700	1455300
 Phre The Eon - Everybody's Falling Apart	1323000	1587600
+Phre The Eon - Everybody's Falling Apart	1455300	1719900
+Phre The Eon - Everybody's Falling Apart	1587600	1852200
 Phre The Eon - Everybody's Falling Apart	1719900	1984500
 Phre The Eon - Everybody's Falling Apart	1852200	2116800
 Phre The Eon - Everybody's Falling Apart	1984500	2249100
@@ -2881,11 +3423,16 @@ Phre The Eon - Everybody's Falling Apart	2646000	2910600
 Phre The Eon - Everybody's Falling Apart	2778300	3042900
 Phre The Eon - Everybody's Falling Apart	2910600	3175200
 Phre The Eon - Everybody's Falling Apart	3042900	3307500
+Phre The Eon - Everybody's Falling Apart	3175200	3439800
+Phre The Eon - Everybody's Falling Apart	3307500	3572100
+Phre The Eon - Everybody's Falling Apart	3439800	3704400
 Phre The Eon - Everybody's Falling Apart	3572100	3836700
 Phre The Eon - Everybody's Falling Apart	3704400	3969000
 Phre The Eon - Everybody's Falling Apart	3836700	4101300
 Phre The Eon - Everybody's Falling Apart	3969000	4233600
 Phre The Eon - Everybody's Falling Apart	4101300	4365900
+Phre The Eon - Everybody's Falling Apart	4233600	4498200
+Phre The Eon - Everybody's Falling Apart	4365900	4630500
 Phre The Eon - Everybody's Falling Apart	4498200	4762800
 Phre The Eon - Everybody's Falling Apart	4630500	4895100
 Phre The Eon - Everybody's Falling Apart	4762800	5027400
@@ -2895,31 +3442,35 @@ Phre The Eon - Everybody's Falling Apart	5159700	5424300
 Phre The Eon - Everybody's Falling Apart	5292000	5556600
 Phre The Eon - Everybody's Falling Apart	5424300	5688900
 Phre The Eon - Everybody's Falling Apart	5556600	5821200
-Port St Willow - Stay Even	396900	661500
-Port St Willow - Stay Even	529200	793800
-Port St Willow - Stay Even	661500	926100
-Port St Willow - Stay Even	793800	1058400
-Port St Willow - Stay Even	926100	1190700
-Port St Willow - Stay Even	1058400	1323000
-Port St Willow - Stay Even	1190700	1455300
-Port St Willow - Stay Even	1455300	1719900
-Port St Willow - Stay Even	1587600	1852200
-Port St Willow - Stay Even	1719900	1984500
-Port St Willow - Stay Even	1852200	2116800
-Port St Willow - Stay Even	1984500	2249100
-Port St Willow - Stay Even	2116800	2381400
-Port St Willow - Stay Even	2249100	2513700
-Port St Willow - Stay Even	2381400	2646000
-Port St Willow - Stay Even	3704400	3969000
-Port St Willow - Stay Even	3836700	4101300
-Port St Willow - Stay Even	3969000	4233600
-Port St Willow - Stay Even	4101300	4365900
-Port St Willow - Stay Even	4233600	4498200
-Port St Willow - Stay Even	4365900	4630500
-Port St Willow - Stay Even	4498200	4762800
-Port St Willow - Stay Even	4630500	4895100
-Port St Willow - Stay Even	4762800	5027400
-Port St Willow - Stay Even	4895100	5159700
+Phre The Eon - Everybody's Falling Apart	5688900	5953500
+Phre The Eon - Everybody's Falling Apart	5821200	6085800
+Phre The Eon - Everybody's Falling Apart	5953500	6218100
+Phre The Eon - Everybody's Falling Apart	6085800	6350400
+Phre The Eon - Everybody's Falling Apart	6218100	6482700
+Phre The Eon - Everybody's Falling Apart	6350400	6615000
+Phre The Eon - Everybody's Falling Apart	6482700	6747300
+Phre The Eon - Everybody's Falling Apart	6615000	6879600
+Phre The Eon - Everybody's Falling Apart	6747300	7011900
+Phre The Eon - Everybody's Falling Apart	6879600	7144200
+Phre The Eon - Everybody's Falling Apart	7011900	7276500
+Phre The Eon - Everybody's Falling Apart	7144200	7408800
+Phre The Eon - Everybody's Falling Apart	7276500	7541100
+Phre The Eon - Everybody's Falling Apart	7408800	7673400
+Phre The Eon - Everybody's Falling Apart	7541100	7805700
+Phre The Eon - Everybody's Falling Apart	7673400	7938000
+Phre The Eon - Everybody's Falling Apart	7805700	8070300
+Phre The Eon - Everybody's Falling Apart	7938000	8202600
+Phre The Eon - Everybody's Falling Apart	8070300	8334900
+Phre The Eon - Everybody's Falling Apart	8202600	8467200
+Phre The Eon - Everybody's Falling Apart	8334900	8599500
+Phre The Eon - Everybody's Falling Apart	8467200	8731800
+Phre The Eon - Everybody's Falling Apart	8599500	8864100
+Phre The Eon - Everybody's Falling Apart	8731800	8996400
+Phre The Eon - Everybody's Falling Apart	8864100	9128700
+Phre The Eon - Everybody's Falling Apart	8996400	9261000
+Phre The Eon - Everybody's Falling Apart	9128700	9393300
+Phre The Eon - Everybody's Falling Apart	9261000	9525600
+Phre The Eon - Everybody's Falling Apart	9393300	9657900
 Port St Willow - Stay Even	5027400	5292000
 Port St Willow - Stay Even	5159700	5424300
 Port St Willow - Stay Even	5292000	5556600
@@ -2938,21 +3489,6 @@ Port St Willow - Stay Even	6879600	7144200
 Port St Willow - Stay Even	7011900	7276500
 Port St Willow - Stay Even	7144200	7408800
 Port St Willow - Stay Even	7276500	7541100
-Port St Willow - Stay Even	7408800	7673400
-Port St Willow - Stay Even	7541100	7805700
-Port St Willow - Stay Even	7673400	7938000
-Port St Willow - Stay Even	7805700	8070300
-Port St Willow - Stay Even	7938000	8202600
-Port St Willow - Stay Even	8070300	8334900
-Port St Willow - Stay Even	8202600	8467200
-Port St Willow - Stay Even	8334900	8599500
-Port St Willow - Stay Even	8467200	8731800
-Port St Willow - Stay Even	8599500	8864100
-Port St Willow - Stay Even	8731800	8996400
-Port St Willow - Stay Even	8864100	9128700
-Port St Willow - Stay Even	9525600	9790200
-Port St Willow - Stay Even	9657900	9922500
-Port St Willow - Stay Even	9790200	10054800
 Port St Willow - Stay Even	9922500	10187100
 Port St Willow - Stay Even	10054800	10319400
 Port St Willow - Stay Even	10187100	10451700
@@ -2979,6 +3515,10 @@ Port St Willow - Stay Even	12833100	13097700
 Port St Willow - Stay Even	12965400	13230000
 Port St Willow - Stay Even	13097700	13362300
 Port St Willow - Stay Even	13230000	13494600
+Remember December - C U Next Time	0	264600
+Remember December - C U Next Time	132300	396900
+Remember December - C U Next Time	264600	529200
+Remember December - C U Next Time	396900	661500
 Remember December - C U Next Time	529200	793800
 Remember December - C U Next Time	661500	926100
 Remember December - C U Next Time	793800	1058400
@@ -2999,6 +3539,10 @@ Remember December - C U Next Time	2646000	2910600
 Remember December - C U Next Time	2778300	3042900
 Remember December - C U Next Time	2910600	3175200
 Remember December - C U Next Time	3042900	3307500
+Remember December - C U Next Time	3175200	3439800
+Remember December - C U Next Time	3307500	3572100
+Remember December - C U Next Time	3439800	3704400
+Remember December - C U Next Time	3572100	3836700
 Remember December - C U Next Time	3704400	3969000
 Remember December - C U Next Time	3836700	4101300
 Remember December - C U Next Time	3969000	4233600
@@ -3044,6 +3588,20 @@ Remember December - C U Next Time	9128700	9393300
 Remember December - C U Next Time	9261000	9525600
 Remember December - C U Next Time	9393300	9657900
 Remember December - C U Next Time	9525600	9790200
+Secret Mountains - High Horse	0	264600
+Secret Mountains - High Horse	132300	396900
+Secret Mountains - High Horse	264600	529200
+Secret Mountains - High Horse	396900	661500
+Secret Mountains - High Horse	529200	793800
+Secret Mountains - High Horse	661500	926100
+Secret Mountains - High Horse	793800	1058400
+Secret Mountains - High Horse	926100	1190700
+Secret Mountains - High Horse	1058400	1323000
+Secret Mountains - High Horse	1190700	1455300
+Secret Mountains - High Horse	1323000	1587600
+Secret Mountains - High Horse	1455300	1719900
+Secret Mountains - High Horse	1587600	1852200
+Secret Mountains - High Horse	1719900	1984500
 Secret Mountains - High Horse	1852200	2116800
 Secret Mountains - High Horse	1984500	2249100
 Secret Mountains - High Horse	2116800	2381400
@@ -3071,6 +3629,15 @@ Secret Mountains - High Horse	4895100	5159700
 Secret Mountains - High Horse	5027400	5292000
 Secret Mountains - High Horse	5159700	5424300
 Secret Mountains - High Horse	5292000	5556600
+Secret Mountains - High Horse	5424300	5688900
+Secret Mountains - High Horse	5556600	5821200
+Secret Mountains - High Horse	5688900	5953500
+Secret Mountains - High Horse	5821200	6085800
+Secret Mountains - High Horse	5953500	6218100
+Secret Mountains - High Horse	6085800	6350400
+Secret Mountains - High Horse	6218100	6482700
+Secret Mountains - High Horse	6350400	6615000
+Secret Mountains - High Horse	6482700	6747300
 Secret Mountains - High Horse	6615000	6879600
 Secret Mountains - High Horse	6747300	7011900
 Secret Mountains - High Horse	6879600	7144200
@@ -3108,30 +3675,118 @@ Secret Mountains - High Horse	10980900	11245500
 Secret Mountains - High Horse	11113200	11377800
 Secret Mountains - High Horse	11245500	11510100
 Secret Mountains - High Horse	11377800	11642400
+Secret Mountains - High Horse	11510100	11774700
+Secret Mountains - High Horse	11642400	11907000
+Secret Mountains - High Horse	11774700	12039300
+Secret Mountains - High Horse	11907000	12171600
+Secret Mountains - High Horse	12039300	12303900
+Secret Mountains - High Horse	12171600	12436200
+Secret Mountains - High Horse	12303900	12568500
+Secret Mountains - High Horse	12436200	12700800
+Secret Mountains - High Horse	12568500	12833100
+Secret Mountains - High Horse	12700800	12965400
+Secret Mountains - High Horse	12833100	13097700
+Secret Mountains - High Horse	12965400	13230000
+Secret Mountains - High Horse	13097700	13362300
+Secret Mountains - High Horse	13230000	13494600
+Secret Mountains - High Horse	13362300	13626900
+Secret Mountains - High Horse	13494600	13759200
+Secret Mountains - High Horse	13626900	13891500
+Secret Mountains - High Horse	13759200	14023800
+Secret Mountains - High Horse	13891500	14156100
+Secret Mountains - High Horse	14023800	14288400
+Secret Mountains - High Horse	14156100	14420700
+Secret Mountains - High Horse	14288400	14553000
+Secret Mountains - High Horse	14420700	14685300
+Secret Mountains - High Horse	14553000	14817600
+Secret Mountains - High Horse	14685300	14949900
+Secret Mountains - High Horse	14817600	15082200
+Secret Mountains - High Horse	14949900	15214500
+Secret Mountains - High Horse	15082200	15346800
+Secret Mountains - High Horse	15214500	15479100
+Secret Mountains - High Horse	15346800	15611400
+Skelpolu - Together Alone	1852200	2116800
+Skelpolu - Together Alone	1984500	2249100
+Skelpolu - Together Alone	2116800	2381400
+Skelpolu - Together Alone	2249100	2513700
+Skelpolu - Together Alone	2381400	2646000
+Skelpolu - Together Alone	2513700	2778300
+Skelpolu - Together Alone	2646000	2910600
+Skelpolu - Together Alone	2778300	3042900
 Skelpolu - Together Alone	2910600	3175200
 Skelpolu - Together Alone	3042900	3307500
+Skelpolu - Together Alone	3175200	3439800
+Skelpolu - Together Alone	3307500	3572100
 Skelpolu - Together Alone	3439800	3704400
+Skelpolu - Together Alone	3572100	3836700
+Skelpolu - Together Alone	3704400	3969000
 Skelpolu - Together Alone	3836700	4101300
 Skelpolu - Together Alone	3969000	4233600
+Skelpolu - Together Alone	4101300	4365900
+Skelpolu - Together Alone	4233600	4498200
 Skelpolu - Together Alone	4365900	4630500
+Skelpolu - Together Alone	4498200	4762800
+Skelpolu - Together Alone	4630500	4895100
+Skelpolu - Together Alone	4762800	5027400
+Skelpolu - Together Alone	4895100	5159700
+Skelpolu - Together Alone	5027400	5292000
+Skelpolu - Together Alone	5159700	5424300
+Skelpolu - Together Alone	5292000	5556600
+Skelpolu - Together Alone	5424300	5688900
+Skelpolu - Together Alone	5556600	5821200
+Skelpolu - Together Alone	5688900	5953500
 Skelpolu - Together Alone	5821200	6085800
 Skelpolu - Together Alone	5953500	6218100
+Skelpolu - Together Alone	6085800	6350400
 Skelpolu - Together Alone	6218100	6482700
 Skelpolu - Together Alone	6350400	6615000
+Skelpolu - Together Alone	6482700	6747300
+Skelpolu - Together Alone	6615000	6879600
+Skelpolu - Together Alone	7276500	7541100
+Skelpolu - Together Alone	7408800	7673400
+Skelpolu - Together Alone	7541100	7805700
+Skelpolu - Together Alone	7673400	7938000
+Skelpolu - Together Alone	7805700	8070300
+Skelpolu - Together Alone	7938000	8202600
+Skelpolu - Together Alone	8070300	8334900
+Skelpolu - Together Alone	8202600	8467200
+Skelpolu - Together Alone	8334900	8599500
+Skelpolu - Together Alone	8467200	8731800
+Skelpolu - Together Alone	8599500	8864100
 Skelpolu - Together Alone	8731800	8996400
 Skelpolu - Together Alone	8864100	9128700
+Skelpolu - Together Alone	8996400	9261000
+Skelpolu - Together Alone	9128700	9393300
+Skelpolu - Together Alone	9261000	9525600
+Skelpolu - Together Alone	9393300	9657900
+Skelpolu - Together Alone	9525600	9790200
 Skelpolu - Together Alone	9657900	9922500
 Skelpolu - Together Alone	9790200	10054800
+Skelpolu - Together Alone	9922500	10187100
+Skelpolu - Together Alone	10054800	10319400
+Skelpolu - Together Alone	10187100	10451700
+Skelpolu - Together Alone	10319400	10584000
+Skelpolu - Together Alone	10451700	10716300
+Skelpolu - Together Alone	10584000	10848600
 Skelpolu - Together Alone	10716300	10980900
 Skelpolu - Together Alone	10848600	11113200
+Skelpolu - Together Alone	10980900	11245500
+Skelpolu - Together Alone	11113200	11377800
+Skelpolu - Together Alone	11245500	11510100
+Skelpolu - Together Alone	11377800	11642400
+Skelpolu - Together Alone	11510100	11774700
 Skelpolu - Together Alone	11642400	11907000
 Skelpolu - Together Alone	11774700	12039300
-Skelpolu - Together Alone	12568500	12833100
-Skelpolu - Together Alone	12700800	12965400
-Skelpolu - Together Alone	13097700	13362300
-Skelpolu - Together Alone	13230000	13494600
-Skelpolu - Together Alone	13626900	13891500
-Skelpolu - Together Alone	13759200	14023800
+Skelpolu - Together Alone	11907000	12171600
+Skelpolu - Together Alone	12039300	12303900
+Skelpolu - Together Alone	12171600	12436200
+Skelpolu - Together Alone	12303900	12568500
+Skelpolu - Together Alone	12436200	12700800
+Snowmine - Curfews	396900	661500
+Snowmine - Curfews	529200	793800
+Snowmine - Curfews	661500	926100
+Snowmine - Curfews	793800	1058400
+Snowmine - Curfews	926100	1190700
 Snowmine - Curfews	1058400	1323000
 Snowmine - Curfews	1190700	1455300
 Snowmine - Curfews	1323000	1587600
@@ -3154,6 +3809,12 @@ Snowmine - Curfews	3439800	3704400
 Snowmine - Curfews	3572100	3836700
 Snowmine - Curfews	3704400	3969000
 Snowmine - Curfews	3836700	4101300
+Snowmine - Curfews	3969000	4233600
+Snowmine - Curfews	4101300	4365900
+Snowmine - Curfews	4233600	4498200
+Snowmine - Curfews	4365900	4630500
+Snowmine - Curfews	4498200	4762800
+Snowmine - Curfews	4630500	4895100
 Snowmine - Curfews	4762800	5027400
 Snowmine - Curfews	4895100	5159700
 Snowmine - Curfews	5027400	5292000
@@ -3185,6 +3846,9 @@ Snowmine - Curfews	8334900	8599500
 Snowmine - Curfews	8467200	8731800
 Snowmine - Curfews	8599500	8864100
 Snowmine - Curfews	8731800	8996400
+Snowmine - Curfews	8864100	9128700
+Snowmine - Curfews	8996400	9261000
+Snowmine - Curfews	9128700	9393300
 Snowmine - Curfews	9261000	9525600
 Snowmine - Curfews	9393300	9657900
 Snowmine - Curfews	9525600	9790200
@@ -3198,7 +3862,15 @@ Snowmine - Curfews	10451700	10716300
 Snowmine - Curfews	10584000	10848600
 Snowmine - Curfews	10716300	10980900
 Snowmine - Curfews	10848600	11113200
-Snowmine - Curfews	10980900	11245500
+Spike Mullings - Mike's Sulking	396900	661500
+Spike Mullings - Mike's Sulking	529200	793800
+Spike Mullings - Mike's Sulking	661500	926100
+Spike Mullings - Mike's Sulking	793800	1058400
+Spike Mullings - Mike's Sulking	926100	1190700
+Spike Mullings - Mike's Sulking	1058400	1323000
+Spike Mullings - Mike's Sulking	1190700	1455300
+Spike Mullings - Mike's Sulking	1323000	1587600
+Spike Mullings - Mike's Sulking	1455300	1719900
 Spike Mullings - Mike's Sulking	1587600	1852200
 Spike Mullings - Mike's Sulking	1719900	1984500
 Spike Mullings - Mike's Sulking	1852200	2116800
@@ -3230,23 +3902,45 @@ Spike Mullings - Mike's Sulking	5159700	5424300
 Spike Mullings - Mike's Sulking	5292000	5556600
 Spike Mullings - Mike's Sulking	5424300	5688900
 Spike Mullings - Mike's Sulking	5556600	5821200
+Spike Mullings - Mike's Sulking	5688900	5953500
+Spike Mullings - Mike's Sulking	5821200	6085800
+Spike Mullings - Mike's Sulking	5953500	6218100
+Spike Mullings - Mike's Sulking	6085800	6350400
+Spike Mullings - Mike's Sulking	6218100	6482700
+Spike Mullings - Mike's Sulking	6350400	6615000
+Spike Mullings - Mike's Sulking	6482700	6747300
+Spike Mullings - Mike's Sulking	6615000	6879600
+Spike Mullings - Mike's Sulking	6747300	7011900
+Spike Mullings - Mike's Sulking	6879600	7144200
+Spike Mullings - Mike's Sulking	7011900	7276500
+Spike Mullings - Mike's Sulking	7144200	7408800
+Spike Mullings - Mike's Sulking	7276500	7541100
+Spike Mullings - Mike's Sulking	7408800	7673400
+Spike Mullings - Mike's Sulking	7541100	7805700
+Spike Mullings - Mike's Sulking	7673400	7938000
+Spike Mullings - Mike's Sulking	7805700	8070300
+Spike Mullings - Mike's Sulking	7938000	8202600
+Spike Mullings - Mike's Sulking	8070300	8334900
+Spike Mullings - Mike's Sulking	8202600	8467200
+Spike Mullings - Mike's Sulking	8334900	8599500
+Spike Mullings - Mike's Sulking	8467200	8731800
+Spike Mullings - Mike's Sulking	8599500	8864100
+Spike Mullings - Mike's Sulking	8731800	8996400
+Spike Mullings - Mike's Sulking	8864100	9128700
+Spike Mullings - Mike's Sulking	8996400	9261000
+Spike Mullings - Mike's Sulking	9128700	9393300
 Spike Mullings - Mike's Sulking	9261000	9525600
 Spike Mullings - Mike's Sulking	9393300	9657900
 Spike Mullings - Mike's Sulking	9525600	9790200
 Spike Mullings - Mike's Sulking	9657900	9922500
 Spike Mullings - Mike's Sulking	9790200	10054800
 Spike Mullings - Mike's Sulking	9922500	10187100
+Spike Mullings - Mike's Sulking	10054800	10319400
+Spike Mullings - Mike's Sulking	10187100	10451700
 Spike Mullings - Mike's Sulking	10319400	10584000
 Spike Mullings - Mike's Sulking	10451700	10716300
 Spike Mullings - Mike's Sulking	10584000	10848600
-Spike Mullings - Mike's Sulking	10716300	10980900
-St Vitus - Word Gets Around	529200	793800
-St Vitus - Word Gets Around	661500	926100
-St Vitus - Word Gets Around	793800	1058400
-St Vitus - Word Gets Around	926100	1190700
-St Vitus - Word Gets Around	1058400	1323000
-St Vitus - Word Gets Around	1190700	1455300
-St Vitus - Word Gets Around	1323000	1587600
+St Vitus - Word Gets Around	1587600	1852200
 St Vitus - Word Gets Around	1719900	1984500
 St Vitus - Word Gets Around	1852200	2116800
 St Vitus - Word Gets Around	1984500	2249100
@@ -3255,26 +3949,14 @@ St Vitus - Word Gets Around	2249100	2513700
 St Vitus - Word Gets Around	2381400	2646000
 St Vitus - Word Gets Around	2513700	2778300
 St Vitus - Word Gets Around	2646000	2910600
+St Vitus - Word Gets Around	2778300	3042900
 St Vitus - Word Gets Around	2910600	3175200
 St Vitus - Word Gets Around	3042900	3307500
 St Vitus - Word Gets Around	3175200	3439800
 St Vitus - Word Gets Around	3307500	3572100
 St Vitus - Word Gets Around	3439800	3704400
 St Vitus - Word Gets Around	3572100	3836700
-St Vitus - Word Gets Around	3969000	4233600
-St Vitus - Word Gets Around	4101300	4365900
-St Vitus - Word Gets Around	4233600	4498200
-St Vitus - Word Gets Around	4365900	4630500
-St Vitus - Word Gets Around	4498200	4762800
-St Vitus - Word Gets Around	4630500	4895100
-St Vitus - Word Gets Around	4762800	5027400
-St Vitus - Word Gets Around	4895100	5159700
-St Vitus - Word Gets Around	5027400	5292000
-St Vitus - Word Gets Around	5159700	5424300
-St Vitus - Word Gets Around	5556600	5821200
-St Vitus - Word Gets Around	5688900	5953500
-St Vitus - Word Gets Around	5821200	6085800
-St Vitus - Word Gets Around	5953500	6218100
+St Vitus - Word Gets Around	3704400	3969000
 St Vitus - Word Gets Around	6085800	6350400
 St Vitus - Word Gets Around	6218100	6482700
 St Vitus - Word Gets Around	6350400	6615000
@@ -3285,14 +3967,8 @@ St Vitus - Word Gets Around	6879600	7144200
 St Vitus - Word Gets Around	7011900	7276500
 St Vitus - Word Gets Around	7144200	7408800
 St Vitus - Word Gets Around	7276500	7541100
-St Vitus - Word Gets Around	7673400	7938000
-St Vitus - Word Gets Around	7805700	8070300
-St Vitus - Word Gets Around	7938000	8202600
-St Vitus - Word Gets Around	8070300	8334900
-St Vitus - Word Gets Around	8202600	8467200
-St Vitus - Word Gets Around	8334900	8599500
-St Vitus - Word Gets Around	8467200	8731800
-St Vitus - Word Gets Around	8599500	8864100
+St Vitus - Word Gets Around	7408800	7673400
+St Vitus - Word Gets Around	8864100	9128700
 St Vitus - Word Gets Around	8996400	9261000
 St Vitus - Word Gets Around	9128700	9393300
 St Vitus - Word Gets Around	9261000	9525600
@@ -3302,9 +3978,9 @@ St Vitus - Word Gets Around	9657900	9922500
 St Vitus - Word Gets Around	9790200	10054800
 St Vitus - Word Gets Around	9922500	10187100
 St Vitus - Word Gets Around	10054800	10319400
-Steven Clark - Bounty	0	264600
-Steven Clark - Bounty	132300	396900
-Steven Clark - Bounty	264600	529200
+St Vitus - Word Gets Around	10187100	10451700
+St Vitus - Word Gets Around	10319400	10584000
+St Vitus - Word Gets Around	10451700	10716300
 Steven Clark - Bounty	396900	661500
 Steven Clark - Bounty	529200	793800
 Steven Clark - Bounty	661500	926100
@@ -3326,6 +4002,8 @@ Steven Clark - Bounty	2646000	2910600
 Steven Clark - Bounty	2778300	3042900
 Steven Clark - Bounty	2910600	3175200
 Steven Clark - Bounty	3042900	3307500
+Steven Clark - Bounty	3175200	3439800
+Steven Clark - Bounty	3307500	3572100
 Steven Clark - Bounty	3439800	3704400
 Steven Clark - Bounty	3572100	3836700
 Steven Clark - Bounty	3704400	3969000
@@ -3360,6 +4038,13 @@ Steven Clark - Bounty	7408800	7673400
 Steven Clark - Bounty	7541100	7805700
 Steven Clark - Bounty	7673400	7938000
 Steven Clark - Bounty	7805700	8070300
+Steven Clark - Bounty	7938000	8202600
+Steven Clark - Bounty	8070300	8334900
+Steven Clark - Bounty	8202600	8467200
+Steven Clark - Bounty	8334900	8599500
+Steven Clark - Bounty	8467200	8731800
+Steven Clark - Bounty	8599500	8864100
+Steven Clark - Bounty	8731800	8996400
 Steven Clark - Bounty	8864100	9128700
 Steven Clark - Bounty	8996400	9261000
 Steven Clark - Bounty	9128700	9393300
@@ -3386,14 +4071,7 @@ Steven Clark - Bounty	11774700	12039300
 Steven Clark - Bounty	11907000	12171600
 Steven Clark - Bounty	12039300	12303900
 Steven Clark - Bounty	12171600	12436200
-Strand Of Oaks - Spacestation	926100	1190700
-Strand Of Oaks - Spacestation	1058400	1323000
-Strand Of Oaks - Spacestation	1190700	1455300
-Strand Of Oaks - Spacestation	1323000	1587600
-Strand Of Oaks - Spacestation	1455300	1719900
-Strand Of Oaks - Spacestation	1587600	1852200
-Strand Of Oaks - Spacestation	1719900	1984500
-Strand Of Oaks - Spacestation	1852200	2116800
+Steven Clark - Bounty	12303900	12568500
 Strand Of Oaks - Spacestation	1984500	2249100
 Strand Of Oaks - Spacestation	2116800	2381400
 Strand Of Oaks - Spacestation	2249100	2513700
@@ -3408,17 +4086,29 @@ Strand Of Oaks - Spacestation	3307500	3572100
 Strand Of Oaks - Spacestation	3439800	3704400
 Strand Of Oaks - Spacestation	3572100	3836700
 Strand Of Oaks - Spacestation	3704400	3969000
+Strand Of Oaks - Spacestation	3836700	4101300
+Strand Of Oaks - Spacestation	3969000	4233600
+Strand Of Oaks - Spacestation	4101300	4365900
+Strand Of Oaks - Spacestation	4233600	4498200
+Strand Of Oaks - Spacestation	4365900	4630500
+Strand Of Oaks - Spacestation	4498200	4762800
+Strand Of Oaks - Spacestation	4630500	4895100
+Strand Of Oaks - Spacestation	4762800	5027400
+Strand Of Oaks - Spacestation	4895100	5159700
 Strand Of Oaks - Spacestation	5027400	5292000
 Strand Of Oaks - Spacestation	5159700	5424300
 Strand Of Oaks - Spacestation	5292000	5556600
 Strand Of Oaks - Spacestation	5424300	5688900
 Strand Of Oaks - Spacestation	5556600	5821200
 Strand Of Oaks - Spacestation	5688900	5953500
-Strand Of Oaks - Spacestation	5821200	6085800
-Strand Of Oaks - Spacestation	5953500	6218100
-Strand Of Oaks - Spacestation	6085800	6350400
-Strand Of Oaks - Spacestation	6218100	6482700
-Strand Of Oaks - Spacestation	6350400	6615000
+Strand Of Oaks - Spacestation	6615000	6879600
+Strand Of Oaks - Spacestation	6747300	7011900
+Strand Of Oaks - Spacestation	6879600	7144200
+Strand Of Oaks - Spacestation	7011900	7276500
+Strand Of Oaks - Spacestation	7144200	7408800
+Strand Of Oaks - Spacestation	7276500	7541100
+Strand Of Oaks - Spacestation	7408800	7673400
+Strand Of Oaks - Spacestation	7541100	7805700
 Strand Of Oaks - Spacestation	7673400	7938000
 Strand Of Oaks - Spacestation	7805700	8070300
 Strand Of Oaks - Spacestation	7938000	8202600
@@ -3435,15 +4125,9 @@ Strand Of Oaks - Spacestation	9261000	9525600
 Strand Of Oaks - Spacestation	9393300	9657900
 Strand Of Oaks - Spacestation	9525600	9790200
 Strand Of Oaks - Spacestation	9657900	9922500
-Sweet Lights - You Let Me Down	0	264600
-Sweet Lights - You Let Me Down	132300	396900
-Sweet Lights - You Let Me Down	264600	529200
-Sweet Lights - You Let Me Down	396900	661500
-Sweet Lights - You Let Me Down	529200	793800
-Sweet Lights - You Let Me Down	661500	926100
-Sweet Lights - You Let Me Down	793800	1058400
-Sweet Lights - You Let Me Down	926100	1190700
-Sweet Lights - You Let Me Down	1058400	1323000
+Strand Of Oaks - Spacestation	9790200	10054800
+Strand Of Oaks - Spacestation	9922500	10187100
+Strand Of Oaks - Spacestation	10054800	10319400
 Sweet Lights - You Let Me Down	1190700	1455300
 Sweet Lights - You Let Me Down	1323000	1587600
 Sweet Lights - You Let Me Down	1455300	1719900
@@ -3475,6 +4159,10 @@ Sweet Lights - You Let Me Down	4762800	5027400
 Sweet Lights - You Let Me Down	4895100	5159700
 Sweet Lights - You Let Me Down	5027400	5292000
 Sweet Lights - You Let Me Down	5159700	5424300
+Sweet Lights - You Let Me Down	5292000	5556600
+Sweet Lights - You Let Me Down	5424300	5688900
+Sweet Lights - You Let Me Down	5556600	5821200
+Sweet Lights - You Let Me Down	5688900	5953500
 Sweet Lights - You Let Me Down	5821200	6085800
 Sweet Lights - You Let Me Down	5953500	6218100
 Sweet Lights - You Let Me Down	6085800	6350400
@@ -3498,9 +4186,6 @@ Sweet Lights - You Let Me Down	8334900	8599500
 Sweet Lights - You Let Me Down	8467200	8731800
 Sweet Lights - You Let Me Down	8599500	8864100
 Sweet Lights - You Let Me Down	8731800	8996400
-Sweet Lights - You Let Me Down	8864100	9128700
-Sweet Lights - You Let Me Down	8996400	9261000
-Sweet Lights - You Let Me Down	9128700	9393300
 Sweet Lights - You Let Me Down	9261000	9525600
 Sweet Lights - You Let Me Down	9393300	9657900
 Sweet Lights - You Let Me Down	9525600	9790200
@@ -3560,6 +4245,15 @@ Sweet Lights - You Let Me Down	16537500	16802100
 Sweet Lights - You Let Me Down	16669800	16934400
 Sweet Lights - You Let Me Down	16802100	17066700
 Sweet Lights - You Let Me Down	16934400	17199000
+Swinging Steaks - Lost My Way	132300	396900
+Swinging Steaks - Lost My Way	264600	529200
+Swinging Steaks - Lost My Way	396900	661500
+Swinging Steaks - Lost My Way	529200	793800
+Swinging Steaks - Lost My Way	661500	926100
+Swinging Steaks - Lost My Way	793800	1058400
+Swinging Steaks - Lost My Way	926100	1190700
+Swinging Steaks - Lost My Way	1058400	1323000
+Swinging Steaks - Lost My Way	1190700	1455300
 Swinging Steaks - Lost My Way	1323000	1587600
 Swinging Steaks - Lost My Way	1455300	1719900
 Swinging Steaks - Lost My Way	1587600	1852200
@@ -3575,6 +4269,7 @@ Swinging Steaks - Lost My Way	2778300	3042900
 Swinging Steaks - Lost My Way	2910600	3175200
 Swinging Steaks - Lost My Way	3042900	3307500
 Swinging Steaks - Lost My Way	3175200	3439800
+Swinging Steaks - Lost My Way	3307500	3572100
 Swinging Steaks - Lost My Way	3439800	3704400
 Swinging Steaks - Lost My Way	3572100	3836700
 Swinging Steaks - Lost My Way	3704400	3969000
@@ -3601,6 +4296,13 @@ Swinging Steaks - Lost My Way	6350400	6615000
 Swinging Steaks - Lost My Way	6482700	6747300
 Swinging Steaks - Lost My Way	6615000	6879600
 Swinging Steaks - Lost My Way	6747300	7011900
+Swinging Steaks - Lost My Way	6879600	7144200
+Swinging Steaks - Lost My Way	7011900	7276500
+Swinging Steaks - Lost My Way	7144200	7408800
+Swinging Steaks - Lost My Way	7276500	7541100
+Swinging Steaks - Lost My Way	7408800	7673400
+Swinging Steaks - Lost My Way	7541100	7805700
+Swinging Steaks - Lost My Way	7673400	7938000
 Swinging Steaks - Lost My Way	7805700	8070300
 Swinging Steaks - Lost My Way	7938000	8202600
 Swinging Steaks - Lost My Way	8070300	8334900
@@ -3628,9 +4330,25 @@ Swinging Steaks - Lost My Way	10848600	11113200
 Swinging Steaks - Lost My Way	10980900	11245500
 Swinging Steaks - Lost My Way	11113200	11377800
 Swinging Steaks - Lost My Way	11245500	11510100
+Swinging Steaks - Lost My Way	11377800	11642400
 Swinging Steaks - Lost My Way	11510100	11774700
 Swinging Steaks - Lost My Way	11642400	11907000
 Swinging Steaks - Lost My Way	11774700	12039300
+Swinging Steaks - Lost My Way	11907000	12171600
+Swinging Steaks - Lost My Way	12039300	12303900
+Swinging Steaks - Lost My Way	12171600	12436200
+Swinging Steaks - Lost My Way	12303900	12568500
+Swinging Steaks - Lost My Way	12436200	12700800
+Swinging Steaks - Lost My Way	12568500	12833100
+Swinging Steaks - Lost My Way	12700800	12965400
+Swinging Steaks - Lost My Way	12833100	13097700
+Swinging Steaks - Lost My Way	12965400	13230000
+The Districts - Vermont	264600	529200
+The Districts - Vermont	396900	661500
+The Districts - Vermont	529200	793800
+The Districts - Vermont	661500	926100
+The Districts - Vermont	793800	1058400
+The Districts - Vermont	926100	1190700
 The Districts - Vermont	1323000	1587600
 The Districts - Vermont	1455300	1719900
 The Districts - Vermont	1587600	1852200
@@ -3665,10 +4383,14 @@ The Districts - Vermont	5556600	5821200
 The Districts - Vermont	5688900	5953500
 The Districts - Vermont	5821200	6085800
 The Districts - Vermont	5953500	6218100
-The Districts - Vermont	7541100	7805700
-The Districts - Vermont	7673400	7938000
-The Districts - Vermont	7805700	8070300
-The Districts - Vermont	7938000	8202600
+The Districts - Vermont	6085800	6350400
+The Districts - Vermont	6218100	6482700
+The Districts - Vermont	6350400	6615000
+The Districts - Vermont	6482700	6747300
+The Districts - Vermont	6615000	6879600
+The Districts - Vermont	6747300	7011900
+The Districts - Vermont	6879600	7144200
+The Districts - Vermont	7011900	7276500
 The Districts - Vermont	8070300	8334900
 The Districts - Vermont	8202600	8467200
 The Districts - Vermont	8334900	8599500
@@ -3681,6 +4403,17 @@ The Districts - Vermont	9128700	9393300
 The Districts - Vermont	9261000	9525600
 The Districts - Vermont	9393300	9657900
 The Districts - Vermont	9525600	9790200
+The Districts - Vermont	9657900	9922500
+The Districts - Vermont	9790200	10054800
+The Long Wait - Back Home To Blue	132300	396900
+The Long Wait - Back Home To Blue	264600	529200
+The Long Wait - Back Home To Blue	396900	661500
+The Long Wait - Back Home To Blue	529200	793800
+The Long Wait - Back Home To Blue	661500	926100
+The Long Wait - Back Home To Blue	793800	1058400
+The Long Wait - Back Home To Blue	926100	1190700
+The Long Wait - Back Home To Blue	1058400	1323000
+The Long Wait - Back Home To Blue	1190700	1455300
 The Long Wait - Back Home To Blue	1323000	1587600
 The Long Wait - Back Home To Blue	1455300	1719900
 The Long Wait - Back Home To Blue	1587600	1852200
@@ -3689,6 +4422,10 @@ The Long Wait - Back Home To Blue	1852200	2116800
 The Long Wait - Back Home To Blue	1984500	2249100
 The Long Wait - Back Home To Blue	2116800	2381400
 The Long Wait - Back Home To Blue	2249100	2513700
+The Long Wait - Back Home To Blue	2381400	2646000
+The Long Wait - Back Home To Blue	2513700	2778300
+The Long Wait - Back Home To Blue	2646000	2910600
+The Long Wait - Back Home To Blue	2778300	3042900
 The Long Wait - Back Home To Blue	2910600	3175200
 The Long Wait - Back Home To Blue	3042900	3307500
 The Long Wait - Back Home To Blue	3175200	3439800
@@ -3707,6 +4444,15 @@ The Long Wait - Back Home To Blue	4762800	5027400
 The Long Wait - Back Home To Blue	4895100	5159700
 The Long Wait - Back Home To Blue	5027400	5292000
 The Long Wait - Back Home To Blue	5159700	5424300
+The Long Wait - Back Home To Blue	5292000	5556600
+The Long Wait - Back Home To Blue	5424300	5688900
+The Long Wait - Back Home To Blue	5556600	5821200
+The Long Wait - Back Home To Blue	5688900	5953500
+The Long Wait - Back Home To Blue	5821200	6085800
+The Long Wait - Back Home To Blue	5953500	6218100
+The Long Wait - Back Home To Blue	6085800	6350400
+The Long Wait - Back Home To Blue	6218100	6482700
+The Long Wait - Back Home To Blue	6350400	6615000
 The Long Wait - Back Home To Blue	6482700	6747300
 The Long Wait - Back Home To Blue	6615000	6879600
 The Long Wait - Back Home To Blue	6747300	7011900
@@ -3727,14 +4473,14 @@ The Long Wait - Back Home To Blue	8599500	8864100
 The Long Wait - Back Home To Blue	8731800	8996400
 The Long Wait - Back Home To Blue	8864100	9128700
 The Long Wait - Back Home To Blue	8996400	9261000
-The Long Wait - Back Home To Blue	10187100	10451700
-The Long Wait - Back Home To Blue	10319400	10584000
-The Long Wait - Back Home To Blue	10451700	10716300
-The Long Wait - Back Home To Blue	10584000	10848600
-The Scarlet Brand - Les Fleurs Du Mal	132300	396900
-The Scarlet Brand - Les Fleurs Du Mal	264600	529200
-The Scarlet Brand - Les Fleurs Du Mal	396900	661500
-The Scarlet Brand - Les Fleurs Du Mal	529200	793800
+The Long Wait - Back Home To Blue	9128700	9393300
+The Long Wait - Back Home To Blue	9261000	9525600
+The Long Wait - Back Home To Blue	9393300	9657900
+The Long Wait - Back Home To Blue	9525600	9790200
+The Long Wait - Back Home To Blue	9657900	9922500
+The Long Wait - Back Home To Blue	9790200	10054800
+The Long Wait - Back Home To Blue	9922500	10187100
+The Long Wait - Back Home To Blue	10054800	10319400
 The Scarlet Brand - Les Fleurs Du Mal	661500	926100
 The Scarlet Brand - Les Fleurs Du Mal	793800	1058400
 The Scarlet Brand - Les Fleurs Du Mal	926100	1190700
@@ -3742,6 +4488,10 @@ The Scarlet Brand - Les Fleurs Du Mal	1058400	1323000
 The Scarlet Brand - Les Fleurs Du Mal	1190700	1455300
 The Scarlet Brand - Les Fleurs Du Mal	1323000	1587600
 The Scarlet Brand - Les Fleurs Du Mal	1455300	1719900
+The Scarlet Brand - Les Fleurs Du Mal	1587600	1852200
+The Scarlet Brand - Les Fleurs Du Mal	1719900	1984500
+The Scarlet Brand - Les Fleurs Du Mal	1852200	2116800
+The Scarlet Brand - Les Fleurs Du Mal	1984500	2249100
 The Scarlet Brand - Les Fleurs Du Mal	2116800	2381400
 The Scarlet Brand - Les Fleurs Du Mal	2249100	2513700
 The Scarlet Brand - Les Fleurs Du Mal	2381400	2646000
@@ -3750,6 +4500,8 @@ The Scarlet Brand - Les Fleurs Du Mal	2646000	2910600
 The Scarlet Brand - Les Fleurs Du Mal	2778300	3042900
 The Scarlet Brand - Les Fleurs Du Mal	2910600	3175200
 The Scarlet Brand - Les Fleurs Du Mal	3042900	3307500
+The Scarlet Brand - Les Fleurs Du Mal	3175200	3439800
+The Scarlet Brand - Les Fleurs Du Mal	3307500	3572100
 The Scarlet Brand - Les Fleurs Du Mal	3439800	3704400
 The Scarlet Brand - Les Fleurs Du Mal	3572100	3836700
 The Scarlet Brand - Les Fleurs Du Mal	3704400	3969000
@@ -3757,6 +4509,11 @@ The Scarlet Brand - Les Fleurs Du Mal	3836700	4101300
 The Scarlet Brand - Les Fleurs Du Mal	3969000	4233600
 The Scarlet Brand - Les Fleurs Du Mal	4101300	4365900
 The Scarlet Brand - Les Fleurs Du Mal	4233600	4498200
+The Scarlet Brand - Les Fleurs Du Mal	4365900	4630500
+The Scarlet Brand - Les Fleurs Du Mal	4498200	4762800
+The Scarlet Brand - Les Fleurs Du Mal	4630500	4895100
+The Scarlet Brand - Les Fleurs Du Mal	4762800	5027400
+The Scarlet Brand - Les Fleurs Du Mal	4895100	5159700
 The Scarlet Brand - Les Fleurs Du Mal	5027400	5292000
 The Scarlet Brand - Les Fleurs Du Mal	5159700	5424300
 The Scarlet Brand - Les Fleurs Du Mal	5292000	5556600
@@ -3765,17 +4522,31 @@ The Scarlet Brand - Les Fleurs Du Mal	5556600	5821200
 The Scarlet Brand - Les Fleurs Du Mal	5688900	5953500
 The Scarlet Brand - Les Fleurs Du Mal	5821200	6085800
 The Scarlet Brand - Les Fleurs Du Mal	5953500	6218100
-The Scarlet Brand - Les Fleurs Du Mal	9525600	9790200
-The Scarlet Brand - Les Fleurs Du Mal	9657900	9922500
-The Scarlet Brand - Les Fleurs Du Mal	9790200	10054800
-The Scarlet Brand - Les Fleurs Du Mal	9922500	10187100
-The Scarlet Brand - Les Fleurs Du Mal	10054800	10319400
-The Scarlet Brand - Les Fleurs Du Mal	10187100	10451700
-The Scarlet Brand - Les Fleurs Du Mal	10319400	10584000
-The Scarlet Brand - Les Fleurs Du Mal	10451700	10716300
-The Scarlet Brand - Les Fleurs Du Mal	10584000	10848600
-The Scarlet Brand - Les Fleurs Du Mal	10716300	10980900
-The Scarlet Brand - Les Fleurs Du Mal	10848600	11113200
+The Scarlet Brand - Les Fleurs Du Mal	6085800	6350400
+The Scarlet Brand - Les Fleurs Du Mal	6218100	6482700
+The Scarlet Brand - Les Fleurs Du Mal	6350400	6615000
+The Scarlet Brand - Les Fleurs Du Mal	6482700	6747300
+The Scarlet Brand - Les Fleurs Du Mal	6615000	6879600
+The Scarlet Brand - Les Fleurs Du Mal	6747300	7011900
+The Scarlet Brand - Les Fleurs Du Mal	6879600	7144200
+The Scarlet Brand - Les Fleurs Du Mal	7011900	7276500
+The Scarlet Brand - Les Fleurs Du Mal	7144200	7408800
+The Scarlet Brand - Les Fleurs Du Mal	7276500	7541100
+The Scarlet Brand - Les Fleurs Du Mal	7408800	7673400
+The Scarlet Brand - Les Fleurs Du Mal	7541100	7805700
+The Scarlet Brand - Les Fleurs Du Mal	7673400	7938000
+The Scarlet Brand - Les Fleurs Du Mal	7805700	8070300
+The Scarlet Brand - Les Fleurs Du Mal	7938000	8202600
+The Scarlet Brand - Les Fleurs Du Mal	8070300	8334900
+The Scarlet Brand - Les Fleurs Du Mal	8202600	8467200
+The Scarlet Brand - Les Fleurs Du Mal	8334900	8599500
+The Scarlet Brand - Les Fleurs Du Mal	8467200	8731800
+The Scarlet Brand - Les Fleurs Du Mal	8599500	8864100
+The Scarlet Brand - Les Fleurs Du Mal	8731800	8996400
+The Scarlet Brand - Les Fleurs Du Mal	8864100	9128700
+The Scarlet Brand - Les Fleurs Du Mal	8996400	9261000
+The Scarlet Brand - Les Fleurs Du Mal	9128700	9393300
+The Scarlet Brand - Les Fleurs Du Mal	9261000	9525600
 The Scarlet Brand - Les Fleurs Du Mal	10980900	11245500
 The Scarlet Brand - Les Fleurs Du Mal	11113200	11377800
 The Scarlet Brand - Les Fleurs Du Mal	11245500	11510100
@@ -3784,6 +4555,12 @@ The Scarlet Brand - Les Fleurs Du Mal	11510100	11774700
 The Scarlet Brand - Les Fleurs Du Mal	11642400	11907000
 The Scarlet Brand - Les Fleurs Du Mal	11774700	12039300
 The Scarlet Brand - Les Fleurs Du Mal	11907000	12171600
+The Scarlet Brand - Les Fleurs Du Mal	12039300	12303900
+The Scarlet Brand - Les Fleurs Du Mal	12171600	12436200
+The Scarlet Brand - Les Fleurs Du Mal	12303900	12568500
+The Scarlet Brand - Les Fleurs Du Mal	12965400	13230000
+The Scarlet Brand - Les Fleurs Du Mal	13097700	13362300
+The So So Glos - Emergency	0	264600
 The So So Glos - Emergency	132300	396900
 The So So Glos - Emergency	264600	529200
 The So So Glos - Emergency	396900	661500
@@ -3816,12 +4593,14 @@ The So So Glos - Emergency	3836700	4101300
 The So So Glos - Emergency	3969000	4233600
 The So So Glos - Emergency	4101300	4365900
 The So So Glos - Emergency	4233600	4498200
+The So So Glos - Emergency	4365900	4630500
 The So So Glos - Emergency	4498200	4762800
 The So So Glos - Emergency	4630500	4895100
 The So So Glos - Emergency	4762800	5027400
 The So So Glos - Emergency	4895100	5159700
 The So So Glos - Emergency	5027400	5292000
 The So So Glos - Emergency	5159700	5424300
+The So So Glos - Emergency	5292000	5556600
 The So So Glos - Emergency	5424300	5688900
 The So So Glos - Emergency	5556600	5821200
 The So So Glos - Emergency	5688900	5953500
@@ -3867,6 +4646,15 @@ The Wrong'Uns - Rothko	4365900	4630500
 The Wrong'Uns - Rothko	4498200	4762800
 The Wrong'Uns - Rothko	4630500	4895100
 The Wrong'Uns - Rothko	4762800	5027400
+The Wrong'Uns - Rothko	4895100	5159700
+The Wrong'Uns - Rothko	5027400	5292000
+The Wrong'Uns - Rothko	5159700	5424300
+The Wrong'Uns - Rothko	5292000	5556600
+The Wrong'Uns - Rothko	5424300	5688900
+The Wrong'Uns - Rothko	5556600	5821200
+The Wrong'Uns - Rothko	5688900	5953500
+The Wrong'Uns - Rothko	5821200	6085800
+The Wrong'Uns - Rothko	5953500	6218100
 The Wrong'Uns - Rothko	6085800	6350400
 The Wrong'Uns - Rothko	6218100	6482700
 The Wrong'Uns - Rothko	6350400	6615000
@@ -3884,18 +4672,9 @@ The Wrong'Uns - Rothko	7805700	8070300
 The Wrong'Uns - Rothko	7938000	8202600
 The Wrong'Uns - Rothko	8070300	8334900
 The Wrong'Uns - Rothko	8202600	8467200
-Tim Taler - Stalker	132300	396900
-Tim Taler - Stalker	264600	529200
-Tim Taler - Stalker	396900	661500
-Tim Taler - Stalker	529200	793800
-Tim Taler - Stalker	661500	926100
-Tim Taler - Stalker	793800	1058400
-Tim Taler - Stalker	926100	1190700
-Tim Taler - Stalker	1058400	1323000
-Tim Taler - Stalker	1190700	1455300
-Tim Taler - Stalker	1323000	1587600
-Tim Taler - Stalker	1455300	1719900
-Tim Taler - Stalker	1587600	1852200
+The Wrong'Uns - Rothko	8334900	8599500
+The Wrong'Uns - Rothko	8467200	8731800
+The Wrong'Uns - Rothko	8599500	8864100
 Tim Taler - Stalker	1719900	1984500
 Tim Taler - Stalker	1852200	2116800
 Tim Taler - Stalker	1984500	2249100
@@ -3930,17 +4709,34 @@ Tim Taler - Stalker	5688900	5953500
 Tim Taler - Stalker	5821200	6085800
 Tim Taler - Stalker	5953500	6218100
 Tim Taler - Stalker	6085800	6350400
-Tim Taler - Stalker	7805700	8070300
-Tim Taler - Stalker	7938000	8202600
-Tim Taler - Stalker	8070300	8334900
-Tim Taler - Stalker	8202600	8467200
-Tim Taler - Stalker	8334900	8599500
-Tim Taler - Stalker	8467200	8731800
+Tim Taler - Stalker	6218100	6482700
+Tim Taler - Stalker	6350400	6615000
+Tim Taler - Stalker	6482700	6747300
+Tim Taler - Stalker	6615000	6879600
+Tim Taler - Stalker	6747300	7011900
+Tim Taler - Stalker	6879600	7144200
+Tim Taler - Stalker	7011900	7276500
+Tim Taler - Stalker	7144200	7408800
+Tim Taler - Stalker	7276500	7541100
+Tim Taler - Stalker	7408800	7673400
+Tim Taler - Stalker	7541100	7805700
+Tim Taler - Stalker	7673400	7938000
 Tim Taler - Stalker	8599500	8864100
 Tim Taler - Stalker	8731800	8996400
 Tim Taler - Stalker	8864100	9128700
 Tim Taler - Stalker	8996400	9261000
 Tim Taler - Stalker	9128700	9393300
+Tim Taler - Stalker	9261000	9525600
+Titanium - Haunted Age	0	264600
+Titanium - Haunted Age	132300	396900
+Titanium - Haunted Age	264600	529200
+Titanium - Haunted Age	396900	661500
+Titanium - Haunted Age	529200	793800
+Titanium - Haunted Age	661500	926100
+Titanium - Haunted Age	793800	1058400
+Titanium - Haunted Age	926100	1190700
+Titanium - Haunted Age	1058400	1323000
+Titanium - Haunted Age	1190700	1455300
 Titanium - Haunted Age	1587600	1852200
 Titanium - Haunted Age	1719900	1984500
 Titanium - Haunted Age	1852200	2116800
@@ -3954,6 +4750,17 @@ Titanium - Haunted Age	2778300	3042900
 Titanium - Haunted Age	2910600	3175200
 Titanium - Haunted Age	3042900	3307500
 Titanium - Haunted Age	3175200	3439800
+Titanium - Haunted Age	3307500	3572100
+Titanium - Haunted Age	3439800	3704400
+Titanium - Haunted Age	3572100	3836700
+Titanium - Haunted Age	3704400	3969000
+Titanium - Haunted Age	3836700	4101300
+Titanium - Haunted Age	3969000	4233600
+Titanium - Haunted Age	4101300	4365900
+Titanium - Haunted Age	4233600	4498200
+Titanium - Haunted Age	4365900	4630500
+Titanium - Haunted Age	4498200	4762800
+Titanium - Haunted Age	4630500	4895100
 Titanium - Haunted Age	4762800	5027400
 Titanium - Haunted Age	4895100	5159700
 Titanium - Haunted Age	5027400	5292000
@@ -3969,6 +4776,17 @@ Titanium - Haunted Age	6218100	6482700
 Titanium - Haunted Age	6350400	6615000
 Titanium - Haunted Age	6482700	6747300
 Titanium - Haunted Age	6615000	6879600
+Titanium - Haunted Age	6747300	7011900
+Titanium - Haunted Age	6879600	7144200
+Titanium - Haunted Age	7011900	7276500
+Titanium - Haunted Age	7144200	7408800
+Titanium - Haunted Age	7276500	7541100
+Titanium - Haunted Age	7408800	7673400
+Titanium - Haunted Age	7541100	7805700
+Titanium - Haunted Age	7673400	7938000
+Titanium - Haunted Age	7805700	8070300
+Titanium - Haunted Age	7938000	8202600
+Titanium - Haunted Age	8070300	8334900
 Titanium - Haunted Age	8202600	8467200
 Titanium - Haunted Age	8334900	8599500
 Titanium - Haunted Age	8467200	8731800
@@ -3979,6 +4797,13 @@ Titanium - Haunted Age	8996400	9261000
 Titanium - Haunted Age	9128700	9393300
 Titanium - Haunted Age	9261000	9525600
 Titanium - Haunted Age	9393300	9657900
+Titanium - Haunted Age	9525600	9790200
+Traffic Experiment - Once More (With Feeling)	264600	529200
+Traffic Experiment - Once More (With Feeling)	396900	661500
+Traffic Experiment - Once More (With Feeling)	529200	793800
+Traffic Experiment - Once More (With Feeling)	661500	926100
+Traffic Experiment - Once More (With Feeling)	793800	1058400
+Traffic Experiment - Once More (With Feeling)	926100	1190700
 Traffic Experiment - Once More (With Feeling)	1058400	1323000
 Traffic Experiment - Once More (With Feeling)	1190700	1455300
 Traffic Experiment - Once More (With Feeling)	1323000	1587600
@@ -4000,8 +4825,13 @@ Traffic Experiment - Once More (With Feeling)	3307500	3572100
 Traffic Experiment - Once More (With Feeling)	3439800	3704400
 Traffic Experiment - Once More (With Feeling)	3572100	3836700
 Traffic Experiment - Once More (With Feeling)	3704400	3969000
+Traffic Experiment - Once More (With Feeling)	3836700	4101300
+Traffic Experiment - Once More (With Feeling)	3969000	4233600
 Traffic Experiment - Once More (With Feeling)	4101300	4365900
 Traffic Experiment - Once More (With Feeling)	4233600	4498200
+Traffic Experiment - Once More (With Feeling)	4365900	4630500
+Traffic Experiment - Once More (With Feeling)	4498200	4762800
+Traffic Experiment - Once More (With Feeling)	4630500	4895100
 Traffic Experiment - Once More (With Feeling)	4762800	5027400
 Traffic Experiment - Once More (With Feeling)	4895100	5159700
 Traffic Experiment - Once More (With Feeling)	5027400	5292000
@@ -4023,8 +4853,12 @@ Traffic Experiment - Once More (With Feeling)	7011900	7276500
 Traffic Experiment - Once More (With Feeling)	7144200	7408800
 Traffic Experiment - Once More (With Feeling)	7276500	7541100
 Traffic Experiment - Once More (With Feeling)	7408800	7673400
+Traffic Experiment - Once More (With Feeling)	7541100	7805700
+Traffic Experiment - Once More (With Feeling)	7673400	7938000
 Traffic Experiment - Once More (With Feeling)	7805700	8070300
 Traffic Experiment - Once More (With Feeling)	7938000	8202600
+Traffic Experiment - Once More (With Feeling)	8070300	8334900
+Traffic Experiment - Once More (With Feeling)	8202600	8467200
 Traffic Experiment - Once More (With Feeling)	8334900	8599500
 Traffic Experiment - Once More (With Feeling)	8467200	8731800
 Traffic Experiment - Once More (With Feeling)	8599500	8864100
@@ -4035,11 +4869,23 @@ Traffic Experiment - Once More (With Feeling)	9128700	9393300
 Traffic Experiment - Once More (With Feeling)	9261000	9525600
 Traffic Experiment - Once More (With Feeling)	9393300	9657900
 Traffic Experiment - Once More (With Feeling)	9525600	9790200
+Traffic Experiment - Once More (With Feeling)	9657900	9922500
+Traffic Experiment - Once More (With Feeling)	9790200	10054800
+Traffic Experiment - Once More (With Feeling)	9922500	10187100
+Traffic Experiment - Once More (With Feeling)	10054800	10319400
+Traffic Experiment - Once More (With Feeling)	10187100	10451700
 Traffic Experiment - Once More (With Feeling)	10319400	10584000
 Traffic Experiment - Once More (With Feeling)	10451700	10716300
 Traffic Experiment - Once More (With Feeling)	10584000	10848600
 Traffic Experiment - Once More (With Feeling)	10716300	10980900
 Traffic Experiment - Once More (With Feeling)	10848600	11113200
+Traffic Experiment - Once More (With Feeling)	10980900	11245500
+Traffic Experiment - Once More (With Feeling)	11113200	11377800
+Traffic Experiment - Once More (With Feeling)	11245500	11510100
+Traffic Experiment - Once More (With Feeling)	11377800	11642400
+Traffic Experiment - Once More (With Feeling)	11510100	11774700
+Traffic Experiment - Once More (With Feeling)	11642400	11907000
+Traffic Experiment - Once More (With Feeling)	11774700	12039300
 Traffic Experiment - Once More (With Feeling)	11907000	12171600
 Traffic Experiment - Once More (With Feeling)	12039300	12303900
 Traffic Experiment - Once More (With Feeling)	12171600	12436200
@@ -4054,8 +4900,12 @@ Traffic Experiment - Once More (With Feeling)	13230000	13494600
 Traffic Experiment - Once More (With Feeling)	13362300	13626900
 Traffic Experiment - Once More (With Feeling)	13494600	13759200
 Traffic Experiment - Once More (With Feeling)	13626900	13891500
+Traffic Experiment - Once More (With Feeling)	13759200	14023800
+Traffic Experiment - Once More (With Feeling)	13891500	14156100
 Traffic Experiment - Once More (With Feeling)	14023800	14288400
 Traffic Experiment - Once More (With Feeling)	14156100	14420700
+Traffic Experiment - Once More (With Feeling)	14288400	14553000
+Traffic Experiment - Once More (With Feeling)	14420700	14685300
 Traffic Experiment - Once More (With Feeling)	14553000	14817600
 Traffic Experiment - Once More (With Feeling)	14685300	14949900
 Traffic Experiment - Once More (With Feeling)	14817600	15082200
@@ -4067,9 +4917,18 @@ Traffic Experiment - Once More (With Feeling)	15479100	15743700
 Traffic Experiment - Once More (With Feeling)	15611400	15876000
 Traffic Experiment - Once More (With Feeling)	15743700	16008300
 Traffic Experiment - Once More (With Feeling)	15876000	16140600
+Traffic Experiment - Once More (With Feeling)	16008300	16272900
+Traffic Experiment - Once More (With Feeling)	16140600	16405200
+Traffic Experiment - Once More (With Feeling)	16272900	16537500
+Traffic Experiment - Once More (With Feeling)	16405200	16669800
+Traffic Experiment - Once More (With Feeling)	16537500	16802100
+Traffic Experiment - Once More (With Feeling)	16669800	16934400
+Traffic Experiment - Once More (With Feeling)	16802100	17066700
 Traffic Experiment - Once More (With Feeling)	16934400	17199000
 Traffic Experiment - Once More (With Feeling)	17066700	17331300
 Traffic Experiment - Once More (With Feeling)	17199000	17463600
+Traffic Experiment - Once More (With Feeling)	17331300	17595900
+Triviul - Dorothy	0	264600
 Triviul - Dorothy	132300	396900
 Triviul - Dorothy	264600	529200
 Triviul - Dorothy	396900	661500
@@ -4111,13 +4970,6 @@ Triviul - Dorothy	5027400	5292000
 Triviul - Dorothy	5159700	5424300
 Triviul - Dorothy	5292000	5556600
 Triviul - Dorothy	5424300	5688900
-Triviul - Dorothy	5556600	5821200
-Triviul - Dorothy	5688900	5953500
-Triviul - Dorothy	5821200	6085800
-Triviul - Dorothy	5953500	6218100
-Triviul - Dorothy	6085800	6350400
-Triviul - Dorothy	6218100	6482700
-Triviul - Dorothy	6350400	6615000
 Triviul - Dorothy	6482700	6747300
 Triviul - Dorothy	6615000	6879600
 Triviul - Dorothy	6747300	7011900
@@ -4126,6 +4978,13 @@ Triviul - Dorothy	7011900	7276500
 Triviul - Dorothy	7144200	7408800
 Triviul - Dorothy	7276500	7541100
 Triviul - Dorothy	7408800	7673400
+Triviul - Dorothy	7541100	7805700
+Voelund - Comfort Lives In Belief	0	264600
+Voelund - Comfort Lives In Belief	132300	396900
+Voelund - Comfort Lives In Belief	264600	529200
+Voelund - Comfort Lives In Belief	396900	661500
+Voelund - Comfort Lives In Belief	529200	793800
+Voelund - Comfort Lives In Belief	661500	926100
 Voelund - Comfort Lives In Belief	793800	1058400
 Voelund - Comfort Lives In Belief	926100	1190700
 Voelund - Comfort Lives In Belief	1058400	1323000
@@ -4161,8 +5020,17 @@ Voelund - Comfort Lives In Belief	4895100	5159700
 Voelund - Comfort Lives In Belief	5027400	5292000
 Voelund - Comfort Lives In Belief	5159700	5424300
 Voelund - Comfort Lives In Belief	5292000	5556600
+Voelund - Comfort Lives In Belief	5424300	5688900
+Voelund - Comfort Lives In Belief	5556600	5821200
+Voelund - Comfort Lives In Belief	5688900	5953500
+Voelund - Comfort Lives In Belief	5821200	6085800
+Voelund - Comfort Lives In Belief	5953500	6218100
+Voelund - Comfort Lives In Belief	6085800	6350400
+Voelund - Comfort Lives In Belief	6218100	6482700
 Voelund - Comfort Lives In Belief	6350400	6615000
 Voelund - Comfort Lives In Belief	6482700	6747300
+Voelund - Comfort Lives In Belief	6615000	6879600
+Voelund - Comfort Lives In Belief	6747300	7011900
 Voelund - Comfort Lives In Belief	6879600	7144200
 Voelund - Comfort Lives In Belief	7011900	7276500
 Voelund - Comfort Lives In Belief	7144200	7408800
@@ -4173,7 +5041,10 @@ Voelund - Comfort Lives In Belief	7673400	7938000
 Voelund - Comfort Lives In Belief	7805700	8070300
 Voelund - Comfort Lives In Belief	7938000	8202600
 Voelund - Comfort Lives In Belief	8070300	8334900
-Voelund - Comfort Lives In Belief	8202600	8467200
+Wall Of Death - Femme	0	264600
+Wall Of Death - Femme	132300	396900
+Wall Of Death - Femme	264600	529200
+Wall Of Death - Femme	396900	661500
 Wall Of Death - Femme	529200	793800
 Wall Of Death - Femme	661500	926100
 Wall Of Death - Femme	793800	1058400
@@ -4181,31 +5052,77 @@ Wall Of Death - Femme	926100	1190700
 Wall Of Death - Femme	1058400	1323000
 Wall Of Death - Femme	1190700	1455300
 Wall Of Death - Femme	1323000	1587600
+Wall Of Death - Femme	1455300	1719900
 Wall Of Death - Femme	1587600	1852200
+Wall Of Death - Femme	1719900	1984500
+Wall Of Death - Femme	1852200	2116800
 Wall Of Death - Femme	1984500	2249100
+Wall Of Death - Femme	2116800	2381400
 Wall Of Death - Femme	2249100	2513700
 Wall Of Death - Femme	2381400	2646000
 Wall Of Death - Femme	2513700	2778300
+Wall Of Death - Femme	2646000	2910600
+Wall Of Death - Femme	2778300	3042900
 Wall Of Death - Femme	2910600	3175200
 Wall Of Death - Femme	3042900	3307500
 Wall Of Death - Femme	3175200	3439800
+Wall Of Death - Femme	3307500	3572100
 Wall Of Death - Femme	3439800	3704400
 Wall Of Death - Femme	3572100	3836700
 Wall Of Death - Femme	3704400	3969000
+Wall Of Death - Femme	3836700	4101300
+Wall Of Death - Femme	3969000	4233600
 Wall Of Death - Femme	4101300	4365900
+Wall Of Death - Femme	4233600	4498200
 Wall Of Death - Femme	4365900	4630500
+Wall Of Death - Femme	4498200	4762800
 Wall Of Death - Femme	4630500	4895100
+Wall Of Death - Femme	4762800	5027400
+Wall Of Death - Femme	4895100	5159700
+Wall Of Death - Femme	5027400	5292000
+Wall Of Death - Femme	5159700	5424300
+Wall Of Death - Femme	5292000	5556600
 Wall Of Death - Femme	5424300	5688900
+Wall Of Death - Femme	5556600	5821200
 Wall Of Death - Femme	5688900	5953500
+Wall Of Death - Femme	5821200	6085800
+Wall Of Death - Femme	5953500	6218100
 Wall Of Death - Femme	6085800	6350400
+Wall Of Death - Femme	6218100	6482700
+Wall Of Death - Femme	6350400	6615000
+Wall Of Death - Femme	6482700	6747300
+Wall Of Death - Femme	6615000	6879600
+Wall Of Death - Femme	6747300	7011900
+Wall Of Death - Femme	6879600	7144200
+Wall Of Death - Femme	7011900	7276500
+Wall Of Death - Femme	7144200	7408800
+Wall Of Death - Femme	7276500	7541100
+Wall Of Death - Femme	7408800	7673400
+Wall Of Death - Femme	7541100	7805700
+Wall Of Death - Femme	7673400	7938000
+Wall Of Death - Femme	7805700	8070300
 Wall Of Death - Femme	7938000	8202600
 Wall Of Death - Femme	8070300	8334900
 Wall Of Death - Femme	8202600	8467200
 Wall Of Death - Femme	8334900	8599500
 Wall Of Death - Femme	8467200	8731800
+Wall Of Death - Femme	8599500	8864100
 Wall Of Death - Femme	8731800	8996400
+Wall Of Death - Femme	8864100	9128700
 Wall Of Death - Femme	8996400	9261000
+Wall Of Death - Femme	9128700	9393300
+Wall Of Death - Femme	9261000	9525600
 Wall Of Death - Femme	9393300	9657900
+Wall Of Death - Femme	9525600	9790200
+Wall Of Death - Femme	9657900	9922500
+Young Griffo - Blood To Bone	0	264600
+Young Griffo - Blood To Bone	132300	396900
+Young Griffo - Blood To Bone	264600	529200
+Young Griffo - Blood To Bone	396900	661500
+Young Griffo - Blood To Bone	529200	793800
+Young Griffo - Blood To Bone	661500	926100
+Young Griffo - Blood To Bone	793800	1058400
+Young Griffo - Blood To Bone	926100	1190700
 Young Griffo - Blood To Bone	1058400	1323000
 Young Griffo - Blood To Bone	1190700	1455300
 Young Griffo - Blood To Bone	1323000	1587600
@@ -4215,6 +5132,19 @@ Young Griffo - Blood To Bone	1719900	1984500
 Young Griffo - Blood To Bone	1852200	2116800
 Young Griffo - Blood To Bone	1984500	2249100
 Young Griffo - Blood To Bone	2116800	2381400
+Young Griffo - Blood To Bone	2249100	2513700
+Young Griffo - Blood To Bone	2381400	2646000
+Young Griffo - Blood To Bone	2513700	2778300
+Young Griffo - Blood To Bone	2646000	2910600
+Young Griffo - Blood To Bone	2778300	3042900
+Young Griffo - Blood To Bone	2910600	3175200
+Young Griffo - Blood To Bone	3042900	3307500
+Young Griffo - Blood To Bone	3175200	3439800
+Young Griffo - Blood To Bone	3307500	3572100
+Young Griffo - Blood To Bone	3439800	3704400
+Young Griffo - Blood To Bone	3572100	3836700
+Young Griffo - Blood To Bone	3704400	3969000
+Young Griffo - Blood To Bone	3836700	4101300
 Young Griffo - Blood To Bone	3969000	4233600
 Young Griffo - Blood To Bone	4101300	4365900
 Young Griffo - Blood To Bone	4233600	4498200
@@ -4228,6 +5158,23 @@ Young Griffo - Blood To Bone	5159700	5424300
 Young Griffo - Blood To Bone	5292000	5556600
 Young Griffo - Blood To Bone	5424300	5688900
 Young Griffo - Blood To Bone	5556600	5821200
+Young Griffo - Blood To Bone	5688900	5953500
+Young Griffo - Blood To Bone	5821200	6085800
+Young Griffo - Blood To Bone	5953500	6218100
+Young Griffo - Blood To Bone	6085800	6350400
+Young Griffo - Blood To Bone	6218100	6482700
+Young Griffo - Blood To Bone	6350400	6615000
+Young Griffo - Blood To Bone	6482700	6747300
+Young Griffo - Blood To Bone	6615000	6879600
+Young Griffo - Blood To Bone	6747300	7011900
+Young Griffo - Blood To Bone	6879600	7144200
+Young Griffo - Blood To Bone	7011900	7276500
+Young Griffo - Blood To Bone	7144200	7408800
+Young Griffo - Blood To Bone	7276500	7541100
+Young Griffo - Blood To Bone	7408800	7673400
+Young Griffo - Blood To Bone	7541100	7805700
+Young Griffo - Blood To Bone	7673400	7938000
+Young Griffo - Blood To Bone	7805700	8070300
 Young Griffo - Blood To Bone	7938000	8202600
 Young Griffo - Blood To Bone	8070300	8334900
 Young Griffo - Blood To Bone	8202600	8467200
@@ -4245,6 +5192,17 @@ Young Griffo - Blood To Bone	9657900	9922500
 Young Griffo - Blood To Bone	9790200	10054800
 Young Griffo - Blood To Bone	9922500	10187100
 Young Griffo - Blood To Bone	10054800	10319400
+Young Griffo - Blood To Bone	10187100	10451700
+Young Griffo - Facade	0	264600
+Young Griffo - Facade	132300	396900
+Young Griffo - Facade	264600	529200
+Young Griffo - Facade	396900	661500
+Young Griffo - Facade	529200	793800
+Young Griffo - Facade	661500	926100
+Young Griffo - Facade	793800	1058400
+Young Griffo - Facade	926100	1190700
+Young Griffo - Facade	1058400	1323000
+Young Griffo - Facade	1190700	1455300
 Young Griffo - Facade	1323000	1587600
 Young Griffo - Facade	1455300	1719900
 Young Griffo - Facade	1587600	1852200
@@ -4286,3 +5244,6 @@ Young Griffo - Facade	6218100	6482700
 Young Griffo - Facade	6350400	6615000
 Young Griffo - Facade	6482700	6747300
 Young Griffo - Facade	6615000	6879600
+Young Griffo - Facade	6747300	7011900
+Young Griffo - Facade	6879600	7144200
+Young Griffo - Facade	7011900	7276500
