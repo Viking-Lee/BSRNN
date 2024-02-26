@@ -16,7 +16,8 @@ class BandSplitModule(nn.Module):
             self,
             sr: int,
             n_fft: int,
-            bandsplits: tp.List[tp.Tuple[int, int]],
+            n_mels: int = 64,
+            # bandsplits: tp.List[tp.Tuple[int, int]],
             t_timesteps: int = 517,
             fc_dim: int = 128,
             complex_as_channel: bool = True,
@@ -32,7 +33,7 @@ class BandSplitModule(nn.Module):
 
         self.cac = complex_as_channel
         self.is_mono = is_mono
-        self.bandwidth_indices = freq2bands(bandsplits, sr, n_fft)
+        self.bandwidth_indices = get_mel_bandwidth_indices(sr, n_fft, n_mels)
         self.layernorms = nn.ModuleList([
             nn.LayerNorm([(e - s) * frequency_mul, t_timesteps])
             for s, e in self.bandwidth_indices
@@ -83,13 +84,14 @@ if __name__ == '__main__':
         "complex_as_channel": is_complex,
         "is_mono": n_channels == 1,
         "n_fft": 2048,
-        "bandsplits": [
-            (1000, 100),
-            (4000, 250),
-            (8000, 500),
-            (16000, 1000),
-            (20000, 2000),
-        ],
+        # "bandsplits": [
+        #     (1000, 100),
+        #     (4000, 250),
+        #     (8000, 500),
+        #     (16000, 1000),
+        #     (20000, 2000),
+        # ],
+        "n_mels": 64,
         "t_timesteps": 259,
         "fc_dim": 128
     }

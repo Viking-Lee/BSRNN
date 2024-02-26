@@ -68,7 +68,7 @@ class MaskEstimationModule(nn.Module):
             self,
             sr: int,
             n_fft: int,
-            bandsplits: tp.List[tp.Tuple[int, int]],
+            n_mels: int,
             t_timesteps: int = 517,
             fc_dim: int = 128,
             mlp_dim: int = 512,
@@ -87,7 +87,8 @@ class MaskEstimationModule(nn.Module):
         self.is_mono = is_mono
         self.frequency_mul = frequency_mul
 
-        self.bandwidths = [(e - s) for s, e in freq2bands(bandsplits, sr, n_fft)]
+        self.bandwidths_indices = get_mel_bandwidth_indices(sr, n_fft, n_mels)
+        self.bandwidths = [(e - s) for s, e in self.bandwidths_indices]
         self.layernorms = nn.ModuleList([
             nn.LayerNorm([t_timesteps, fc_dim])
             for _ in range(len(self.bandwidths))
@@ -96,6 +97,17 @@ class MaskEstimationModule(nn.Module):
             MLP(fc_dim, mlp_dim, bw * frequency_mul, activation_type='tanh')
             for bw in self.bandwidths
         ])
+
+    def avg_overlapped_freq_bins(self, subbands_estimated_mask, bandwidth_indices, B, C, T):
+        F = bandwidth_indices[-1][-1]
+        estimated_mask = torch.zeros((B, C, F, T), dtype=torch.cfloat)
+        for subband, indice in zip(subbands_estimated_mask, bandwidth_indices):
+            estimated_mask[:, :, indice[0]:indice[1], :] = estimated_mask[:, :, indice[0]:indice[1], :] + subband
+
+        duplicate_indices = get_duplicate_indices(bandwidth_indices)
+        estimated_mask[:, :, duplicate_indices, :] /= 2
+
+        return estimated_mask
 
     def forward(self, x: torch.Tensor):
         """
@@ -117,9 +129,10 @@ class MaskEstimationModule(nn.Module):
                 out = out.view(B, -1, F//self.frequency_mul, T).contiguous()
             outs.append(out)
 
-        # concat all subbands
-        outs = torch.cat(outs, dim=-2)
-        return outs
+        # averaged overlapped frequency bins
+        estimated_mask = self.avg_overlapped_freq_bins(outs, self.bandwidths_indices, B, 2, T)
+
+        return estimated_mask
 
 
 if __name__ == '__main__':
@@ -129,17 +142,18 @@ if __name__ == '__main__':
     cfg = {
         "sr": 44100,
         "n_fft": 2048,
-        "bandsplits": [
-            (1000, 100),
-            (4000, 250),
-            (8000, 500),
-            (16000, 1000),
-            (20000, 2000),
-        ],
+        # "bandsplits": [
+        #     (1000, 100),
+        #     (4000, 250),
+        #     (8000, 500),
+        #     (16000, 1000),
+        #     (20000, 2000),
+        # ],
+        "n_mels": 41,
         "t_timesteps": 259,
         "fc_dim": 128,
         "mlp_dim": 512,
-        "complex_as_channel": False,
+        "complex_as_channel": True,
         "is_mono": False,
     }
     model = MaskEstimationModule(
