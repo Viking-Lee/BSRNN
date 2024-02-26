@@ -3,7 +3,7 @@ import typing as tp
 import torch
 import torch.nn as nn
 
-from model.modules.utils import freq2bands
+from model.modules.utils import freq2bands, get_mel_bandwidth_indices
 
 
 class BandSplitModule(nn.Module):

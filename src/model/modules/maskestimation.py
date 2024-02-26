@@ -3,7 +3,7 @@ import typing as tp
 import torch
 import torch.nn as nn
 
-from model.modules.utils import freq2bands
+from model.modules.utils import freq2bands, get_duplicate_indices, get_mel_bandwidth_indices
 
 
 class GLU(nn.Module):
@@ -99,8 +99,9 @@ class MaskEstimationModule(nn.Module):
         ])
 
     def avg_overlapped_freq_bins(self, subbands_estimated_mask, bandwidth_indices, B, C, T):
+        device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
         F = bandwidth_indices[-1][-1]
-        estimated_mask = torch.zeros((B, C, F, T), dtype=torch.cfloat)
+        estimated_mask = torch.zeros((B, C, F, T), dtype=torch.cfloat).to(device)
         for subband, indice in zip(subbands_estimated_mask, bandwidth_indices):
             estimated_mask[:, :, indice[0]:indice[1], :] = estimated_mask[:, :, indice[0]:indice[1], :] + subband
 
