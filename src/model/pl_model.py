@@ -3,6 +3,7 @@ import typing as tp
 import torch
 import torch.nn as nn
 import pytorch_lightning as pl
+import torchaudio.transforms
 from torch.optim import Optimizer, lr_scheduler
 from omegaconf import DictConfig
 
@@ -93,41 +94,36 @@ class PLModel(pl.LightningModule):
         predT, tgtT = batchT[:, 0], batchT[:, 1]
 
         # compute loss
-        loss, loss_dict = self.compute_losses(
-            predS, tgtS,
-            predT, tgtT
-        )
+        loss, loss_dict = self.compute_multi_resolution_losses(predT, tgtT)
 
         # compute metrics
         usdr = self.compute_usdr(predT, tgtT)
 
         return loss, loss_dict, usdr
 
-    def compute_losses(
-            self,
-            predS: torch.Tensor,
-            tgtS: torch.Tensor,
-            predT: torch.Tensor,
-            tgtT: torch.Tensor,
-    ) -> tp.Tuple[torch.Tensor, tp.Dict[str, torch.Tensor]]:
-        # frequency domain
-        lossR = self.mae_specR(
-            predS.real, tgtS.real
-        )
-        lossI = self.mae_specI(
-            predS.imag, tgtS.imag
-        )
-        # time domain
-        lossT = self.mae_time(
-            predT, tgtT
-        )
+    def compute_multi_resolution_losses(
+        self,
+        predT: torch.Tensor,
+        tgtT: torch.Tensor,
+    ) -> tp.Tuple[torch.Tensro, tp.Dict[str, torch.Tensor]]:
+        # multi stft resolution loss
+        multi_stft_resolution_loss = 0
+        for win_length in [4096, 2048, 1024, 512, 256]:
+            transform = torchaudio.transforms.Spectrogram(n_fft = max(win_length, 2048), win_length=win_length, hop_length=147)
+            preS = transform(predT)
+            tgtS = transform(tgtT)
+            multi_stft_resolution_loss = multi_stft_resolution_loss + nn.L1Loss(preS, tgtS)
+
+        # time loss
+        time_loss = nn.L1Loss(predT, tgtT)
+
         loss_dict = {
-            "lossSpecR": lossR,
-            "lossSpecI": lossI,
-            "lossTime": lossT
+            "multi_stft_loss": multi_stft_resolution_loss,
+            "time_loss": time_loss
         }
-        loss = lossR + lossI + lossT
-        return loss, loss_dict
+
+        total_loss = time_loss + multi_stft_resolution_loss
+        return total_loss, loss_dict
 
     @staticmethod
     def compute_usdr(
