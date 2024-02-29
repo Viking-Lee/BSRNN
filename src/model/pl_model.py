@@ -105,7 +105,7 @@ class PLModel(pl.LightningModule):
         self,
         predT: torch.Tensor,
         tgtT: torch.Tensor,
-    ) -> tp.Tuple[torch.Tensro, tp.Dict[str, torch.Tensor]]:
+    ) -> tp.Tuple[torch.Tensor, tp.Dict[str, torch.Tensor]]:
         # multi stft resolution loss
         multi_stft_resolution_loss = 0
         for win_length in [4096, 2048, 1024, 512, 256]:
