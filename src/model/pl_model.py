@@ -32,9 +32,8 @@ class PLModel(pl.LightningModule):
         self.model = model
 
         # losses
-        self.mae_specR = nn.L1Loss()
-        self.mae_specI = nn.L1Loss()
-        self.mae_time = nn.L1Loss()
+        self.l1_loss_spec = nn.L1Loss()
+        self.l1_loss_time = nn.L1Loss()
 
         # opts
         self.opt = opt
@@ -109,13 +108,13 @@ class PLModel(pl.LightningModule):
         # multi stft resolution loss
         multi_stft_resolution_loss = 0
         for win_length in [4096, 2048, 1024, 512, 256]:
-            transform = torchaudio.transforms.Spectrogram(n_fft = max(win_length, 2048), win_length=win_length, hop_length=147)
+            transform = torchaudio.transforms.Spectrogram(n_fft=max(win_length, 2048), win_length=win_length, hop_length=147)
             preS = transform(predT)
             tgtS = transform(tgtT)
-            multi_stft_resolution_loss = multi_stft_resolution_loss + nn.L1Loss(preS, tgtS)
+            multi_stft_resolution_loss = multi_stft_resolution_loss + self.l1_loss_spec(preS, tgtS)
 
         # time loss
-        time_loss = nn.L1Loss(predT, tgtT)
+        time_loss = self.l1_loss_time(predT, tgtT)
 
         loss_dict = {
             "multi_stft_loss": multi_stft_resolution_loss,
