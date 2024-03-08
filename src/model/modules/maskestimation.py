@@ -2,8 +2,9 @@ import typing as tp
 
 import torch
 import torch.nn as nn
+import numpy as np
 
-from model.modules.utils import freq2bands, get_duplicate_indices, get_mel_bandwidth_indices
+from src.model.modules.utils import get_mel_bandwidth_indices
 
 
 class GLU(nn.Module):
@@ -83,11 +84,12 @@ class MaskEstimationModule(nn.Module):
         if not is_mono:
             frequency_mul *= 2
 
+        self.n_fft = n_fft
         self.cac = complex_as_channel
         self.is_mono = is_mono
         self.frequency_mul = frequency_mul
 
-        self.bandwidths_indices = get_mel_bandwidth_indices(sr, n_fft, n_mels)
+        self.bandwidths_indices = get_mel_bandwidth_indices(sr, self.n_fft, n_mels)
         self.bandwidths = [(e - s) for s, e in self.bandwidths_indices]
         self.layernorms = nn.ModuleList([
             nn.LayerNorm([t_timesteps, fc_dim])
@@ -98,17 +100,46 @@ class MaskEstimationModule(nn.Module):
             for bw in self.bandwidths
         ])
 
-    def avg_overlapped_freq_bins(self, subbands_estimated_mask, bandwidth_indices, B, C, T):
-        device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
-        F = bandwidth_indices[-1][-1]
-        estimated_mask = torch.zeros((B, C, F, T), dtype=torch.cfloat).to(device)
-        for subband, indice in zip(subbands_estimated_mask, bandwidth_indices):
-            estimated_mask[:, :, indice[0]:indice[1], :] = estimated_mask[:, :, indice[0]:indice[1], :] + subband
+        self.fcs = nn.ModuleList([
+            nn.Linear(2 * frequency_mul, 1 * frequency_mul)
+            for _ in range(int(self.n_fft/2 + 1))
+        ])
 
-        duplicate_indices = get_duplicate_indices(bandwidth_indices)
-        estimated_mask[:, :, duplicate_indices, :] /= 2
+        self.device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
-        return estimated_mask
+    def judge_exitence(self, bandwidth_indices, num):
+        exit_bool = list()
+        for (start_idx, end_idx) in bandwidth_indices:
+            if start_idx <= num < end_idx:
+                exit_bool.append(True)
+            else:
+                exit_bool.append(False)
+        return exit_bool
+
+    def merge_subband_mask(self, bandwidth_indices, all_subband_mask):
+        B, C, _, T = all_subband_mask[0].shape
+        fullband_mask = list()
+        for num in range(int(self.n_fft/2 + 1)):
+            exit_bool = self.judge_exitence(bandwidth_indices, num)
+            subband_indices = np.where(exit_bool)[0]
+            overlapped_subband = torch.zeros((B, C, 2, T), dtype=torch.cfloat).to(self.device)
+            for i, index in enumerate(subband_indices):
+                position = num - bandwidth_indices[index][0]
+                overlapped_subband[:, :, i] = all_subband_mask[index][:, :, position]
+
+            overlapped_subband = torch.view_as_real(overlapped_subband).permute(0, 1, 4, 2, 3)
+            overlapped_subband = overlapped_subband.reshape(B, -1, T).transpose(-1, -2)
+            single_bin_mask = self.fcs[num](overlapped_subband)
+            single_bin_mask = torch.tanh(single_bin_mask)
+            single_bin_mask = single_bin_mask.permute(0, 2, 1).contiguous()
+            single_bin_mask = single_bin_mask.view(B, -1, 2, 1, T).permute(0, 1, 3, 4, 2)
+            single_bin_mask = torch.view_as_complex(single_bin_mask.contiguous())
+
+            fullband_mask.append(single_bin_mask)
+
+        fullband_mask = torch.cat(fullband_mask, dim=-2)
+
+        return fullband_mask
 
     def forward(self, x: torch.Tensor):
         """
@@ -131,7 +162,7 @@ class MaskEstimationModule(nn.Module):
             outs.append(out)
 
         # averaged overlapped frequency bins
-        estimated_mask = self.avg_overlapped_freq_bins(outs, self.bandwidths_indices, B, 2, T)
+        estimated_mask = self.merge_subband_mask(self.bandwidths_indices, outs)
 
         return estimated_mask
 
