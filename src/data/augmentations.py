@@ -132,3 +132,59 @@ class Mix(nn.Module):
             rms_background = self.calc_rms(y) / self.db2amp(db_scales)
             y += y_background * rms_background
         return y
+
+
+class ReMixTarget(nn.Module):
+    def __init__(
+            self,
+            p: float = 1.
+    ):
+        super().__init__()
+        self.p = p
+
+    def forward(
+            self, y: torch.Tensor
+    ) -> torch.Tensor:
+        B, S, C, T = y.shape
+        device = y.device
+
+        if self.training and random.random() < self.p:
+            ori_mix = y[:, 0]
+            ori_tgt = y[:, 1]
+            accompany = ori_mix - ori_tgt
+
+            indices_background = torch.randint(0, B, (B, ), device=device)
+            new_tgt = y[indices_background, 1]
+            new_mix = accompany + new_tgt
+
+            y = torch.cat((new_mix.unsqueeze(2), new_tgt.unsqueeze(2)), dim=2)
+
+        return y
+
+class FlipChannels(nn.Module):
+    "Random Flip mixture or target channels"
+
+    def forward(
+        self, y:torch.Tensor
+    ) -> torch.Tensor:
+        B, S, C, T = y.shape
+        if self.training and y.shape[2] == 2:
+            left = torch.randint(2, (B, S, 1, 1), device=y.device)
+            left = left.expand(-1, -1, -1, T)
+            right = 1 - left
+            y = torch.cat([y.gather(2, left), y.gather(2, right)], dim=2)
+        return y
+
+
+class FlipSigns(nn.Module):
+    "Random Flip mixture or target signs"
+
+    def forward(
+        self, y:torch.Tensor
+    ) -> torch.Tensor:
+        B, S, C, T = y.shape
+        if self.training:
+            signs = torch.randint(2, (B, S, 1, 1), device=y.device, dtype=torch.float32)
+            y = y * (2 * signs - 1)
+        return y
+
