@@ -1,7 +1,7 @@
 sr: 44100
-window_size_in_sec: 6
+window_size: 134144    # time dim = 259
 overlap_ratio: 0.5
-n_chunks_per_segment: 10
+n_chunks_per_segment: 8
 eps: 1e-5
 gamma: 1e-3
 threshold_max_quantile: 0.15

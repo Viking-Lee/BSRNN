@@ -10,9 +10,9 @@ from tqdm import tqdm
 from data import SAD
 
 parser = argparse.ArgumentParser()
-parser.add_argument('-i', '--input-dir', type=str, required=False, default="/workspace/Dataset/MUSDB18HQ", help="Path to directory with musdb18 dataset")
+parser.add_argument('-i', '--input-dir', type=str, required=False, default="D://dataset//MUSDB18HQ", help="Path to directory with musdb18 dataset")
 
-parser.add_argument('-o', '--output-dir', type=str, required=False, default="/workspace/BSRNN/src/files", help="Path to directory where output .txt file is saved")
+parser.add_argument('-o', '--output-dir', type=str, required=False, default="D://liweijing//Documents//BSRNN//src//files", help="Path to directory where output .txt file is saved")
 
 parser.add_argument('--subset', type=str, required=False, default='train', help="Train/test subset of dataset to process")
 
@@ -20,7 +20,7 @@ parser.add_argument('--split', type=str, required=False, default='valid', help="
 
 parser.add_argument('--sad-cfg-path', type=str, required=False, default="./conf/sad/default.yaml", help="Path to Source Activity Detection config file")
 
-parser.add_argument('-t', '--targets', nargs='+', required=False, default=["drums"], help="Target source. SAD will save salient fragments of vocal audio.")
+parser.add_argument('-t', '--targets', nargs='+', required=False, default=["vocals"], help="Target source. SAD will save salient fragments of vocal audio.")
 
 args = parser.parse_args()
 
