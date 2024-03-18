@@ -3,8 +3,8 @@ from pathlib import Path
 
 import torch
 import torch.nn as nn
-from torch.nn import functional as F
 from omegaconf import DictConfig
+from torch.nn.functional import pad
 
 from train import initialize_model, initialize_featurizer
 from utils.utils_inference import load_pl_state_dict, get_minibatch
@@ -27,16 +27,14 @@ class Separator(nn.Module):
 
         # audio params
         self.sr = self.cfg.audio_params.sr
-        self.chunk_size = int(self.cfg.audio_params.win_size * self.sr)
-        self.chunk_step = int(self.cfg.audio_params.hop_size * self.sr)
+        self.chunk_size = self.cfg.audio_params.win_size
+        self.chunk_step = self.cfg.audio_params.hop_size
 
-        # padding for chunk level (used to match stft and istft shapes)
-        pad_chunk = self.model[0].win_length - self.chunk_size % self.model[0].hop_length
-        self.ws = self.chunk_size + pad_chunk
-        self.hs = self.chunk_step + pad_chunk
+        # used to match stft and istft shapes
+        self.ws = self.chunk_size
+        self.hs = self.chunk_step
 
         # padding for overlap-add
-        self.padding_whole = self.chunk_size - self.chunk_step
         self.bs = self.cfg.audio_params.batch_size
         window_name = self.cfg.audio_params.window
         if isinstance(window_name, str):
@@ -68,11 +66,9 @@ class Separator(nn.Module):
 
     def pad(self, y: torch.Tensor) -> torch.Tensor:
         duration = y.shape[-1]
-        # padding to divide in even chunks
-        padding_add = self.hs - (duration + self.padding_whole * 2 - self.ws) % self.hs
-        # pad
-        y = F.pad(y, (self.padding_whole, self.padding_whole + padding_add), 'constant')
-        return y, padding_add
+        padding = self.ws - (duration - self.ws) % self.hs
+        y = pad(y, (0, padding), mode="constant", value=0)
+        return y
 
     def unfold(self, y: torch.Tensor) -> torch.Tensor:
         # unfold
@@ -139,7 +135,7 @@ class Separator(nn.Module):
         """
         # pad signal
         # [n_channels, time]
-        y, padding_add = self.pad(y)
+        y = self.pad(y)
         n_channels, duration = y.shape
 
         # unfold it
@@ -157,9 +153,5 @@ class Separator(nn.Module):
         # fold back
         # [n_channels, time]
         y = self.fold(y, n_channels, duration)
-
-        # delete padding
-        # [n_channels, time]
-        y = self.unpad(y, padding_add)
 
         return y

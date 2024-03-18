@@ -44,7 +44,7 @@ class SourceSeparationDataset(Dataset):
 
         self.preload_dataset = preload_dataset
         self.is_mono = is_mono
-        self.filelist = self.get_filelist()
+        self.filelist = self.get_filelist()       # (filename, (start_sample, end_sample))
 
         # augmentations
         self.silent_prob = silent_prob
@@ -130,7 +130,14 @@ class SourceSeparationDataset(Dataset):
         # decide how many sources to mix
         if not self.mix_tgt_too:
             self.TARGETS.discard(self.target)
-        n_sources = random.randrange(1, len(self.TARGETS) + 1)
+
+
+        # Mix1: random mix certain stem
+        # n_sources = random.randrange(1, len(self.TARGETS) + 1)
+
+        # Mix2: random mix all stem
+        n_sources = len(self.TARGETS)
+
         # decide which sources to mix
         targets_to_add = random.sample(
             self.TARGETS, n_sources
