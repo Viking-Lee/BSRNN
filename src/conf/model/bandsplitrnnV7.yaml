@@ -1,11 +1,6 @@
 sr: 44100
 n_fft: 2048
-bandsplits:
-  - [1000, 100]
-  - [4000, 250]
-  - [8000, 500]
-  - [16000, 1000]
-  - [20000, 2000]
+n_subbands: 41  # will generate 38 generic subbands, not 41
 bottleneck_layer: "rnn"
 t_timesteps: 259
 fc_dim: 128

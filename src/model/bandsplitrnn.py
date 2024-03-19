@@ -3,7 +3,7 @@ import typing as tp
 import torch
 import torch.nn as nn
 
-from model.modules import BandSplitModule, BandSequenceModelModule, MaskEstimationModule, BandTransformerModelModule
+from src.model.modules import BandSplitModule, BandSequenceModelModule, MaskEstimationModule, BandTransformerModelModule
 
 
 class BandSplitRNN(nn.Module):
@@ -15,7 +15,7 @@ class BandSplitRNN(nn.Module):
             self,
             sr: int,
             n_fft: int,
-            bandsplits: tp.List[tp.Tuple[int, int]],
+            n_subbands: int,
             complex_as_channel: bool,
             is_mono: bool,
             bottleneck_layer: str,
@@ -34,7 +34,7 @@ class BandSplitRNN(nn.Module):
         self.bandsplit = BandSplitModule(
             sr=sr,
             n_fft=n_fft,
-            bandsplits=bandsplits,
+            n_subbands = n_subbands,
             t_timesteps=t_timesteps,
             fc_dim=fc_dim,
             complex_as_channel=complex_as_channel,
@@ -63,7 +63,7 @@ class BandSplitRNN(nn.Module):
         self.maskest = MaskEstimationModule(
             sr=sr,
             n_fft=n_fft,
-            bandsplits=bandsplits,
+            n_subbands = n_subbands,
             t_timesteps=t_timesteps,
             fc_dim=fc_dim,
             mlp_dim=mlp_dim,
@@ -128,13 +128,7 @@ if __name__ == '__main__':
     cfg = {
         "sr": 44100,
         "n_fft": 2048,
-        "bandsplits": [
-            (1000, 100),
-            (4000, 250),
-            (8000, 500),
-            (16000, 1000),
-            (20000, 2000),
-        ],
+        "n_subbands": 41,
         "complex_as_channel": True,
         "is_mono": n_channels == 1,
         "bottleneck_layer": 'rnn',

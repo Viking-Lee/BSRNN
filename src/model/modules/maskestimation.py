@@ -3,8 +3,7 @@ import typing as tp
 import torch
 import torch.nn as nn
 
-from model.modules.utils import freq2bands
-
+from src.model.modules.utils import create_evenly_distributed_splits, freq2bands_generic
 
 class GLU(nn.Module):
     """
@@ -68,7 +67,7 @@ class MaskEstimationModule(nn.Module):
             self,
             sr: int,
             n_fft: int,
-            bandsplits: tp.List[tp.Tuple[int, int]],
+            n_subbands: int,
             t_timesteps: int = 517,
             fc_dim: int = 128,
             mlp_dim: int = 512,
@@ -87,7 +86,9 @@ class MaskEstimationModule(nn.Module):
         self.is_mono = is_mono
         self.frequency_mul = frequency_mul
 
-        self.bandwidths = [(e - s) for s, e in freq2bands(bandsplits, sr, n_fft)]
+        bandsplits_generic = create_evenly_distributed_splits(n_subbands)
+        self.bandwidths = [(e - s) for s, e in freq2bands_generic(bandsplits_generic, sr, n_fft)]
+        print("bandwidths:", len(self.bandwidths))
         self.layernorms = nn.ModuleList([
             nn.LayerNorm([t_timesteps, fc_dim])
             for _ in range(len(self.bandwidths))
@@ -123,19 +124,13 @@ class MaskEstimationModule(nn.Module):
 
 
 if __name__ == '__main__':
-    batch_size, k_subbands, t_timesteps, input_dim = 8, 41, 259, 128
+    batch_size, k_subbands, t_timesteps, input_dim = 8, 38, 259, 128
     in_features = torch.rand(batch_size, k_subbands, t_timesteps, input_dim)
 
     cfg = {
         "sr": 44100,
         "n_fft": 2048,
-        "bandsplits": [
-            (1000, 100),
-            (4000, 250),
-            (8000, 500),
-            (16000, 1000),
-            (20000, 2000),
-        ],
+        "n_subbands": 41,
         "t_timesteps": 259,
         "fc_dim": 128,
         "mlp_dim": 512,

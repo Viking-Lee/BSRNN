@@ -3,7 +3,7 @@ import typing as tp
 import torch
 import torch.nn as nn
 
-from model.modules.utils import freq2bands
+from src.model.modules.utils import create_evenly_distributed_splits, freq2bands_generic
 
 
 class BandSplitModule(nn.Module):
@@ -16,7 +16,7 @@ class BandSplitModule(nn.Module):
             self,
             sr: int,
             n_fft: int,
-            bandsplits: tp.List[tp.Tuple[int, int]],
+            n_subbands: int,
             t_timesteps: int = 517,
             fc_dim: int = 128,
             complex_as_channel: bool = True,
@@ -32,7 +32,9 @@ class BandSplitModule(nn.Module):
 
         self.cac = complex_as_channel
         self.is_mono = is_mono
-        self.bandwidth_indices = freq2bands(bandsplits, sr, n_fft)
+        bandsplits_generic = create_evenly_distributed_splits(n_subbands)
+        self.bandwidth_indices = freq2bands_generic(bandsplits_generic, sr, n_fft)
+        print("bandwidth_indices:", self.bandwidth_indices)
         self.layernorms = nn.ModuleList([
             nn.LayerNorm([(e - s) * frequency_mul, t_timesteps])
             for s, e in self.bandwidth_indices
@@ -83,13 +85,7 @@ if __name__ == '__main__':
         "complex_as_channel": is_complex,
         "is_mono": n_channels == 1,
         "n_fft": 2048,
-        "bandsplits": [
-            (1000, 100),
-            (4000, 250),
-            (8000, 500),
-            (16000, 1000),
-            (20000, 2000),
-        ],
+        "n_subbands": 41,
         "t_timesteps": 259,
         "fc_dim": 128
     }
