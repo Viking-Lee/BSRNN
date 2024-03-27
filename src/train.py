@@ -16,6 +16,10 @@ from torch.optim import Optimizer, lr_scheduler
 from data import SourceSeparationDataset, collate_fn
 from model import BandSplitRNN, PLModel
 
+#########################################################################################################################
+from utils.utils_inference import load_pl_state_dict
+#########################################################################################################################
+
 log = logging.getLogger(__name__)
 
 
@@ -148,6 +152,13 @@ def my_app(cfg: DictConfig) -> None:
 
     log.info("Initializing model, optimizer, scheduler.")
     model, opt, sch = initialize_model(cfg)
+
+    # resume checkpoint
+    ####################################################################################################################
+    # checkpoint_path = "./saved_models/vocals/vocals.ckpt"
+    # state_dict = load_pl_state_dict(checkpoint_path, device='cpu')
+    # _ = model.load_state_dict(state_dict, strict = True)
+    ###################################################################################################################
 
     log.info("Initializing Lightning logger and callbacks.")
     logger, callbacks = initialize_utils(cfg)
